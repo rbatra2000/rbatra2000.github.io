@@ -35,12 +35,12 @@ video {
 }
 
 .main {
-  padding-left: 30px;
+  padding: 30px;
   min-width: 75%;
 }
 
 .nav {
-  background-color: #FFEE00;
+  background-color: #4FC828;
   max-width: 25%;
   min-width: 140px;
   flex: 1;
