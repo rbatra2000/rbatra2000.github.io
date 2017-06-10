@@ -78,21 +78,21 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #F85C5C;
+  color: #f44336;
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #F85C5C;
+  background-color: #f44336;
 }
 
 h5 {
   padding : 20px;
   font-size: 30px;
   font-weight: 1000;
-  background-color : #A90707;
+  background-color : #f44336;
   color : white;
   display: flex;
 }
