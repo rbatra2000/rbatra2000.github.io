@@ -32,6 +32,11 @@ header p {
   margin: 0;
 }
 
+h6 {
+  font-weight: 500;
+  margin: 0;
+}
+
 .jumbotron1 {
   display: flex;
   align-items: center;
@@ -114,4 +119,12 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+.w3-animate-fading {
+  animation:fading 2s
+}
+
+@keyframes fading {
+  0% {opacity:0} 100% {opacity:1}
 }
