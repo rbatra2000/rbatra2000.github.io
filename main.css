@@ -50,6 +50,7 @@ body h1 {
   background-image: url('https://farm3.staticflickr.com/2819/33390789801_febc8ffc2c_k_d.jpg');
   background-size: cover;
   color: #FFFFFF;
+  bottom: 0px;
   height: 700px;
   text-shadow: 3px 3px 3px #000000;
 }
