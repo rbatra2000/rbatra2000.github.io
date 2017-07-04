@@ -15,6 +15,9 @@
     $('div.hidden').fadeIn(1500).removeClass('hidden');
   });
   </script>
+
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -50,12 +53,64 @@
   <h1 style="text-align: center;"> Feel free to contact me if you have any questions, concerns, or suggestions! Thank you so much!</h1>
 
 <br><br>
-  <div class="w3-container" style="text-align: center">
+<div style="align-items: center; text-align:center">
+<form name="contactform" method="post" action="send_form_email.php">
+<table width="450px">
+<tr>
+ <td valign="top" style="text-align:center">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top" style="text-align:center">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" style="text-align:center">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top"style="text-align:center">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"style="text-align:center">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top" style="text-align:center">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" style="text-align:center">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top" style="text-align:center">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" style="text-align:center">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top" style="text-align:center">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">
+ </td>
+</tr>
+</table>
+</form>
+</div>
+
+  <!-- <div class="w3-container" style="text-align: center">
   <a href="mailto:ritik.batra2000@gmail.com" class="w3-btn w3-red w3-padding-large w3-round-xlarge" target="_blank">Email Me</a>
 </div>
 <br>
 <div class="w3-container" style="text-align: center">
 <a href="https://www.linkedin.com/in/ritik-b-283754122/" class="w3-btn w3-red w3-orange w3-padding-large w3-round-xlarge" target="_blank">LinkedIn</a>
-</div>
+</div> -->
 
   </html>
