@@ -1,39 +1,86 @@
-(function() {
-  document.onmousemove = handleMouseMove;
-  function handleMouseMove(event) {
-    var eventDoc, doc, body;
+//
+// var canvas = document.getElementById("imgCanvas");
+// var context = canvas.getContext("2d");
+//
+function draw(e) {
+  var pos = getMousePos(canvas, e);
+  posx = pos.x;
+  posy = pos.y;
+  context.fillStyle = "#FFFFFF";
+  context.fillRect(posx, posy, 4, 4);
+}
+window.addEventListener('mousemove', draw, false);
 
-    event = event || window.event; // IE-ism
+function getMousePos(canvas, evt) {
+  var rect = canvas.getBoundingClientRect();
+  return {
+    x: (evt.clientX - rect.left) / (rect.right - rect.left) * canvas.width,
+    y: (evt.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
+  };
+}
 
-    // If pageX/Y aren't available and clientX/Y are,
-    // calculate pageX/Y - logic taken from jQuery.
-    // (This is to support old IE)
-    if (event.pageX == null && event.clientX != null) {
-      eventDoc = (event.target && event.target.ownerDocument) || document;
-      doc = eventDoc.documentElement;
-      body = eventDoc.body;
 
-      event.pageX = event.clientX +
-        (doc && doc.scrollLeft || body && body.scrollLeft || 0) -
-        (doc && doc.clientLeft || body && body.clientLeft || 0);
-      event.pageY = event.clientY +
-        (doc && doc.scrollTop  || body && body.scrollTop  || 0) -
-        (doc && doc.clientTop  || body && body.clientTop  || 0 );
+
+var size = 1000;
+var c = document.getElementById("canvas");
+c.width = size;
+c.height = size;
+var ctx = c.getContext("2d");
+
+var center = {x: size / 2, y: 20};
+var minSegmentHeight = 5;
+var groundHeight = size - 20;
+var color = "hsl(180, 80%, 80%)";
+var roughness = 2;
+var maxDifference = size / 5;
+
+ctx.globalCompositeOperation = "lighter";
+
+ctx.strokeStyle = color;
+ctx.shadowColor = color;
+
+ctx.fillStyle = color;
+ctx.fillRect(0, 0, size, size);
+ctx.fillStyle = "hsla(0, 0%, 10%, 0.2)";
+
+function render() {
+  ctx.shadowBlur = 0;
+  ctx.globalCompositeOperation = "source-over";
+  ctx.fillRect(0, 0, size, size);
+  ctx.globalCompositeOperation = "lighter";
+  ctx.shadowBlur = 15;
+  var lightning = createLightning();
+  ctx.beginPath();
+  for (var i = 0; i < lightning.length; i++) {
+    ctx.lineTo(lightning[i].x, lightning[i].y);
+  }
+  ctx.stroke();
+  requestAnimationFrame(render);
+}
+
+function createLightning() {
+  var segmentHeight = groundHeight - center.y;
+  var lightning = [];
+  lightning.push({x: center.x, y: center.y});
+  lightning.push({x: Math.random() * (size - 100) + 50, y: groundHeight + (Math.random() - 0.9) * 50});
+  var currDiff = maxDifference;
+  while (segmentHeight > minSegmentHeight) {
+    var newSegments = [];
+    for (var i = 0; i < lightning.length - 1; i++) {
+      var start = lightning[i];
+      var end = lightning[i + 1];
+      var midX = (start.x + end.x) / 2;
+      var newX = midX + (Math.random() * 2 - 1) * currDiff;
+      newSegments.push(start, {x: newX, y: (start.y + end.y) / 2});
     }
 
-    // Use event.pageX / event.pageY here
+    newSegments.push(lightning.pop());
+    lightning = newSegments;
 
-    var c = document.getElementById("home");
-    var ctx = c.getContext("2d");
-
-    var centerX = ctx.canvas.width.valueOf() / 2;
-    var centerY = ctx.canvas.height.valueOf() / 2;
-
-    ctx.clearRect(0, 0, ctx.width, ctx.height);
-    console.log(ctx.height)
-    ctx.beginPath();
-    ctx.moveTo(0, 0);
-    ctx.lineTo(event.pageX, event.pageY);
-    ctx.stroke();
+    currDiff /= roughness;
+    segmentHeight /= 2;
   }
-})();
+  return lightning;
+}
+
+render();
