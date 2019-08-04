@@ -27,3 +27,8 @@ section {
   text-align: center;
   margin: auto;
 }
+
+#name {
+  width: 100vh;
+  margin: auto;
+}

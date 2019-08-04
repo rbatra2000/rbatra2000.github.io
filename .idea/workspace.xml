@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f973d0d-1c10-4061-a996-3480d1266c10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rbatra2000.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/primary.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/primary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/name.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/name.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +56,7 @@
       <updated>1564863582201</updated>
       <workItem from="1564863584892" duration="512000" />
       <workItem from="1564864279405" duration="2542000" />
-      <workItem from="1564940599284" duration="179000" />
+      <workItem from="1564940599284" duration="1809000" />
     </task>
     <servers />
   </component>
