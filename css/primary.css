@@ -10,6 +10,10 @@ h2 {
   font-size: 3vw;
 }
 
+.home {
+    background-color: black;
+}
+
 section {
   height: 100vh;
   width: 100vw;
