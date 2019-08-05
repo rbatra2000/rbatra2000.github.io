@@ -1,8 +1,24 @@
 /*This file is for my own personal styling for the website*/
 
+/* In case you want to do some cool parallax stuff https://www.superhi.com/video/hooking-up-page-scrolling-with-fading-with-javascript*/
 h1 {
   font-family: "Avenir Next", Lato, sans-serif;
   font-size: 10vw;
+}
+
+body {
+  opacity: 1;
+  transition: 1.5s opacity;
+  height: 100%;
+}
+
+body.fade {
+  opacity: 0;
+  transition: none;
+}
+
+html {
+  background-color: #BAC7BE;
 }
 
 /* NEED TO ADJUST FOR PHONES FOOL */
@@ -13,14 +29,12 @@ h2 {
 }
 
 .home {
-    background-color: black;
+    background-color: #566a5c;
 }
 
 section {
   height: 100vh;
   width: 100vw;
-  border-style: solid;
-  border-width: 1px;
   display: flex;
   margin: auto;
 }
@@ -31,6 +45,27 @@ section {
 }
 
 #name {
-  width: 100vh;
+  width: 80%;
   margin: auto;
 }
+
+a { color: black; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.fa-arrow-down {
+  font-size: 3vh;
+  color: white;
+}
+
+.scrollDown h2 {
+  margin-top: -2%;
+  padding-bottom: 2%;
+  font-size: 3vh;
+  color: white;
+}
+
