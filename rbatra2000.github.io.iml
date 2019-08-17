@@ -8,5 +8,6 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery-3.4.1" level="application" />
     <orderEntry type="library" name="fbbf01c1d0" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
   </component>
 </module>

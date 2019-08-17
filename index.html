@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/primary.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <meta name="theme-color" content="#FFFFFF">
 </head>
@@ -58,30 +60,46 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script src="node_modules/particles.js/particles.js"></script>
+<script>
+  particlesJS.load('particles-js', 'assets/homeParticles.json', function() {
+  console.log('callback - particles.js config loaded');
+    });
+</script>
 
 <section class="home" id="homeSection">
-  <div class="title">
-    <div id="name"> </div>
-    <div class="animated fadeInUp delay-4s" id="scroll">
-      <div class="scrollDown">
-        <h2>Scroll Down</h2>
+  <div id="particles-js">
+    <div class="title">
+      <div id="name"> </div>
+      <div class="animated fadeInUp delay-4s" id="scroll">
+        <div class="scrollDown">
+          <h2>Scroll Down</h2>
+        </div>
+        <div class="arrow">
+          <i class="fas fa-arrow-down animated bounce slow infinite"></i>
+        </div>
       </div>
-      <div class="arrow">
-        <i class="fas fa-arrow-down animated bounce slow infinite"></i>
-      </div>
-    </div>
 
-    <script src="js/lottie.js" type="text/javascript"></script>
-    <script src="js/name.js" type="text/javascript"></script>
+      <script src="js/lottie.js" type="text/javascript"></script>
+      <script src="js/name.js" type="text/javascript"></script>
+    </div>
   </div>
 
 
 </section>
 
 <section class="about" id="aboutSection">
-  <div class="title">
+  <div data-aos="fade-up"
+       data-aos-offset="200"
+       data-aos-delay="50"
+       data-aos-duration="1000"
+       data-aos-easing="ease-in-out"
+       data-aos-mirror="true"
+       data-aos-once="false"
+       data-aos-anchor-placement="top-center"
+  >
+  <div class="title" >
     <div class="aboutPage">
-      <div class="hidden">
         <h1>ABOUT</h1>
         <h2>Risk. Fail. Assess. Succeed. Repeat.</h2>
         <p>My ambition is to design and build innovative products to alleviate the people's problems. I am currently most interested in design and frontend engineering.</p>
@@ -98,10 +116,20 @@
 
 <section id="educationSection">
   <div class="overlay">
-    <div class="classes">
-      <h1>University of California, Berkeley</h1>
-      <h2>B.S., Electrical Engineering and Computer Sciences</h2>
-      <div class="">
+    <div class="classes"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+  >
+
+  <h1>University of California, Berkeley</h1>
+      <h2>B.S., Electrical Engineering and Computer Sciences 2022</h2>
+      <div>
         <img src="assets/calbear.png">
         <div class="row">
           <div class="column" style="background-color:#FDB515; margin-left: 0;">
@@ -132,7 +160,38 @@
 </section>
 
 <section id="experienceSection">
+  <div class="overlay">
+    <div class="classes">
+      <h1>University of California, Berkeley</h1>
+      <h2>B.S., Electrical Engineering and Computer Sciences 2022</h2>
+      <div class="">
+        <img src="assets/calbear.png">
+        <div class="row">
+          <div class="column" style="background-color:#FDB515; margin-left: 0;">
+            <h3>Computer Science Coursework</h3>
+            <a href="https://sp19.datastructur.es/" target="_blank">Data Structures</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~cs61a/fa18/" target="_blank">Structure and Interpretation of Computer Programs</a><br>
+            <a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">Machine Structures</a><br>
+          </div>
+          <div class="column" style="background-color:#E09E19;">
+            <h3>Electrical Engineering Coursework</h3>
+            <a href="https://inst.eecs.berkeley.edu/~ee16b/sp18/" target="_blank">Designing Information Devices and Systems II</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~ee16a/fa18/" target="_blank">Designing Information Devices and Systems I</a><br>
 
+          </div>
+          <div class="column" style="background-color:#BC9B6A;">
+
+            <h3>Relevant Coursework</h3>
+            <a href="https://decal.berkeley.edu/courses/4543" target="_blank">iOS Development</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Prototyping & Fabrication</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Discovering Design</a><br>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 </section>
 
 <section id="portfolioSection">
@@ -158,6 +217,11 @@
   document.addEventListener("DOMContentLoaded", function(e) {
     document.body.className = '';
   });
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 </body>
 
