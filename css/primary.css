@@ -1,6 +1,8 @@
 /*This file is for my own personal styling for the website*/
 
 /* In case you want to do some cool parallax stuff https://www.superhi.com/video/hooking-up-page-scrolling-with-fading-with-javascript*/
+
+/* General */
 h1 {
   font-family: "Avenir Next", Lato, sans-serif;
   font-size: 10vw;
@@ -10,6 +12,7 @@ body {
   opacity: 1;
   transition: 1.5s opacity;
   height: 100%;
+  margin: 0;
 }
 
 body.fade {
@@ -21,15 +24,9 @@ html {
   background-color: #BAC7BE;
 }
 
-/* NEED TO ADJUST FOR PHONES FOOL */
-
 h2 {
   font-family: "Avenir Next", Lato, sans-serif;
   font-size: 3vw;
-}
-
-.home {
-    background-color: #566a5c;
 }
 
 section {
@@ -39,25 +36,127 @@ section {
   margin: auto;
 }
 
+a {
+  font-family: "Avenir Next", Lato, sans-serif;
+  text-decoration: none;
+
+}
+
 .title {
   text-align: center;
-  margin: auto;
+  height: 100%;
+}
+
+/* Navigation Bar */
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.imgLogo {
+  height: 35px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a, a:active, a:visited{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Fix Later */
+nav ul li a:hover {
+  text-decoration: none;
+  color: #B80C09;
+}
+
+
+.menu-icon {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 580px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin: 16px;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  nav.black ul {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .showing {
+    max-height: 40em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Focus on Home Section */
+
+.home {
+  background-color: #566a5c;
 }
 
 #name {
   width: 80%;
+  height: 80%;
   margin: auto;
 }
 
-a { color: black; text-decoration: none; }
-
 .arrow {
   text-align: center;
-  position: relative;
-  bottom: 0;
-}
-
-.fa-arrow-down {
   font-size: 3vh;
   color: white;
 }
@@ -69,3 +168,67 @@ a { color: black; text-decoration: none; }
   color: white;
 }
 
+/* Eventually fix the smallest window problem with Arrow*/
+#scroll {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* About Section */
+
+.about {
+  background-position-x: 50%;
+  background-position-y: 0;
+  background-position: center top;
+  background-image: url("../assets/zahanat.jpg");
+  margin: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutPage {
+  width: 75%;
+  color: #82CBA7;
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutPage h1 {
+  color: white;
+}
+
+.aboutPage h2 {
+  font-size: calc(15px + 2vw);
+}
+
+.aboutPage p {
+  font-size: calc(15px + 1vw);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+.resume {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.resume img {
+  position: relative;
+  margin-top: 80%;
+  transform: translateY(1vh);
+  width: 100%;
+}

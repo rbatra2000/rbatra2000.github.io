@@ -2,12 +2,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Ritik Batra</title>
   <meta name="description" content="This is Ritik Batra's personal website to experiment with JS, React, HTML, and CSS!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon"  type="image/png" href="favicon.png">
   <link rel="shortcut-icon" type="image/png" href="/favicon.png"/>
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -21,14 +22,34 @@
 </head>
 
 <body>
-<script>
-  document.body.className = 'fade';
-</script>
 
-
-<!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<!--[if IE]
+><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
+
+<div class="wrapper">
+  <header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        <img class="imgLogo" src="favicon.png">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#aboutSection">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Extracurriculars</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
 
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -36,19 +57,17 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="js/floatPics.js"></script>
 
 <section class="home">
   <div class="title">
     <div id="name"> </div>
-    <div class="animated fadeInDown delay-3s">
+    <div class="animated fadeInUp delay-3s" id="scroll">
       <div class="scrollDown">
         <h2>Scroll Down</h2>
       </div>
       <div class="arrow">
         <i class="fas fa-arrow-down animated bounce slow infinite"></i>
       </div>
-
     </div>
 
     <script src="js/lottie.js" type="text/javascript"></script>
@@ -58,12 +77,23 @@
 
 </section>
 
-<section class="about">
+<section class="about" id="aboutSection">
+  <script src="js/aboutPage.js"></script>
   <div class="title">
-    <h1 id="about">ABOUT</h1>
-    <h2>Risk. Fail. Assess. Succeed. Repeat.<br>This has always been my mantra blah blah.</h2>
+    <div class="aboutPage">
+      <div class="hidden">
+        <h1 id="about">ABOUT</h1>
+        <h2>Risk. Fail. Assess. Succeed. Repeat.</h2>
+        <p>I am currently an undergraduate student studying Electrical Engineering and Computer Sciences at UC Berkeley.My ambition is to create innovative products that positively impact the world. I am currently most interested in design and front-end engineering.</p>
+      </div>
+    </div>
   </div>
 
+  <div class="resume animated fadeInUpBig delay-1s">
+      <a href="assets/RitikBatraResume2019.pdf" download target="_blank">
+          <img src="assets/resumePreview.png" alt="resume">
+      </a>
+  </div>
 
 </section>
 

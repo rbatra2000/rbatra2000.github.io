@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f973d0d-1c10-4061-a996-3480d1266c10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/primary.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/primary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/name.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/name.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rbatra2000.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rbatra2000.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animations/nameWriting.json" beforeDir="false" afterPath="$PROJECT_DIR$/js/animations/nameWriting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/floatPics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/js/animations" />
     </key>
@@ -61,7 +64,17 @@
       <updated>1564863582201</updated>
       <workItem from="1564863584892" duration="512000" />
       <workItem from="1564864279405" duration="2542000" />
-      <workItem from="1564940599284" duration="9312000" />
+      <workItem from="1564940599284" duration="9846000" />
+      <workItem from="1565379599934" duration="7116000" />
+      <workItem from="1565501629558" duration="6729000" />
+      <workItem from="1565634263404" duration="393000" />
+      <workItem from="1565911933669" duration="1404000" />
+      <workItem from="1565928315812" duration="10002000" />
+      <workItem from="1565981276174" duration="2157000" />
+      <workItem from="1565984714075" duration="137000" />
+      <workItem from="1565986961456" duration="311000" />
+      <workItem from="1565987860188" duration="237000" />
+      <workItem from="1565989512931" duration="1928000" />
     </task>
     <servers />
   </component>
