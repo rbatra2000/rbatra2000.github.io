@@ -34,17 +34,18 @@
         <i class="fa fa-bars fa-2x"></i>
       </div>
       <div class="logo">
-        <img class="imgLogo" src="favicon.png">
+        <a href="#homeSection">
+          <img class="imgLogo" src="favicon.png">
+        </a>
       </div>
       <div class="menu">
         <ul>
           <li><a href="#aboutSection">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Experience</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Extracurriculars</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#educationSection">Education</a></li>
+          <li><a href="#experienceSection">Experience</a></li>
+          <li><a href="#portfolioSection">Portfolio</a></li>
+          <li><a href="#hobbiesSection">Extracurriculars</a></li>
+          <li><a href="#contactSection">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -58,10 +59,10 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 
-<section class="home">
+<section class="home" id="homeSection">
   <div class="title">
     <div id="name"> </div>
-    <div class="animated fadeInUp delay-3s" id="scroll">
+    <div class="animated fadeInUp delay-4s" id="scroll">
       <div class="scrollDown">
         <h2>Scroll Down</h2>
       </div>
@@ -78,27 +79,71 @@
 </section>
 
 <section class="about" id="aboutSection">
-  <script src="js/aboutPage.js"></script>
   <div class="title">
     <div class="aboutPage">
       <div class="hidden">
-        <h1 id="about">ABOUT</h1>
+        <h1>ABOUT</h1>
         <h2>Risk. Fail. Assess. Succeed. Repeat.</h2>
-        <p>I am currently an undergraduate student studying Electrical Engineering and Computer Sciences at UC Berkeley.My ambition is to create innovative products that positively impact the world. I am currently most interested in design and front-end engineering.</p>
+        <p>My ambition is to design and build innovative products to alleviate the people's problems. I am currently most interested in design and frontend engineering.</p>
+        <a href="assets/RitikBatraResume2019.pdf" target="_blank">
+          <span class="btn">
+             Resume
+          </span>
+        </a>
       </div>
     </div>
   </div>
 
-  <div class="resume animated fadeInUpBig delay-1s">
-      <a href="assets/RitikBatraResume2019.pdf" download target="_blank">
-          <img src="assets/resumePreview.png" alt="resume">
-      </a>
+</section>
+
+<section id="educationSection">
+  <div class="overlay">
+    <div class="classes">
+      <h1>University of California, Berkeley</h1>
+      <h2>B.S., Electrical Engineering and Computer Sciences</h2>
+      <div class="">
+        <img src="assets/calbear.png">
+        <div class="row">
+          <div class="column" style="background-color:#FDB515; margin-left: 0;">
+            <h3>Computer Science Coursework</h3>
+            <a href="https://sp19.datastructur.es/" target="_blank">Data Structures</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~cs61a/fa18/" target="_blank">Structure and Interpretation of Computer Programs</a><br>
+            <a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">Machine Structures</a><br>
+          </div>
+          <div class="column" style="background-color:#E09E19;">
+            <h3>Electrical Engineering Coursework</h3>
+            <a href="https://inst.eecs.berkeley.edu/~ee16b/sp18/" target="_blank">Designing Information Devices and Systems II</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~ee16a/fa18/" target="_blank">Designing Information Devices and Systems I</a><br>
+
+          </div>
+          <div class="column" style="background-color:#BC9B6A;">
+
+            <h3>Relevant Coursework</h3>
+            <a href="https://decal.berkeley.edu/courses/4543" target="_blank">iOS Development</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Prototyping & Fabrication</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Discovering Design</a><br>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
   </div>
+</section>
+
+<section id="experienceSection">
 
 </section>
 
-<section>
+<section id="portfolioSection">
 
+</section>
+
+<section id="hobbiesSection">
+
+</section>
+
+<section id="contactSection">
 
 </section>
 

@@ -8,6 +8,14 @@ h1 {
   font-size: 10vw;
 }
 
+h3 {
+  font-family: "Avenir Next", Lato, sans-serif;
+}
+
+p {
+  font-family: "Avenir Next", Lato, sans-serif;
+}
+
 body {
   opacity: 1;
   transition: 1.5s opacity;
@@ -87,13 +95,13 @@ nav ul li {
   padding: 20px;
 }
 
-nav ul li a, a:active, a:visited{
+nav ul li a, a:active, a:visited, a:focus {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
 }
 
-/* Fix Later */
+/* Fix the color + the weird toggle problem later */
 nav ul li a:hover {
   text-decoration: none;
   color: #B80C09;
@@ -192,7 +200,7 @@ nav ul li a:hover {
   color: #82CBA7;
   background-color: rgba(0,0,0,.6);
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -221,14 +229,94 @@ nav ul li a:hover {
   animation: fade-in 1.4s;
 }
 
-.resume {
-  display: inline-block;
-  overflow: hidden;
+/* Do resume peak in stuff later */
+
+.btn {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  padding: 20px 25px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Avenir Next", Lato, sans-serif;
+  font-size: calc(15px + 1vw);
+  letter-spacing: 5px;
 }
 
-.resume img {
-  position: relative;
-  margin-top: 80%;
-  transform: translateY(1vh);
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Education Section */
+
+#educationSection {
+  background-color: #003262;
+  background-image: url("../assets/berkeley.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 50, 98, 0.7);
   width: 100%;
+}
+
+.classes {
+  width: 90%;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  margin-left: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 36vh;
+}
+
+.column h3{
+  color: white;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+}
+
+.classes img {
+  width: 15%;
+  padding-top: 5%;
+}
+
+.classes a, a:active {
+  font-size: calc(15px + 0.25vw);
+  color: #333333;
+}
+
+.classes h1, h2 {
+  color: white;
+}
+
+.classes h1 {
+  font-size: calc(35px + 2vw);
+  padding-top: 5%;
+}
+
+/* Experience Section */
+
+#experienceSection {
+  background-color: #99BADD;
 }

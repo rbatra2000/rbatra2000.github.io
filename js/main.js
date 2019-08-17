@@ -23,6 +23,7 @@ $('a[href^="#"]').on('click', function(event) {
         $('html, body').stop().animate({
             scrollTop: target.offset().top
         }, 1000);
+
         $("nav ul").toggleClass("showing");
     }
 
