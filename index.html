@@ -1,1272 +1,350 @@
 <!doctype html>
-<html class="no-js" lang="en">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110470790-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-110470790-2');
-</script>
-
 
 <head>
-  <!-- meta data -->
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-  <!--font-family-->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-
-  <!-- title of site -->
   <title>Ritik Batra</title>
+  <meta name="description" content="This is Ritik Batra's personal website to experiment with JS, React, HTML, and CSS!">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- For favicon png -->
-  <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon"  type="image/png" href="favicon.png">
+  <link rel="shortcut-icon" type="image/png" href="/favicon.png"/>
 
-  <!--font-awesome.min.css-->
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/primary.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <!--flat icon css-->
-  <link rel="stylesheet" href="assets/css/flaticon.css">
 
-  <!--animate.css-->
-  <link rel="stylesheet" href="assets/css/animate.css">
-
-  <!--owl.carousel.css-->
-  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
-  <!--bootstrap.min.css-->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-  <!-- bootsnav -->
-  <link rel="stylesheet" href="assets/css/bootsnav.css" >
-
-  <!--style.css-->
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <!--responsive.css-->
-  <link rel="stylesheet" href="assets/css/responsive.css">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+  <meta name="theme-color" content="#FFFFFF">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- top-area Start -->
-  <header class="top-area">
-    <div class="header-area">
-      <!-- Start Navigation -->
-      <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+<!--[if IE]
+><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-        <div class="container">
+<div class="wrapper">
+  <header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        <a href="#homeSection">
+          <img class="imgLogo" src="favicon.png" alt="logo">
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#aboutSection">About</a></li>
+          <li><a href="#educationSection">Education</a></li>
+          <li><a href="#experienceSection">Experience</a></li>
+          <li><a href="#portfolioSection">Portfolio</a></li>
+          <li><a href="#hobbiesSection">Extracurriculars</a></li>
+          <li><a href="#contactSection">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
 
-          <!-- Start Header Navigation -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-              <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand" href="index.html">Ritik Batra</a>
-          </div><!--/.navbar-header-->
-          <!-- End Header Navigation -->
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="node_modules/particles.js/particles.js"></script>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-            <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-              <li class=" smooth-menu active"></li>
-              <li class="smooth-menu"><a href="#about">about me</a></li>
-              <li class="smooth-menu"><a href="#education">education</a></li>
-              <li class="smooth-menu"><a href="#skills">skills</a></li>
-              <li class="smooth-menu"><a href="#experience">experience</a></li>
-              <li class="smooth-menu"><a href="#extracurriculars">extracurriculars</a></li>
-              <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-              <li class="smooth-menu"><a href="#contact">contact</a></li>
-            </ul><!--/.nav -->
-          </div><!-- /.navbar-collapse -->
-        </div><!--/.container-->
-      </nav><!--/nav-->
-      <!-- End Navigation -->
-    </div><!--/.header-area-->
+<script>
+  particlesJS.load('particles-js', 'https://raw.githubusercontent.com/rbatra2000/rbatra2000.github.io/develop/assets/homeParticles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
 
-    <div class="clearfix"></div>
+<section class="home" id="homeSection">
+  <div class="title">
+    <div id="name"> </div>
+    <div class="animated fadeIn delay-4s" id="scroll">
+      <div id="particles-js"></div>
+      <div class="scrollDown">
+        <h2>Site Under Construction<br>Scroll Down</h2>
+      </div>
+      <div class="arrow">
+        <i class="fas fa-arrow-down animated bounce slow infinite"></i>
+      </div>
+    </div>
 
-  </header><!-- /.top-area-->
-  <!-- top-area End -->
+    <script src="js/lottie.js" type="text/javascript"></script>
+    <script src="js/name.js" type="text/javascript"></script>
+  </div>
 
-  <!--welcome-hero start -->
-  <section id="welcome-hero" class="welcome-hero">
-    <div class="container">
+
+</section>
+
+<section class="about" id="aboutSection">
+  <div
+          data-aos="fade"
+          data-aos-delay="0"
+          data-aos-duration="250"
+          data-aos-easing="ease-in"
+  >
+  <div class="title" >
+    <div class="aboutPage">
+        <h1>ABOUT</h1>
+        <h2>Risk. Fail. Assess. Succeed. Repeat.</h2>
+        <p>My ambition is to design and build innovative products to alleviate the people's problems. I am currently most interested in design and frontend engineering.</p>
+        <a href="assets/RitikBatraResume2019.pdf" target="_blank">
+          <span class="btn">
+             Resume
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="educationSection">
+  <div class="overlay">
+    <div    class="classes"
+            data-aos="fade"
+            data-aos-delay="0"
+            data-aos-duration="250"
+            data-aos-easing="ease-in"
+    >
+      <h1>University of California, Berkeley</h1>
+      <h2>B.S., Electrical Engineering and Computer Sciences 2022</h2>
+      <div>
+        <img src="assets/calbear.png" alt="berkeley bear">
+        <div class="row">
+          <div class="column" style="background-color:#FDB515; margin-left: 0;">
+            <h3>Computer Science Coursework</h3>
+            <a href="https://sp19.datastructur.es/" target="_blank">Data Structures</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~cs61a/fa18/" target="_blank">Structure and Interpretation of Computer Programs</a><br>
+            <a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">Machine Structures</a><br>
+          </div>
+          <div class="column" style="background-color:#E09E19;">
+            <h3>Electrical Engineering Coursework</h3>
+            <a href="https://inst.eecs.berkeley.edu/~ee16b/sp18/" target="_blank">Designing Information Devices and Systems II</a><br>
+            <a href="https://inst.eecs.berkeley.edu/~ee16a/fa18/" target="_blank">Designing Information Devices and Systems I</a><br>
+          </div>
+          <div class="column" style="background-color:#BC9B6A;">
+            <h3>Relevant Coursework</h3>
+            <a href="https://decal.berkeley.edu/courses/4543" target="_blank">iOS Development</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Prototyping & Fabrication</a><br>
+            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Discovering Design</a><br>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="experienceSection">
+  <div class="experiences text-center"
+        data-aos="fade"
+        data-aos-delay="0"
+        data-aos-duration="250"
+        data-aos-easing="ease-in"
+>
+    <h1>Experience</h1>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="assets/bluestamp.png" width="80%" height="80%" alt="BlueStamp Engineering">
+        </div>
+        <div class="timeline-content">
+          <h2 class="timeline-content-date">BlueStamp Engineering, Summer 2018</h2>
+          <p>Over the summer, I mentored high school students to teach them electrical engineering and computer science as they built innovative products such as 3D printed hands, remote control robots, etc. As a junior instructor, my role was to manage students' webpages to perfect technical documentation and help students with computer science/Arduino-related issues.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="assets/venture.png" width="80%" height="80%" alt="Venture Strategy Solutions">
+        </div>
+        <div class="timeline-content right">
+          <h2 class="timeline-content-date">Venture Strategy Solutions, Fall 2018 – Present</h2>
+          <p>As a consultant, I worked with two companies: <a href="https://www.crunchbase.com/organization/driver" target="_blank">Driver, Inc.</a> and <a href="https://www.n3twork.com/" target="_blank">N3twork</a>. For Driver, my team produced product launch recommendations for the company to release their cancer-treatment application to the US and China. For N3twork, my team filtered through the iOS App Store to find mobile games for the company to partner with and I created an internal tool for the company to easily filter for these apps automatically.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">
+          <img src="assets/rally.png" width="80%" height="80%" alt="Rally Health">
+        </div>
+        <div class="timeline-content">
+          <h2 class="timeline-content-date">Rally Health, Summer 2019</h2>
+          <p>
+            As a Mobile Software Engineering Intern, I worked closely with the Mobile Operations team to upgrade their Swift version, perform UI automation tests, and develop a companion WatchOS app from scratch for their flagship iOS application.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+
+<section id="portfolioSection" class="text-center">
+  <canvas id="granim-canvas"></canvas>
+  <div
+          data-aos="fade"
+          data-aos-delay="0"
+          data-aos-duration="250"
+          data-aos-easing="ease-in"
+  >
+    <div class="classes table">
+      <h1>Portfolio</h1>
       <div class="row">
-        <div class="col-md-12 text-center">
-          <div class="header-text">
-            <h2>hi<span>,</span> i<span>'</span>m<br>ritik batra<span>:</span>   </h2>
+        <a>
+          <div class="column" style="margin-left: 0;">
+            <img src="assets/noaddiction.png" alt="No Addiction">
+            <h3>No Addiction</h3>
+            <p>(Under Construction)<br>An iOS application to help users fight their addictions through predictive notifications.</p>
+          </div>
+        </a>
+        <a href="https://github.com/rbatra2000/iClass" target="_blank">
+          <div class="column">
+            <img src="assets/iClass.png" alt="iClass">
+            <h3>iClass</h3>
+            <p>An iOS application helping professors actively engage students and tracking attendance efficiently.</p>
+          </div>
+        </a>
+        <a href="https://github.com/ssaxena00/EasyPay" target="_blank">
+          <div class="column">
+            <img src="assets/easypay.jpg" alt="EasyPay">
+            <h3>EasyPay</h3>
+            <p>A text-based bot that processes individual and group texts via NLU to understand user intents to transfer money via Venmo.</p>
+          </div>
+        </a>
+      </div>
 
-            <p class="type"></p>
-            <!--Typing effect-->
-            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-            <script type="text/javascript">
-            var typed = new Typed(".type", {
-              strings: ["Developer","Designer", "Dancer","Dreamer"],
-              typeSpeed: 80,
-              backSpeed: 80,
-              loop: true,
-            });
-            </script>
-            <br><br>
-            <a href="assets/download/RitikBatraResume.pdf" download target="_blank" >view resume</a>
-          </div><!--/.header-text-->
-        </div><!--/.col-->
-      </div><!-- /.row-->
-    </div><!-- /.container-->
-
-  </section><!--/.welcome-hero-->
-  <!--welcome-hero end -->
-
-  <!--about start -->
-  <section id="about" class="about">
-    <div class="section-heading text-center">
-      <h2>about me</h2>
+      <div class="row">
+        <a>
+          <div class="column" style="margin-left: 0;">
+            <img src="assets/website.png" alt="website icon">
+            <h3>Website</h3>
+            <p>(Under Construction)<br>A personal portfolio/website built from scratch with HTML5, CSS3, and JS to showcase design skills.</p>
+          </div>
+        </a>
+        <a href="https://devpost.com/software/showstopper" target="_blank">
+          <div class="column">
+            <img src="assets/icon.png" alt="Icon">
+            <h3>Icon</h3>
+            <p>An iOS application that instantaneously allows you to get the latest trends and find clothing you like.</p>
+          </div>
+        </a>
+        <a>
+          <div class="column">
+            <img src="assets/design.png" alt="design icon">
+            <h3>Designs</h3>
+            <p>(Under Construction)<br>Prototypes and designs that I created to explore design techniques and tools.</p>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="container">
-      <div class="about-content">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="single-about-txt">
-              <h3>
-                I am currently a UC Berkeley Freshman studying Electrical Engineering and Computer Sciences.
-              </h3>
-              <p>
-                Hi! My name is Ritik and I come from the heart of the Bay Area: San Jose, California. Having grown up in the Silicon Valley, I have always been passionate about technology positively impacting the lives of people around the world.
-                <br><br>
-                Last summer, I worked as a Junior Instructor at BlueStamp Engineering to not only teach high school students electrical, mechanical, and software engineering but also improve my engineering-related problem solving skills. Apart from my interests in programming and product development, I love dancing, playing the guitar/alto saxophone, and writing fictional stories.
-                <br><br>
-                I am currently searching for an internship related to front-end software development/product development for the upcoming summer in 2019, so if you are interested in me as an applicant, please feel free to reach out to me through email or my contact form at the bottom of the page.
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="single-about-add-info">
-                      <h3>email</h3>
-                      <p>ritikbatra@berkeley.edu</p>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="single-about-add-info">
-                      <h3>website</h3>
-                      <p>www.ritikbatra.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-offset-1 col-sm-5">
-              <div class="single-about-img">
-                <img src="assets/images/about/profile_image.jpg" alt="profile_image">
-                <div class="about-list-icon">
-                  <ul>
-                    <li>
-                      <a target= "_blank" href="https://www.linkedin.com/in/ritikbatra/">
-                        <i  class="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li><!-- / li -->
-                    <li>
-                      <a target= "_blank" href="https://github.com/rbatra2000">
-                        <i  class="fa fa-github" aria-hidden="true"></i>
-                      </a>
+  </div>
 
-                    </li><!-- / li -->
-                    <li>
-                      <a target= "_blank" href="https://www.facebook.com/ritik.batra.1">
-                        <i  class="fa fa-facebook" aria-hidden="true"></i>
-                      </a>
+  <script src="node_modules/granim/dist/granim.js"></script>
+  <script src="js/gradient.js"></script>
 
-                    </li><!-- / li -->
+</section>
 
-                    <li>
-                      <a target= "_blank" href="https://www.instagram.com/ritik.batra00/">
-                        <i  class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-
-                    </li><!-- / li -->
-                  </ul><!-- / ul -->
-                </div><!-- /.about-list-icon -->
-              </div>
-            </div>
-          </div>
+<section id="hobbiesSection" class="text-center">
+  <div class="hobbiesContainer"
+          data-aos="fade"
+          data-aos-delay="0"
+          data-aos-duration="250"
+          data-aos-easing="ease-in"
+  >
+  <div class="classes table">
+    <h1>Extracurriculars</h1>
+    <div class="row">
+      <div class="column" style="margin-left: 0; background-image: url('assets/dance.jpg');">
+      <div class="rowOverlay">
+          <h3>Dance</h3>
         </div>
       </div>
-    </section><!--/.about-->
-    <!--about end -->
-
-    <!--education start -->
-    <section id="education" class="education">
-      <div class="section-heading text-center">
-        <h2>education</h2>
-      </div>
-      <div class="container">
-        <div class="education-columns">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="name-and-seal">
-                <h1>UC Berkeley</h1>
-                <img src="assets/images/education/berkeley.png" alt="berkeley_seal">
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="education-details">
-                <h1>Electrical Engineering/Computer Sciences<br>Class of 2021</h1>
-                <h2>Relevant Coursework:</h2>
-                <ol>
-                  <li>Structure and Interpretation of Computer Programs - Python, Scheme, SQL (CS 61A)</li>
-                  <li>Data Scructures - Java (CS 61B)</li>
-                  <li>Designing Information Devices and Systems I (EE 16A)</li>
-                  <li>Designing Information Devices and Systems II (EE 16B)</li>
-                  <li>Physics for Scientists and Engineers (PHYSICS 7B)</li>
-                </ol>
-              </div>
-            </div>
-
-          </div>
+      <div class="column" style="background-image: url('assets/travel.jpg');">
+      <div class="rowOverlay">
+          <h3>Travel</h3>
         </div>
       </div>
-
-    </section><!--/.education-->
-    <!--education end -->
-
-    <!--skills start -->
-    <section id="skills" class="skills">
-      <div class="skill-content">
-        <div class="section-heading text-center">
-          <h2>skills</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="single-skill-content">
-                <div class="barWrapper">
-                  <span class="progressText">Python</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
-                      </div>
-                    </div>
-                    <h3>95%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">Html/css</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>90%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">Java</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>85%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">Swift</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>80%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="single-skill-content">
-                <div class="barWrapper">
-                  <span class="progressText">Competitive Analysis</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>95%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">Product Development</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>85%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText">communication</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>95%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-                <div class="barWrapper">
-                  <span class="progressText"> creativity</span>
-                  <div class="single-progress-txt">
-                    <div class="progress ">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="10" aria-valuemax="100" style="">
-
-                      </div>
-                    </div>
-                    <h3>99%</h3>
-                  </div>
-                </div><!-- /.barWrapper -->
-              </div>
-            </div>
-          </div><!-- /.row -->
-        </div>	<!-- /.container -->
-      </div><!-- /.skill-content-->
-
-    </section><!--/.skills-->
-    <!--skills end -->
-
-    <!--experience start -->
-    <section id="experience" class="experience">
-      <div class="section-heading text-center">
-        <h2>experience</h2>
-      </div>
-      <div class="container">
-        <div class="experience-content">
-          <div class="main-timeline">
-            <ul>
-              <li>
-                <div class="single-timeline-box fix">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="experience-time text-right">
-                        <h2>Aug 2018 - Present</h2>
-                        <h3>Strategy Consultant</h3>
-                      </div><!--/.experience-time-->
-                    </div><!--/.col-->
-                    <div class="col-md-offset-1 col-md-5">
-                      <div class="timeline">
-                        <div class="timeline-content">
-                          <h4 class="title">
-                            <span><i class="fa fa-square" aria-hidden="true"></i></span>
-                            Venture Strategy Solutions
-                          </h4>
-                          <h5>Berkeley, CA</h5>
-                          <p class="description">
-                            As a first-year consultant, I initially consulted for Driver Inc.,
-                            a start-up company that aggregates all the possible treatments for
-                            a patient's cancer to provide the best possible recommendation for
-                            a cure. Due to unfortunate circumstances, the company fell bankrupt
-                            and our team decided to pivot by improving the decade-old recruitment
-                            process for Venture as an organization to remove bias and diversify
-                            the new member pool.
-                          </p>
-                        </div><!--/.timeline-content-->
-                      </div><!--/.timeline-->
-                    </div><!--/.col-->
-                  </div>
-                </div><!--/.single-timeline-box-->
-              </li>
-
-              <li>
-                <div class="single-timeline-box fix">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="experience-time text-right">
-                        <h2>Jun 2019 - Jul 2018</h2>
-                        <h3>Junior Instructor</h3>
-                      </div><!--/.experience-time-->
-                    </div><!--/.col-->
-                    <div class="col-md-offset-1 col-md-5">
-                      <div class="timeline">
-                        <div class="timeline-content">
-                          <h4 class="title">
-                            <span><i class="fa fa-square" aria-hidden="true"></i></span>
-                            BlueStamp Engineering
-                          </h4>
-                          <h5>Palo Alto, CA</h5>
-                          <p class="description">
-                            Over the summer, I mentored high school students to teach them electrical engineering and
-                            computer science as they built unique and innovative products such as 3D printed hands,
-                            remote control robots, etc. As a junior instructor, my role was to manage students' webpages
-                            to perfect technical documentation and help students with computer science/Arduino-related issues.
-                          </p>
-                        </div><!--/.timeline-content-->
-                      </div><!--/.timeline-->
-                    </div><!--/.col-->
-                  </div>
-                </div><!--/.single-timeline-box-->
-              </li>
-
-
-              <li>
-                <div class="single-timeline-box fix">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <div class="experience-time text-right">
-                        <h2>Jun 2016 - Jul 2016</h2>
-                        <h3>Head teacher aide</h3>
-                      </div><!--/.experience-time-->
-                    </div><!--/.col-->
-                    <div class="col-md-offset-1 col-md-5">
-                      <div class="timeline">
-                        <div class="timeline-content">
-                          <h4 class="title">
-                            <span><i class="fa fa-square" aria-hidden="true"></i></span>
-                            math enrichment
-                          </h4>
-                          <h5>Saratoga, CA</h5>
-                          <p class="description">
-                            As an Algebra 2/Trigonometry teacher aide, I helped students
-                            individually succeed in topics they struggled with in the
-                            accelerated summer program. My role included tutoring students
-                            individually, creating exams, grading exams, and providing
-                            additional lectures to reinforce the material.
-                          </p>
-                        </div><!--/.timeline-content-->
-                      </div><!--/.timeline-->
-                    </div><!--/.col-->
-                  </div>
-                </div><!--/.single-timeline-box-->
-              </li>
-
-            </ul>
-          </div><!--.main-timeline-->
-        </div><!--.experience-content-->
-      </div>
-
-    </section><!--/.experience-->
-    <!--experience end -->
-
-    <!--extracurriculars start -->
-    <section id="extracurriculars" class="extracurriculars">
-      <div class="extracurriculars-details">
-        <div class="section-heading text-center">
-          <h2>extracurriculars</h2>
-        </div>
-        <div class="container">
-          <div class="extracurriculars-content">
-            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-chat"></i></a>
-                    <div class="profile-icon-name">consulting</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-chat"></i></a>
-                      <div class="profile-icon-name">consulting</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Consulting</h1>
-                  <div class="row">
-                    <div class="col-md-4">
-                      <h2>Venture Strategy Solutions</h2>
-                      <img src="assets/images/extracurriculars/venture.png" alt="Venture Strategy Solutions">
-                    </div>
-                    <div class="col-md-8 logos">
-                      <h3>
-                        Semester 1: Driver, Inc./Internal Project
-                      </h3>
-                      <p>
-                        As a freshman at UC Berkeley, I was thrilled to hear about the
-                        opportunities presented to me by the hundreds of organizations
-                        around campus. After hearing about consulting, I was immediately
-                        captured by the work done by consulting clubs on campus and to
-                        align that with my interest in entrepreneurship, I decided to
-                        apply to Venture Strategy Solutions.
-                        <br><br>
-                        After a rigorous application process, I was fortunate to be among
-                        7 new members of an initial 200 applicant pool. I immediately dove
-                        into the work by joining the team consulting for Driver, Inc. Driver
-                        was a start-up that aggregated all clinical trials and cancer treatments
-                        to recommend the best possible process for cancer patients based on data analysis.
-                        <br><br>
-                        Driver wanted us to spend the first half being external consultants:
-                        learning about the market of healthcare technology and constructing a
-                        Chinese penetration strategy for their recent product launch. My primary
-                        task was to analyze the competitors of Driver and note what made those
-                        companies succeed (especially in China).
-                        <br><br>
-                        Unfortunately due to the volatile start-up culture, Driver went bankrupt half
-                        way through the semester, leaving my team without a project. We decided to embark
-                        upon a Venture internal project to improve its branding and recruitment process.
-                        Venture has been maintaining the same website for the past few decades and unfortunately,
-                        it is out-of-date and leading to many unwanted biases within the new member pool.
-                        <br><br>
-                        In addition, I am working with a friend/co-consultant to completely redesign and
-                        reinvent Venture's website to attract more clients as well as
-                        applicants for the organization.
-                      </p>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-human"></i></a>
-                    <div class="profile-icon-name">Dance</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-human"></i></a>
-                      <div class="profile-icon-name">Dance</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Dance</h1>
-                  <iframe
-                  src="https://www.youtube.com/embed/videoseries?list=PLkBU5VMZCtMxlMnNVB2iRilWhlqMwuwG1"
-                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <p style="margin-left: 75px;margin-right: 75px;">
-                    “I’m not sure I can do this,” I thought, panicked by the idea of
-                    dancing with more than 1,000 of my fellow students in the audience.
-                    I had never performed in front of anyone prior to this moment, much
-                    less choreographed anything. Was I was about to make a fool of myself?
-                    <br><br>
-                    My heart pounded, and my leg muscles shook as I forced myself onstage.
-                    Then, the familiar music began, and I surrendered myself to the rhythms.
-                    My fears drained away as I focused on remembering the moves I had designed for myself.
-                    At first I felt clumsy following the beat, but the audience helped me relax by
-                    clapping in time. I was thrilled to find myself entertaining people and smiled broadly
-                    as my hands interpreted the lyrics and my feet snapped to position.
-                    <br><br>
-                    My enthusiasm grew with the positive response, and when the two minutes
-                    and thirty seconds had passed and I ran off the stage to a roar of approval,
-                    I thought, “I wish the song could have gone on longer.” Little did I know
-                    that this freshman dance, part of my new school’s homecoming celebration,
-                    was the birth of an obsession. I wanted to dance for the rest of my life.
-                    <br><br>
-                    In fact, dance has become my life; I currently dance on a competitive
-                    Bollywood, Hip-Hop, and Bhangra team at UC Berkeley called Zahanat and
-                    continue to dance at sports rallies and entertain at parties. I had continued
-                    choreographing for Homecoming as a sophomore, junior, and senior in high school
-                    and love to teach peers who do not have any dance experience. I hope to continue
-                    choreographing in the future!
-                    <br><br>
-                    Dance has changed who I am. From my beginnings as a shy freshman lacking
-                    confidence, I have grown into a leader with an outgoing personality and the ability
-                    to communicate with others clearly and naturally. Dancing on different teams has
-                    introduced me to people from other schools and diverse backgrounds. But dance has
-                    played an even more personal role in my life.
-                    <br><br>
-                    As I found my academic and extracurricular course load increasing in
-                    high school, my stress often reached unhealthy levels. This high-demand
-                    environment left me overwhelmed and depressed, but I was able to find the route
-                    to lowering my stress through dance. As soon as I started dancing or choreographing,
-                    my stress levels fell, and I was able to calm myself and perform up to my potential.
-                    After enjoying dance as a stress reliever, I wondered if I could get others more
-                    involved in dance for the same reason.
-                    <br><br>
-                    As a result, I founded JUMP, a new club that promotes creativity and expression
-                    to relieve student stress levels through dance. After gaining school administration
-                    approval, JUMP quickly became part of my high school’s culture. We invited alumni
-                    and current students to teach their dance pieces to many different students on
-                    campus, and we participated in Lynbrook’s annual stress relief week by inviting
-                    dancers from Stanford, Columbia, Berkeley, and more prestigious universities
-                    to teach choreography. Being part of JUMP has been a stress-reducer for me as
-                    well as the majority of the club’s members as we learn from each other in a
-                    non-judgmental environment.
-                    <br><br>
-                    But performing on stage remains my favorite part of dancing. The moment
-                    before I enter the stage has always been the most exciting for me, whether
-                    I’m a performer who relishes dancing or a choreographer who loves to see other
-                    dancers grow and expand their styles. Although I suffer from stage fright
-                    immediately before a performance begins, my passion for dance makes me forget
-                    my fears and perform at my very best. Now when I see doubt and anxiety on the
-                    face of my dancers, I recall my own journey and tell them with confidence,
-                    “I did it, and I know you can, too.”
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile profile-no-border">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-music"></i></a>
-                    <div class="profile-icon-name">music</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-music"></i></a>
-                      <div class="profile-icon-name">music</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Music</h1>
-                  <iframe src="https://www.youtube.com/embed/5UrfmdLaXUA" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <p style="margin-left: 75px;margin-right: 75px;">
-                    Ever since I was small, music has been an important part of my life.
-                    I started learning to play the guitar at the age of 5 and I fell in
-                    love with music. I learned the basics for reading music and started to
-                    train my ears musically.
-                    <br><br>
-                    When I turned 9, I decided to pivot to alto saxophone with a focus
-                    on classical and jazz music. I first joined the school band and
-                    continued until high school, when I decided that I prefered being
-                    a soloist over a member of a band.
-                    <br><br>
-                    I continued taking private lessons for saxophone and performing as
-                    a soloist. Eventually, I decided to put my skills to the test through
-                    the Music Teachers' Association of California's music study program.
-                    With my years of experience, I decided to jump to level 6 and take the exam.
-                    <br><br>
-                    The Level 6 Exam is comprised of 3 parts: Technical Evaluation,
-                    Virtuosity Check, and Music Theory Exam. After weeks of prepration,
-                    I received my Certificate of Merit from MTAC. This certificate gave
-                    me the validation to perform in public and I started being more
-                    comfortable performing for friends and family.
-                    <br><br>
-                    After high school ended, I quit private lessons, but continue
-                    practicing guitar/alto saxophone on my own as a hobby. Although
-                    I may not practice every day, the disciplinary/creative skills
-                    that I gained made me into who I am today.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-            <div class="profile-border"></div>
-            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-leader"></i></a>
-                    <div class="profile-icon-name">Student Government</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-leader"></i></a>
-                      <div class="profile-icon-name">Student Government</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Student Government</h1>
-
-                  <div id="cp_widget_9f2c7d16-416d-4aca-bde1-c42237b970e0">...</div><script type="text/javascript">
-                  var cpo = []; cpo["_object"] ="cp_widget_9f2c7d16-416d-4aca-bde1-c42237b970e0"; cpo["_fid"] = "AIBARZ-g0REx";
-                  var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                  (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                  cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                  var c = document.getElementsByTagName("script")[0];
-                  c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>Govt</span><span>Class Office Homecoming</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2048</span><span>height</span><span> 1365</span><span>Class Office Fashion Show</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2048</span><span>height</span><span> 1365</span><span>Class Office Rally</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2048</span><span>height</span><span> 1365</span></noscript>
-
-
-                  <p style="margin-left: 75px;margin-right: 75px;">
-                    I had volunteered in a variety of school organizations over
-                    my first three years, but as I neared my penultimate year of
-                    high school, I felt something was missing: a classic leadership
-                    role. So, I decided to run for the position of class Vice President.
-                    Fortunately, I was elected by my peers, and served as senior class officer.
-                    <br><br>
-                    Because I was the newest vice president on the officer team,
-                    I initially held my opinions in abeyance, believing that the
-                    other officers knew more than me. But showing deference to these
-                    experienced officers did not serve me well, as I was not taking
-                    the responsibility to represent my class assertively. I began
-                    voicing my opinions and assuming the leadership role that I aspired to fill.
-                    <br><br>
-                    One example of my newfound assertiveness came during a homecoming
-                    decoration meeting a few days before our performance. While rapidly
-                    creating posters, one of my peers was drawing on white paper to create
-                    a design with "2018 Love," but I noticed that the colors of the letters
-                    were bland, and the lines were uneven.
-                    <br><br>
-                    I approached her and said, "Hi! Thank you for spending so much time
-                    on these posters, but I noticed that there is not enough color on
-                    this one. Can I help you with the next one so we can make it even better?"
-                    <br><br>
-                    At first, she was offended by my criticism, but after working
-                    together on the next poster she agreed that the extra work was
-                    necessary: "Thanks for helping, she said. I'll make the next one even better!"
-                    <br><br>
-                    This experience taught me that a leader's responsibility is to be
-                    a positive influence by ensuring that standards are met while still
-                    showing respect for others' ideas and abilities. I realize that my
-                    judgments may not always be popular, but that it is important for me
-                    to voice them all the same. As I participated in discussions related
-                    to school and class business, I made certain to say what I think honestly
-                    and immediately. This lesson in leadership will be greatly beneficial to
-                    both myself and others for many years to come.
-                    <br><br>
-                    As class vice president, I was charged with the task of organizing
-                    senior prom, constructing a new senior activity, foster community
-                    within the class through rallies and Homecoming, and more.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-agreement"></i></a>
-                    <div class="profile-icon-name">business competitions</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-agreement"></i></a>
-                      <div class="profile-icon-name">business competitions</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Business Competitions</h1>
-
-                  <div class="row" style="border-bottom: 1px solid #e5ebf2;">
-                    <div class="col-md-4">
-                      <h2>DECA</h2>
-                      <img src="assets/images/extracurriculars/deca.jpg" alt="DECA">
-                    </div>
-                    <div class="col-md-8 logos">
-                      <h3>
-                        WiseTech
-                      </h3>
-                      <p>
-                        DECA is a business-oriented organization that held competitions
-                        every year for high schoolers to pitch their ideas for companies
-                        that could solve problems around the world. For the regional and
-                        state competition in my senior year of high school, I constructed a
-                        company called WiseTech which received third place in California.
-                        <br><br>
-                      </p>
-                      <q>
-                        Wise technology is the next step from smart products where
-                        technology adapts to unique users, ensuring complete customer
-                        satisfaction. WiseTech is an emerging technology start-up that
-                        has innovated the first intelligent pair of socks with textile
-                        sensor technology, WiseSock, to solve an abundance of societal
-                        problems today. WiseSock can track user heart rate, immediately
-                        alert local law enforcement following a gesture, and guide the
-                        user to live a healthier lifestyle. WiseTech is an ethical company
-                        committed to improving personal health without negatively affecting
-                        the earth.
-                        Additionally, for every WiseSock sold, we donate a portion of our
-                        profits to RAINN (Rape, Abuse & Incest National Network). People
-                        around the world who purchase WiseSock will not only be healthier
-                        and safer but will also find comfort in the fact that a victim
-                        somewhere will be saved from death.
-                        Following our initial product launch, WiseTech will be continuing
-                        to develop solutions to solve worldwide problems.
-                      </q>
-                      <br><br>
-                      <iframe src="https://www.slideshare.net/slideshow/embed_code/key/JiEUhFESVZNBoO" width="100%" height=auto frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-md-4">
-                      <h2>FBLA</h2>
-                      <img src="assets/images/extracurriculars/fbla.jpg" alt="FBLA">
-                    </div>
-                    <div class="col-md-8 logos">
-                      <h3>
-                        Ohana Kai
-                      </h3>
-                      <p>
-                        Future Business Leaders of America, or FBLA, was a
-                        little more restrictive when it came to the prompts
-                        for each competition. My event was Business Financial
-                        Plan, and my team was charged to create a family entertainment
-                        center for a very specific sized-city and square footage.
-                        <br><br>
-                        Given these parameters, we created Ohana Kai which
-                        received 3rd place in California and 13th place nationally.
-                      </p>
-                      <br><br>
-                      <q>
-                        Ohana Kai, meaning “Family from the Sea” in Hawaiian,
-                        is a 30,000 square foot Family Entertainment Center and
-                        Limited Liability Company, located in Salt Lake City,
-                        Utah. Ohana Kai provides families with an unique ocean
-                        themed experience, including arcade games, ball pit,
-                        playground, movie room, activities center, and dining area.
-                        This unique environment offers a fun but educational environment
-                        for families to learn about the importance of marine life preservation.
-                      </q>
-                      <br><br>
-                      <iframe src="https://www.slideshare.net/slideshow/embed_code/key/JbanClLN7q0OKT" width="100%" height=auto frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen> </iframe>
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-
-              <div class="col-xs-6 col-sm-6 col-md-4 btn">
-                <div class="single-profile profile-no-border">
-                  <div class="profile-txt">
-                    <a><i class="flaticon-flower"></i></a>
-                    <div class="profile-icon-name">culture</div>
-                  </div>
-                  <div class="single-profile-overlay">
-                    <div class="profile-txt">
-                      <a><i class="flaticon-flower"></i></a>
-                      <div class="profile-icon-name">culture</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Culture</h1>
-
-                  <div id="cp_widget_46b9c676-047c-4dfa-8a0a-25fe31dcbd5c">...</div><script type="text/javascript">
-                  var cpo = []; cpo["_object"] ="cp_widget_46b9c676-047c-4dfa-8a0a-25fe31dcbd5c"; cpo["_fid"] = "A4NA8aOw0pPv";
-                  var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                  (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                  cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                  var c = document.getElementsByTagName("script")[0];
-                  c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2018/12/25</span><span>Jalwa Dance Team</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2048</span><span>height</span><span> 1536</span><span>Zahanat Dance Team</span><span>cameramake</span><span> Apple</span><span>focallength</span><span> 4.2</span><span>height</span><span> 3024</span><span>fnumber</span><span> 1.8</span><span>exposuretime</span><span> 0.25</span><span>lat</span>:<span> 37.866394</span><span>long</span>:<span> -122.257042</span><span>orientation</span><span> 1</span><span>camerasoftware</span><span> 12.0.1</span><span>originaldate</span><span> 10/28/2018 12:11:37 AM</span><span>width</span><span> 4032</span><span>cameramodel</span><span> iPhone XS Max</span></noscript>
-
-                  <p>
-                    The candle flame bursts to life as my parents help me steady
-                    the sparkler. I stare with joy as colors light up the night;
-                    this annually recurring memory is what I treasure most from my
-                    childhood. Diwali, the Indian festival of lights, has always
-                    influenced me to embrace my Indian culture.
-                    <br><br>
-                    My parents were born in India and immigrated to the United
-                    States, searching for new opportunities. Although they were
-                    far from their birthplace, they still incorporated Indian culture
-                    into my childhood. From speaking in Hindi to driving me to Hindu
-                    temples, my parents taught me to appreciate India’s festivities and
-                    history and instilled in me a strong cultural identity.
-                    <br><br>
-                    To combine my dance passion with my cultural pride, I joined my
-                    high school’s Bollywood team. Attending my dance performances
-                    around the Bay Area introduced my family and me to the active
-                    Indian community in our district.
-                    <br><br>
-                    To continue building bridges within the community, I joined the
-                    American-Indo Student Association (AISA) club as a high school
-                    sophomore. I was delighted to discover that the club gives back
-                    to the Indian community by fundraising to improve rural Indian
-                    communities. I achieved President as a senior and changed the
-                    club dynamic by expanding to be a larger part of the local
-                    community by hosting more cultural events, such as a traditional Garba Raas.
-                    <br><br>
-                    I am grateful to have had opportunities to explore my heritage
-                    and look forward to learning about other cultures throughout my
-                    life. At Berkeley, by being associated with a Bollywood team, I
-                    am well-connected to the Indian community and am able to perform
-                    at festivals, such as Diwali here.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
+      <div class="column" style="background-image: url('assets/music.jpg');">
+      <div class="rowOverlay">
+          <h3>Music</h3>
         </div>
       </div>
     </div>
-
-  </section>
-  <!--/.extracurriculars-->
-  <!--extracurriculars end -->
-
-  <!--portfolio start -->
-  <section id="portfolio" class="portfolio">
-    <div class="portfolio-details">
-      <div class="section-heading text-center">
-        <h2>portfolio</h2>
-      </div>
-      <div class="container">
-        <div class="portfolio-content">
-          <div class="isotope">
-            <div class="row">
-
-              <div class="col-sm-4">
-                <div class="item">
-                  <img src="assets/images/portfolio/easypay.jpg" alt="EasyPay"/>
-                  <div class="isotope-overlay btn">
-                    <a>
-                      EasyPay
-                    </a>
-                  </div><!-- /.isotope-overlay -->
-                </div><!-- /.item -->
-
-                <div class="modal">
-                  <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h1>EasyPay</h1>
-                    <div id="cp_widget_7d7fc5d9-8e90-4f4a-a57a-7aa87c34351a">...</div><script type="text/javascript">
-                    var cpo = []; cpo["_object"] ="cp_widget_7d7fc5d9-8e90-4f4a-a57a-7aa87c34351a"; cpo["_fid"] = "AsMABaep1loi";
-                    var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                    (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                    cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                    var c = document.getElementsByTagName("script")[0];
-                    c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2018/12/26</span><span>Nexmo Interface</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 3114</span><span>height</span><span> 1456</span><span>Screenshot of App</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1242</span><span>height</span><span> 2688</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 2554</span><span>height</span><span> 1266</span></noscript>
-                    <p>
-                      Let's attack this problem: College students have to make many
-                      daily transactions with other students and have no organized
-                      manner of doing so. This results in unnecessary complications
-                      and general inefficiency.
-                      <br><br>
-                      As a solution, we have created a text-based bot that processes individual and group texts to understand user intents to transfer money.
-                      This bot uses Nexmo and Venmo APIs to easily charge other users'
-                      Venmo accounts when the natural language processor picks up specific
-                      key words in a group text.
-                      <br><br>
-                      Our project won PayPal's first place prize at CalHacks 2018.
-                      <br><br>
-                      If you would like to view the code for EasyPay, click
-                      <a target="_blank" href="">here</a>.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="assets/images/portfolio/website.jpg" alt="Personal Website"/>
-                  <div class="isotope-overlay btn">
-                    <a>
-                      Personal Website
-                    </a>
-                  </div><!-- /.isotope-overlay -->
-                </div><!-- /.item -->
-              </div><!-- /.col -->
-
-              <div class="modal">
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <h1>Personal Website</h1>
-                  <p>
-                    This is my second website I have created. I used a template
-                    from <a target="_blank" href="https://onepagelove.com/browny">One
-                      Page Love</a> to start off the website, but completely redesigned
-                      website for my unique portfolio.
-                      <br><br>
-                      If you would like to view the code for this website,
-                      feel free to view source code by right clicking anywhere
-                      or review my github
-                      <a target="_blank" href="https://github.com/rbatra2000/rbatra2000.github.io">here</a>.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-sm-4">
-                  <div class="item">
-                    <img src="assets/images/portfolio/smartshoe.jpg" alt="SmartShoe"/>
-                    <div class="isotope-overlay btn">
-                      <a>
-                        SmartShoe
-                      </a>
-                    </div><!-- /.isotope-overlay -->
-                  </div><!-- /.item -->
-                </div><!-- /.col -->
-
-                <div class="modal">
-                  <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h1>SmartShoe</h1>
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQYkyGE9eOTrW_Bf0mz2iLvbZayz13YDhu-N1zdEOi2fJkL8ZqWTHV7yK0Z27S8A3j-e_SAGPuqy1Oa/embed?start=true&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <p>
-                      SmartShoe is an enhanced running shoe that has sensors to
-                      revolutionize a runner's experience. With an embedded heart
-                      rate monitor, GPS, Arduino Lilypad, and Bluetooth module,
-                      the shoe can communicate with smartphones to help runners
-                      train on their own based on the data given and with the
-                      vibrational motors and SD card writer, they can go on runs
-                      without having their smartphone with them and still navigate
-                      and retain the data from the run.
-                    </p>
-                    <br><br>
-                    Feel free to view my documentation <a target="_blank"
-                    href="https://bluestampengineering.com/student-projects/ritik-b/">here</a>.
-                    If you would like to view the code I wrote, the github link is available
-                    <a target="_blank" href="https://github.com/rbatra2000/SmartShoe">here</a>.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-sm-4">
-                <div class="item">
-                  <img src="assets/images/portfolio/icon.jpg" alt="Icon App"/>
-                  <div class="isotope-overlay btn">
-                    <a>
-                      Icon
-                    </a>
-                  </div><!-- /.isotope-overlay -->
-                </div><!-- /.item -->
-
-                <div class="modal">
-                  <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h1>Icon</h1>
-
-                    <div id="cp_widget_9c35b339-5a1d-41cc-b9f5-05c794eccfa4">...</div><script type="text/javascript">
-                    var cpo = []; cpo["_object"] ="cp_widget_9c35b339-5a1d-41cc-b9f5-05c794eccfa4"; cpo["_fid"] = "AEGAmaOA0x2y";
-                    var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                    (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                    cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                    var c = document.getElementsByTagName("script")[0];
-                    c.parentNode.insertBefore(cp, c); })(); </script><noscript><span>New Gallery 2018/12/25</span><span>Icon Pic 1</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 556</span><span>height</span><span> 989</span><span>Icon Pic 2</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 554</span><span>height</span><span> 987</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 556</span><span>height</span><span> 991</span></noscript>
-
-                    <p>
-                      ICON is a crowd-sourced fashion app that allows users to find out
-                      what someone else is wearing and local fashion trends. ICON lets
-                      you build a virtual closet by taking pictures of your physical clothing.
-                      Each day the user selects the articles of the clothings that make up
-                      their outfit of the day. While walking around, if the user sees someone
-                      wearing something interesting they can open the app and collect nearby
-                      outfits from other users with in 10 meters.
-                      <br><br>
-                      I created this at CruzHacks 2018 and we received the Project YX Fashion
-                      Prize. The devpost is available
-                      <a target="_blank" href="https://devpost.com/software/showstopper">here</a>.
-                      <br><br>
-                      If you would like to view the code, the github link is available
-                      <a target="_blank" href="https://github.com/TheCurryMan/Showstopper">here</a>.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="assets/images/portfolio/javarun.png" alt="portfolio image"/>
-                  <div class="isotope-overlay btn">
-                    <a>
-                      JavaRun
-                    </a>
-                  </div><!-- /.isotope-overlay -->
-                </div><!-- /.item -->
-
-                <div class="modal">
-                  <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h1>JavaRun</h1>
-                    <iframe src="https://docs.google.com/presentation/d/19CVqfWcmAXtdxgkOkdodX2BZwXEETJuDLj5b2S3T6y4/embed?start=true&amp;loop=false&amp;delayms=10000"
-                    frameborder="0" width="100%" height="400" allowfullscreen="true"
-                    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <p>
-                      JavaRun is a 2D infinite runner created from scratch using Java.
-                      By creating the game on Java and releasing it as a .jar file, the
-                      game is compatible with Apple and Windows computers. To create this
-                      game, I had to apply all my OOP programming knowledge to create a
-                      well-designed game with structure as you can see on slide 8 above.
-                      <br><br>
-                      Feel free to download the game <a target="_blank"
-                      href="https://www.dropbox.com/s/4w2ilabs81vzjnv/JavaRun.jar?dl=0">here</a>.
-                      If you would like to view the code, the github link is available
-                      <a target="_blank" href="https://github.com/rbatra2000/JavaRun">here</a>.
-                    </p>
-                  </div>
-                </div>
-              </div><!-- /.col -->
-            </div><!-- /.row -->
-          </div><!--/.isotope-->
-        </div><!--/.gallery-content-->
-      </div><!--/.container-->
-    </div><!--/.portfolio-details-->
-
-  </section><!--/.portfolio-->
-  <!--portfolio end -->
-
-  <!--contact start -->
-  <section id="contact" class="contact">
-    <div class="section-heading text-center">
-      <h2>contact me</h2>
-    </div>
-    <div class="container">
-      <div class="contact-content">
-        <div class="row">
-          <div class="col-md-offset-1 col-md-5 col-sm-6">
-            <div class="single-contact-box">
-              <div class="contact-form">
-                <form action="https://formspree.io/ritik.batra2000@gmail.com" method="POST">
-                  <div class="row">
-                    <div class="col-sm-6 col-xs-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
-                      </div><!--/.form-group-->
-                    </div><!--/.col-->
-                    <div class="col-sm-6 col-xs-12">
-                      <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-                      </div><!--/.form-group-->
-                    </div><!--/.col-->
-                  </div><!--/.row-->
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject*" name="subject">
-                      </div><!--/.form-group-->
-                    </div><!--/.col-->
-                  </div><!--/.row-->
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <textarea class="form-control" rows="8" id="comment" placeholder="Message*"  name="message"></textarea>
-                      </div><!--/.form-group-->
-                    </div><!--/.col-->
-                  </div><!--/.row-->
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="single-contact-btn">
-                        <button type="submit" class="contact-btn">Submit</button>
-                      </div><!--/.single-single-contact-btn-->
-                    </div><!--/.col-->
-                  </div><!--/.row-->
-                </form><!--/form-->
-              </div><!--/.contact-form-->
-            </div><!--/.single-contact-box-->
-          </div><!--/.col-->
-          <div class="col-md-offset-1 col-md-5 col-sm-6">
-            <div class="single-contact-box">
-              <div class="contact-address">
-                <div class="contact-add-head">
-                  <h3>Ritik Batra</h3>
-                  <p>UC Berkeley Student</p>
-                </div>
-                <div class="contact-add-info">
-                  <div class="single-contact-add-info">
-                    <h3>email</h3>
-                    <p>ritikbatra@berkeley.edu</p>
-                  </div>
-
-                  <div class="single-contact-add-info">
-                    <h3>website</h3>
-                    <p>www.ritikbatra.com</p>
-                  </div>
-                </div>
-              </div><!--/.contact-adress-->
-              <div class="hm-foot-icon">
-                <ul>
-                  <li><a target= "_blank" href="https://www.linkedin.com/in/ritikbatra/"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a target= "_blank" href="https://github.com/rbatra2000"><i class="fa fa-github"></i></a></li>
-                  <li><a target= "_blank" href="https://www.facebook.com/ritik.batra.1"><i class="fa fa-facebook"></i></a></li>
-                  <li><a target= "_blank" href="https://www.instagram.com/ritik.batra00/"><i class="fa fa-instagram"></i></a></li>
-                </ul><!--/ul-->
-              </div><!--/.hm-foot-icon-->
-            </div><!--/.single-contact-box-->
-          </div><!--/.col-->
-        </div><!--/.row-->
-      </div><!--/.contact-content-->
-    </div><!--/.container-->
-
-  </section><!--/.contact-->
-  <!--contact end -->
-
-  <!--footer-copyright start-->
-  <footer id="footer-copyright" class="footer-copyright">
-    <div class="container">
-      <div class="hm-footer-copyright text-center">
-        <p>
-          &copy; copyright Ritik Batra 2019</a>
-        </p><!--/p-->
-      </div><!--/.text-center-->
-    </div><!--/.container-->
-
-    <div id="scroll-Top">
-      <div class="return-to-top">
-        <i class="fa fa-angle-up " id="scroll-top" ></i>
-      </div>
-
-    </div><!--/.scroll-Top-->
-
-  </footer><!--/.footer-copyright-->
-  <!--footer-copyright end-->
-
-  <!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-  <script src="assets/js/jquery.js"></script>
-
-  <!--modernizr.min.js-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
-  <!--bootstrap.min.js-->
-  <script src="assets/js/bootstrap.min.js"></script>
-
-  <!-- bootsnav js -->
-  <script src="assets/js/bootsnav.js"></script>
-
-  <!-- jquery.sticky.js -->
-  <script src="assets/js/jquery.sticky.js"></script>
-
-  <!-- for progress bar start-->
-
-  <!-- progressbar js -->
-  <script src="assets/js/progressbar.js"></script>
-
-  <!-- appear js -->
-  <script src="assets/js/jquery.appear.js"></script>
-
-  <!-- for progress bar end -->
-
-  <!--owl.carousel.js-->
-  <script src="assets/js/owl.carousel.min.js"></script>
+</div>
+</div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</section>
+
+<section id="contactSection">
+
+  <div class="container"
+        data-aos="fade"
+        data-aos-delay="0"
+        data-aos-duration="250"
+        data-aos-easing="ease-in"
+>
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/ritik.batra2000@gmail.com" method="POST">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="i.e. John">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="i.e. Smith">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="i.e. Here is a sample message." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+</section>
 
 
-  <!--Custom JS-->
-  <script src="assets/js/custom.js"></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<!--  <script>-->
+<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
+<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')-->
+<!--  </script>-->
+<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
+<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    document.body.className = '';
+  });
+</script>
 
-  <!--Modal Implementation-->
-  <script src="assets/js/modal.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-out-back',
+    duration: 800,
+    delay: 300,
+    once: true,
+    disable: 'mobile'
+  });
+</script>
 </body>
 
 </html>

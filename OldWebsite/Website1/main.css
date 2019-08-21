@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+div.hidden {
+  display: none
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+body h6 {
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+body h1 {
+  font-weight: 500;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+
+.jumbotron1 {
+  display: flex;
+  align-items: center;
+  background-image: url('https://farm3.staticflickr.com/2819/33390789801_febc8ffc2c_k_d.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+  bottom: 0px;
+  height: 100vh;
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/16665502_1916783625218780_3335004036170195679_o.jpg?oh=b31675ca479453cd732a7065d717515b&oe=59E610F5');
+  background-size: cover;
+  color: #FFFFFF;
+  height: 700px;
+  text-shadow: 0.25px 0.25px 0.25px #000000
+}
+
+.jumbotron h2 {
+  font-size: 90px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  font-weight: 100;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #f44336;
+  text-shadow: none;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px #000000;
+
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+.hyperlink:hover{
+  opacity: 0.5;
+}
+
+h5 {
+  padding : 20px;
+  font-size: 30px;
+  font-weight: 1000;
+  background-color : #f44336;
+  color: #ffffff;
+  color : white;
+  display: flex;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.w3-animate-fading {
+  animation:fading 2s
+}
+
+@keyframes fading {
+  0% {opacity:0} 100% {opacity:1}
+}
