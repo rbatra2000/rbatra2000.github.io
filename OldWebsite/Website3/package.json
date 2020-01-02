@@ -1,0 +1,35 @@
+{
+  "name": "rbatra2000.github.io",
+  "version": "1.0.0",
+  "main": "like_button.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "classlist-polyfill": "^1.2.0",
+    "codyhouse-framework": "^2.1.2",
+    "granim": "^2.0.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbatra2000/rbatra2000.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbatra2000/rbatra2000.github.io/issues"
+  },
+  "homepage": "https://github.com/rbatra2000/rbatra2000.github.io#readme",
+  "description": ""
+}

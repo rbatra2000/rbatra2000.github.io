@@ -1,0 +1,41 @@
+<!doctype html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ritik's Design Portfolio</title>
+  <meta name="description" content="Ritik's portfolio of designs and fun stuff he creates.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="icon"type="image/png" href="favicon.png">
+  <link rel="shortcut-icon" type="image/png" href="/favicon.png"/>
+  <div id="root"></div>
+</head>
+<script>
+  // <div>Hello World</div>
+  const rootEl = document.getElementById('root')
+  function createElement(type, attributes, ...children) {
+    const element = document.createElement(type)
+    Object.entries(attributes).forEach(([key, value]) => {
+      element.setAttribute(key, value)
+    })
+    children.forEach(child => {
+      if (typeof child === 'string') {
+        element.appendChild(document.createTextNode(child))
+      } else {
+        element.appendChild(child)
+      }
+    })
+    return element
+  }
+  const spanElement = createElement('span', {}, 'SPAN!')
+  const element = createElement('h1', { id: 'header' }, 'Hey there', spanElement)
+  rootEl.appendChild(element)
+</script>
+
+
+<body>
+
+
+</body>
