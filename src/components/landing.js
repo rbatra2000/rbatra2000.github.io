@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Name from './name';
 
-
 class Landing extends Component {
     render() {
-        return(
+        return (
             <div className="grid">
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                        <img 
+                        <img
                             src={require('../assets/face.png')}
                             alt="portrait"
                             className="avatar-img"
@@ -19,8 +18,8 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1>Developer. Designer. Dancer. Dreamer.</h1>
 
-                            <hr/>
-                                <p>Developer. Designer. Dancer. Dreamer.</p>
+                            <hr />
+                            <p>Developer. Designer. Dancer. Dreamer.</p>
 
 
                             <div className="social-links">
