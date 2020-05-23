@@ -1,22 +1,34 @@
 <!doctype html>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162434758-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162434758-1');
+  </script>
+
   <meta charset="utf-8">
   <title>Ritik Batra</title>
-  <meta name="description" content="This is Ritik Batra's personal website to experiment with JS, React, HTML, and CSS!">
+  <meta name="description"
+    content="This is Ritik Batra's personal website to experiment with JS, React, HTML, and CSS!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="favicon.png">
-  <link rel="icon"  type="image/png" href="favicon.png">
-  <link rel="shortcut-icon" type="image/png" href="/favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut-icon" type="image/png" href="/favicon.png" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/primary.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
@@ -25,240 +37,482 @@
 
 <body>
 
-<!--[if IE]
+  <!--[if IE]
 ><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
-<div class="wrapper">
-  <header>
-    <nav>
-      <div class="menu-icon">
-        <i class="fa fa-bars fa-2x"></i>
-      </div>
-      <div class="logo">
-        <a href="#homeSection">
-          <img class="imgLogo" src="favicon.png" alt="logo">
-        </a>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#aboutSection">About</a></li>
-          <li><a href="#educationSection">Education</a></li>
-          <li><a href="#experienceSection">Experience</a></li>
-          <li><a href="#portfolioSection">Portfolio</a></li>
-<!--           <li><a href="#hobbiesSection">Hobbies</a></li>
- -->          <li><a href="#contactSection">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-</div>
-
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/particles.js"></script>
-
-<section class="home" id="homeSection">
-  <div class="title text-center">
-    <div id="name"> </div>
-    <div class="animated fadeIn delay-4s" id="scroll">
-      <div id="particles-js"></div>
-      <div class="scrollDown">
-        <h2>Scroll Down</h2>
-      </div>
-      <div class="arrow">
-        <i class="fas fa-arrow-down animated bounce slow infinite"></i>
-      </div>
-    </div>
-
-    <script src="js/lottie.js" type="text/javascript"></script>
-    <script src="js/name.js" type="text/javascript"></script>
-  </div>
-
-
-</section>
-
-<section class="about" id="aboutSection">
-  <div
-          data-aos="fade"
-          data-aos-delay="0"
-          data-aos-duration="250"
-          data-aos-easing="ease-in"
-  >
-  <div class="title" >
-    <div class="aboutPage">
-        <h1>ABOUT</h1>
-        <h2>Risk. Fail. Assess. Succeed. Repeat.</h2>
-        <p>My ambition is to design and build innovative products to alleviate the people's problems. I am currently most interested in design and frontend engineering.</p>
-        <a href="assets/RitikBatraResume2019.pdf" target="_blank">
-          <span class="btn">
-             Resume
-          </span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<section id="educationSection">
-  <div class="overlay">
-    <div    class="classes"
-            data-aos="fade"
-            data-aos-delay="0"
-            data-aos-duration="250"
-            data-aos-easing="ease-in"
-    >
-      <h1>University of California, Berkeley</h1>
-      <h2>B.S., Electrical Engineering and Computer Sciences 2022</h2>
-      <div>
-        <img src="assets/calbear.png" alt="berkeley bear">
-        <div class="row">
-          <div class="column" style="background-color:#FDB515; margin-left: 0;">
-            <h3>Computer Science Coursework</h3>
-            <a href="https://sp19.datastructur.es/" target="_blank">Data Structures</a><br>
-            <a href="https://inst.eecs.berkeley.edu/~cs61a/fa18/" target="_blank">Structure and Interpretation of Computer Programs</a><br>
-            <a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">Machine Structures</a><br>
-          </div>
-          <div class="column" style="background-color:#E09E19;">
-            <h3>Electrical Engineering Coursework</h3>
-            <a href="https://inst.eecs.berkeley.edu/~ee16b/sp18/" target="_blank">Designing Information Devices and Systems II</a><br>
-            <a href="https://inst.eecs.berkeley.edu/~ee16a/fa18/" target="_blank">Designing Information Devices and Systems I</a><br>
-          </div>
-          <div class="column" style="background-color:#BC9B6A;">
-            <h3>Relevant Coursework</h3>
-            <a href="https://decal.berkeley.edu/courses/4543" target="_blank">iOS Development</a><br>
-            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Prototyping & Fabrication</a><br>
-            <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Discovering Design</a><br>
-          </div>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="navtoggle fa fa-bars fa-2x"></i>
+          <i class="navtoggle fa-2x fas fa-times-circle" style="display: none"></i>
         </div>
+        <div class="logo">
+          <a href="#homeSection">
+            <img class="imgLogo" src="logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="socialmedia">
+          <a class="sm" href="https://www.linkedin.com/in/ritikbatra" target="_blank">
+            <span><i class="fab fa-1x fa-linkedin-in" aria-hidden="true"></i></span>
+          </a>
+          <a class="sm" href="https://github.com/rbatra2000" target="_blank">
+            <span><i class="fab fa-1x fa-github" aria-hidden="true"></i></span>
+          </a>
+          <a class="sm" href="https://www.instagram.com/ritikulousdesigns/" target="_blank">
+            <span><i class="fab fa-1x fa-instagram" aria-hidden="true"></i></span>
+          </a>
+          <a class="sm" href="mailto:ritikbatra@berkeley.edu" target="_blank">
+            <span><i class="fas fa-1x fa-envelope" aria-hidden="true"></i></span>
+          </a>
+          <a class="sm" href="https://drive.google.com/file/d/1-iVNyEiqJ_CoehOPLIscrmEnC8H9hSP7/view?usp=sharing"
+            target="_blank">
+            <span><i class="fas fa-1x fa-file" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#aboutSection">about</a></li>
+            <li><a href="#portfolioSection">portfolio</a></li>
+            <li><a href="#experienceSection">experience</a></li>
+            <li><a href="#educationSection">education</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
 
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/particles.js"></script>
+
+  <section class="home" id="homeSection">
+    <div class="title text-center">
+      <div class="landing">
+        <div class="animated pulse infinite delay-4s slower" id="name"> </div>
+        <div id="particles-js" class="animated fadeIn delay-4s slower"></div>
+      </div>
+      <div class="animated fadeIn delay-4s" id="scroll">
+        <div class="scrollDown">
+          <h2>scroll down</h2>
+        </div>
+        <div class="arrow">
+          <i class="fas fa-arrow-down animated bounce slow infinite"></i>
+        </div>
       </div>
 
+      <script src="js/lottie.js" type="text/javascript"></script>
+      <script src="js/name.js" type="text/javascript"></script>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="experienceSection">
-  <div class="experiences text-center"
-        data-aos="fade"
-        data-aos-delay="0"
-        data-aos-duration="250"
-        data-aos-easing="ease-in"
->
-    <h1>Experience</h1>
-    <div class="timeline">
+  <section class="about" id="aboutSection" title="Background Berkeley Zahanat">
+    <div data-aos="fade">
 
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <img src="assets/bluestamp.png" width="80%" height="80%" alt="BlueStamp Engineering">
-        </div>
-        <div class="timeline-content">
-          <h2 class="timeline-content-date">BlueStamp Engineering, Summer 2018</h2>
-          <p>Over the summer, I mentored high school students to teach them electrical engineering and computer science as they built innovative products such as 3D printed hands, remote control robots, etc. As a junior instructor, my role was to manage students' webpages to perfect technical documentation and help students with computer science/Arduino-related issues.
+      <!-- TODO: Change it such that its parallax and its message on right and pics on left or smth -->
+      <div class="title">
+        <div class="aboutPage">
+          <img class="selfportrait" src="assets/selfportrait.png" alt="self portrait">
+          <h2><b>risk. fail. assess. succeed. repeat.</b></h2>
+          <p>Hello! Welcome to my website! My name is Ritik and I'm from the Bay Area in California.
+            I am currently an undergraduate at <strong>UC Berkeley</strong> studying <strong>Electrical Engineering and
+              Computer
+              Sciences</strong> with a Minor in Data Science, Berkeley Certificate in Design Innovation, and
+            Certificate in Entrepreneurship and Technology. My interests lie in between user-focused design and software
+            development.
+            <br><br>Last summer, I worked with the iOS mobile development team at Rally Health in San
+            Francisco. This summer, I will be working at
+            Goldman Sachs
+            as an Engineering Analyst in the Services division. Apart from my technical work, I love graphic art,
+            animation, dancing, and running in my free time.
+            <br><br>If you like what you see, feel free to reach out to me for Summer 2021 opportunities!
           </p>
+
+          <a href="https://drive.google.com/file/d/1-iVNyEiqJ_CoehOPLIscrmEnC8H9hSP7/view?usp=sharing" target="_blank">
+            <span class="btn">resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolioSection" class="text-center">
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <div class="desktop">
+            <iframe alt="Jacobs Hall Lady Strandbeest Product" frameborder="0"
+              src="https://www.youtube.com/embed/OLpKO5fEcsg?rel=0?version=3&controls=0&showinfo=0&playlist=OLpKO5fEcsg&autoplay=1&loop=1&mute=1"></iframe>
+          </div>
+          <div class="mobile">
+            <img src="assets/strandbeest.jpeg" alt="Jacobs Hall Lady Strandbeest Photoshoot">
+          </div>
+          <div class="after special">
+            <h1>lady strandbeest</h1>
+            <p>Challenged to create a robot that moves without wheels, my partner and I set out to create a Strandbeest
+              prototype (inspired by Theo Jansen's large model) that
+              moved as if it's walking. We built the prototype using a laser cutter, two motors, and a battery pack.
+              Some challenges faced were the friction between the gears and legs (used beeswax) and the weight of the
+              core (we made incisions to the main box to decrease its weight and added another pair of legs for
+              stability). Overall, this was a great engineering project that taught me about prototype iteration as well
+              as problem solving.
+            </p>
+            <a href="https://drive.google.com/file/d/1cKpC_sua0c0NIfJJVaWnmmjPi7mVAgko/view?usp=sharing" target="_blank"
+              class="btn btn--primary">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <img src="assets/interviewXL.jpg" alt="Computer Science 160 UI/UX">
+          <div class="after">
+            <h1>interviewXL</h1>
+            <p>Given the prompt to solve a problem using the android platform, my team followed the
+              design process of design, prototype, evaluate, and repeat. We created an application called interviewXL
+              that specifically helps computer science students by providing them with an essential interviewing journey
+              to help them learn how to frame their situational question responses as well as connect with others in the
+              field who have succeeded in similar interviews.
+            </p>
+            <a href="https://www.behance.net/gallery/96539265/interviewXL" target="_blank"
+              class="btn btn--primary">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <img src="assets/website.jpg" alt="Personal branding website">
+          <div class="after">
+            <h1>website</h1>
+            <p>Personal branding has always been a goal of mine and this website is an example of me implementing the
+              design principles to create a product. I built this website using vanilla Javascript, HTML5, and CSS3. I
+              employed some React during the formulation, but realized it was an extra effort that could be resolved
+              using JS libraries (parallax, particles, etc).
+            </p>
+            <a href="https://github.com/rbatra2000/rbatra2000.github.io" target="_blank" class="btn btn--primary">learn
+              more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <img src="assets/iclass.jpg" alt="Berkeley iOS Decal iClass">
+          <div class="after">
+            <h1>iClass</h1>
+            <p>Charged with developing an iOS application, my team created an iOS app to make attendance tracking and
+              lecturing easier for professors. This app uses the location of the professor in comparison to students to
+              determine whether a student is actually in class or not when signing in for attendance that day and the
+              professor can turn on and off attendance tracking. We were one of the 10
+              projects selected from 40 teams to showcase our project to UC Berkeley CS professors at the end of the
+              semester to receive critiques and advice.
+            </p>
+            <a href="https://www.youtube.com/watch?v=F64EUHZBgPw" target="_blank" class="btn btn--primary">learn
+              more</a>
+          </div>
+        </div>
+      </div>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <img src="assets/choreox.jpg" alt="Figma choreoX prototype dance">
+          <div class="after">
+            <h1>choreoX</h1>
+            <p>This is a project I am currently working on. As a dancer and choreographer, I've found multiple pain
+              points with the current solutions for creating dance formations online, so I'm employing the design
+              process of design, prototype, evaluate, iterate to create a working minimum viable product for my friends
+              in dance teams to use first and hopefully publish to the app store by the end of summer. I am building
+              this tool out using React Native so it can be cross platform (Web, iOS, Android).
+            </p>
+            <a href="https://www.figma.com/proto/ofBbYYEm26SgH10qa7fFhW/ChoreoX?node-id=4%3A1&scaling=scale-down"
+              target="_blank" class="btn btn--primary">learn more</a>
+          </div>
         </div>
       </div>
 
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <img src="assets/venture.png" width="80%" height="80%" alt="Venture Strategy Solutions">
-        </div>
-        <div class="timeline-content right">
-          <h2 class="timeline-content-date">Venture Strategy Solutions, Fall 2018 – Present</h2>
-          <p>As a consultant, I worked with two companies: <a href="https://www.crunchbase.com/organization/driver" target="_blank">Driver, Inc.</a> and <a href="https://www.n3twork.com/" target="_blank">N3twork</a>. For Driver, my team produced product launch recommendations for the company to release their cancer-treatment application to the US and China. For N3twork, my team filtered through the iOS App Store to find mobile games for the company to partner with and I created an internal tool for the company to easily filter for these apps automatically.</p>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <div class="desktop">
+            <iframe alt="UC Berkeley 3D Modeling and Animation Decal Video" frameborder="0"
+              src="https://www.youtube.com/embed/C1iGVdoqIC0?rel=0?version=3&controls=0&showinfo=0&playlist=C1iGVdoqIC0&autoplay=1&loop=1&mute=1"></iframe>
+          </div>
+          <div class="mobile">
+            <img src="assets/ucbugg.png" alt="UC Berkeley 3D Modeling and Animation Decal Organization">
+          </div>
+          <div class="after">
+            <h1>animation/modeling</h1>
+            <p>Over the course of a semester, my team and I storyboarded, planned, modeled, rigged, animated, and
+              produced a 3D animated short, Story of a Pencil. Using the industry standard tools, Autodesk Maya, Adobe
+              Suite, and Pixar's Renderman, we collaborated to build a pencil's perspective on the world with a variety
+              of facial expressions and effects and we showcased our project to the UC Berkeley Undergraduate Graphics
+              Group at the end of the semester.
+            </p>
+            <a href="https://www.youtube.com/watch?v=Q-SGbCNb-SU" target="_blank" class="btn btn--primary">learn
+              more</a>
+          </div>
         </div>
       </div>
-
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <img src="assets/rally.png" width="80%" height="80%" alt="Rally Health">
-        </div>
-        <div class="timeline-content">
-          <h2 class="timeline-content-date">Rally Health, Summer 2019</h2>
-          <p>
-            As a Mobile Software Engineering Intern, I worked closely with the Mobile Operations team to upgrade their Swift version, perform UI automation tests, and develop a companion WatchOS app from scratch for their flagship iOS application.
-          </p>
+      <!-- Future Referencec: https://www.hackerearth.com/challenges/hackathon/cal-hacks-50/dashboard/a665160/submission/ -->
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <img src="assets/easypay.jpg" alt="Berkeley CalHacks EasyPay PayPal Prize">
+          <div class="after">
+            <h1>EasyPay</h1>
+            <p>For CalHacks 2018, my team created a text-based bot that processes individual and group tests via Natural
+              Language Processing to understand user intents for transferring money via Venmo. We added additional
+              functionality to handle
+              splitting the bill using keywords and a Venmo API we found. We won first place for PayPal's challenge of
+              creating a financing
+              application to help college students manage their money more easily using their API.
+            </p>
+            <a href="https://github.com/ssaxena00/EasyPay" target="_blank" class="btn btn--primary">learn more</a>
+          </div>
         </div>
       </div>
+      <div class="column" data-aos="fade">
+        <div class="content">
+          <div class="desktop">
+            <iframe alt="Jacobs Hall Sound Machine Design Innovation 22 Video" frameborder="0"
+              src="https://www.youtube.com/embed/Ok6R31iVPj0?rel=0?version=3&controls=0&showinfo=0&playlist=Ok6R31iVPj0&autoplay=1&loop=1&mute=1"></iframe>
+          </div>
+          <div class="mobile">
+            <img src="assets/soundmachine.jpeg" alt="Jacobs Hall Sound Machine Photoshoot">
+          </div>
+          <div class="after">
+            <h1>sound machine</h1>
+            <p>Using a simple Arduino board and servo, my teammate and I had to create a machine that creates sound upon
+              the push of a button. Using specific gear ratios when laser cutting the pieces and pulling normal objects
+              to create sound, we build a machine that creates sound due to the marbles in the rotating cylinder along
+              with a xylophone-like structure to hit keys of different length to produce different sounds. Feel free to
+              view our design report below.
+            </p>
+            <a href="https://drive.google.com/file/d/10nffC7ISlTomNbBQdoraEwEtvUs1yg_H/view?usp=sharing" target="_blank"
+              class="btn btn--primary">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <div class="divider row green2">
+    <div>
+      <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep4" viewBox="0 0 1600 200"
+        style="display: block;" data-height="200">
+        <polygon class="" style="fill: #785EF0;"
+          points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 "></polygon>
+        <polygon class="" style="opacity: 1;fill: #fff;" points="800,172 886,86 900,86 800,186 700,86 714,86 ">
+        </polygon>
+      </svg>
     </div>
   </div>
 
+  <link rel="stylesheet" href="css/timeline.css">
+  <section class="cd-timeline js-cd-timeline" id="experienceSection">
+    <div class="container max-width-lg cd-timeline__container">
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--goldman">
+          <img src="assets/goldmansachs.png" alt="Goldman Sachs">
+        </div> <!-- cd-timeline__img -->
 
-</section>
+        <div class="cd-timeline__content text-component">
+          <h2>Goldman Sachs</h2>
+          <p class="color-contrast-medium">Will be working remotely due to COVID-19 on the Services team as an
+            <strong>Engineering Summer Analyst.</strong></p>
 
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Summer 2020</span>
+            <a href="https://www.goldmansachs.com/" target="_blank" class="btn btn--primary">Website</a>
+          </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
 
-<section id="portfolioSection" class="text-center">
-  <canvas id="granim-canvas"></canvas>
-  <div
-          data-aos="fade"
-          data-aos-delay="0"
-          data-aos-duration="250"
-          data-aos-easing="ease-in"
-  >
-    <div class="classes table">
-      <h1>Portfolio</h1>
-      <div class="row">
-        <a>
-          <div class="column" style="margin-left: 0;">
-            <img src="assets/noaddiction.png" alt="No Addiction">
-            <h3>No Addiction</h3>
-            <p>(Current Project)<br>An iOS application to help users fight their addictions through predictive notifications.</p>
-          </div>
-        </a>
-        <a href="https://youtu.be/F64EUHZBgPw" target="_blank">
-          <div class="column">
-            <img src="assets/iClass.png" alt="iClass">
-            <h3>iClass</h3>
-            <p>An iOS application helping professors actively engage students and tracking attendance efficiently.</p>
-          </div>
-        </a>
-        <a href="https://github.com/ssaxena00/EasyPay" target="_blank">
-          <div class="column">
-            <img src="assets/easypay.jpg" alt="EasyPay">
-            <h3>EasyPay</h3>
-            <p>A text-based bot that processes individual and group texts via NLU to understand user intents to transfer money via Venmo.</p>
-          </div>
-        </a>
-      </div>
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--venture">
+          <img src="assets/venture.png" alt="Venture Strategy Solutions">
+        </div> <!-- cd-timeline__img -->
 
-      <div class="row">
-        <a href="https://github.com/rbatra2000/rbatra2000.github.io" target="_blank" >
-          <div class="column" style="margin-left: 0;">
-            <img src="assets/website.png" alt="website icon">
-            <h3>Website</h3>
-            <p>A personal portfolio/website built from scratch with HTML5, CSS3, and JS to showcase design skills.</p>
+        <div class="cd-timeline__content text-component">
+          <h2>Venture Strategy Solutions</h2>
+          <p class="color-contrast-medium">Currently the <strong>External Vice President</strong> for Fall 2020 who is
+            responsible for intracollege marketing and
+            industrial relations as well as managing an organization of 40 members.<br><br>Previously outlined projects
+            and managed teams of 4 consultants for <a href="https://hover.to/" target="_blank"><strong>HOVER
+                Inc.</strong></a>
+            and <a href="https://hemptownusa.com/" target="_blank"><strong>Hemptown USA</strong></a> to provide them
+            with actionable recommendations for international
+            expansion, potential acquisitions, and marketing strategies.<br><br>Consulted for <a
+              href="https://n3twork.com" target="_blank"><strong>N3twork</strong></a> and filtered through
+            the iOS App Store to find mobile games for the company to partner with. I also created an internal tool for
+            the company to easily filter for these apps automatically.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Fall 2018 – Present</span>
+            <a href="https://www.berkeleyvss.com/" target="_blank" class="btn btn--primary">Website</a>
           </div>
-        </a>
-        <a href="https://devpost.com/software/showstopper" target="_blank">
-          <div class="column">
-            <img src="assets/icon.png" alt="Icon">
-            <h3>Icon</h3>
-            <p>An iOS application that instantaneously allows you to get the latest trends and find clothing you like.</p>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--rally">
+          <img src="assets/rallyhealth.png" alt="Rally Health">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>Rally Health</h2>
+          <p class="color-contrast-medium">As a <strong>Mobile Software Engineering Intern</strong> at their San
+            Francisco office, I worked closely with the mobile team using agile project
+            management to release app fixes by monthly app releases. I also upgraded their mobile app framework,
+            performed UI
+            automation tests, and developed a new, companion WatchOS app from scratch for their flagship iOS
+            application.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Summer 2019</span>
+            <a href="https://www.rallyhealth.com/" target="_blank" class="btn btn--primary">Website</a>
           </div>
-        </a>
-        <a>
-          <div class="column">
-            <img src="assets/design.png" alt="design icon">
-            <h3>Designs</h3>
-            <p>Prototypes and designs that I created to explore design techniques and tools.</p>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+
+      <div class="cd-timeline__block">
+        <div class="cd-timeline__img cd-timeline__img--bluestamp">
+          <img src="assets/bluestamp.png" alt="BlueStamp Engineering">
+        </div> <!-- cd-timeline__img -->
+
+        <div class="cd-timeline__content text-component">
+          <h2>BlueStamp Engineering</h2>
+          <p class="color-contrast-medium">I mentored high school students in Palo Alto to teach them electrical
+            engineering, mechanical engineering, and computer science as they
+            built innovative products such as 3D printed hands, remote control robots, etc. As a <strong>Junior
+              Instructor</strong>, my role was to manage students' webpages to perfect
+            technical documentation and help students with computer science/Arduino-related issues.</p>
+
+          <div class="flex justify-between items-center">
+            <span class="cd-timeline__date">Summer 2018</span>
+            <a href="http://bluestampengineering.com/" target="_blank" class="btn btn--primary">Website</a>
           </div>
-        </a>
-      </div>
+        </div> <!-- cd-timeline__content -->
+      </div> <!-- cd-timeline__block -->
+    </div>
+  </section> <!-- cd-timeline -->
+
+  <script src="js/timeline.js"></script>
+  <div class="divider row">
+    <div>
+      <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep10" viewBox="0 0 1600 200"
+        style="display: block;" data-height="200">
+        <path class="" style="opacity: 1;fill: #3B7EA1;"
+          d="M-16,129.803C28.268,129.803,43.874,86,74.839,86 c26.605,0,15.874,35.884-0.894,27.723c8.831,0,8.943-12.52,0.894-12.52c-12.967,0-9.167,38.455,26.829,38.455s1.409,0,1.409,0 v16.097H-16V129.803z">
+        </path>
+        <path class="" style="opacity: 1;fill: #46535E;"
+          d="M-114,123.448C-17.538,133.448,16.468,38,83.943,38 c57.974,0,34.59,78.192-1.949,60.41c19.244,0,19.487-27.282,1.949-27.282c-28.256,0-19.974,83.795,58.462,83.795s3.071,0,3.071,0 V180H-114V123.448z">
+        </path>
+        <path class="" style="opacity: 1;fill: #46535E;"
+          d="M158,172.749C238.596,172.749,267.01,93,323.386,93 c48.439,0,28.901,65.332-1.628,50.474c16.079,0,16.282-22.795,1.628-22.795c-23.609,0-16.689,70.013,48.846,70.013s2.566,0,2.566,0 L158,192V172.749z">
+        </path>
+        <path class="" style="opacity: 1;fill: #3B7EA1;"
+          d="M156,160.626c53.515,0,72.381-52.953,109.815-52.953 c32.163,0,19.19,43.38-1.081,33.514c10.676,0,10.811-15.136,1.081-15.136c-15.676,0-11.081,46.488,32.433,46.488s1.704,0,1.704,0 V192H156V160.626z">
+        </path>
+        <path class="" style="opacity: 1;fill: #3B7EA1;"
+          d="M-108.04,114.107c68.046,0,92.035-67.331,139.634-67.331 c40.897,0,24.4,55.159-1.375,42.615c13.575,0,13.747-19.245,1.375-19.245c-19.933,0-14.09,59.111,41.24,59.111s2.166,0,2.166,0V154 h-183.04V114.107z">
+        </path>
+        <path class="" style="fill: #003262;"
+          d="M-4,142.333C121.654,142.333,165.952,18,253.846,18 c75.519,0,45.058,101.856-2.538,78.692c25.067,0,25.385-35.538,2.538-35.538c-36.808,0-26.019,109.154,76.154,109.154 s1276,0,1276,0V216H-4V142.333z">
+        </path>
+      </svg>
     </div>
   </div>
 
-  <script src="js/granim.js"></script>
-  <script src="js/gradient.js"></script>
+  <section id="educationSection">
+    <div class="overlay">
+      <h1 data-aos="fade">university of california, berkeley coursework</h1>
+      <h2 data-aos="fade">b.s. electrical engineering and computer sciences 2022</h2>
 
-</section>
+      <div class="edu row">
+        <div class="edu column" data-aos="fade">
+          <div class="card">
+            <h3>computer science</h3>
+            <p><strong>cs188</strong>: introduction to artificial intelligence</p>
+            <p><strong>cs170</strong>: efficient algorithms and intractable problems</p>
+            <p><strong>cs61b</strong>: data structures</p>
+            <p><strong>cs198</strong>: iOS swift development</p>
+            <p><strong>cs70</strong>: discrete mathematics and probability theory</p>
+            <p><strong>cs61a</strong>: the structure and interpretation of computer programs</p>
+            <p><strong>cs162</strong>: operating systems and system programming (intended)</p>
+          </div>
+        </div>
 
-<!-- <section id="hobbiesSection" class="text-center">
+        <div class="edu column" data-aos="fade">
+          <div class="card">
+            <h3>data science</h3>
+            <p><strong>statc8</strong>: foundations of data science (intended)</p>
+            <p><strong>datasci100</strong>: principles and techniques of data science (intended)</p>
+            <p><strong>ieor135/290</strong>: applied data science with venture applications (intended)</p>
+          </div>
+        </div>
+      </div>
+      <div class="edu row">
+
+        <div class="edu column" data-aos="fade">
+          <div class="card">
+            <h3>design</h3>
+            <p><strong>cs160/260</strong>: user interface design and development</p>
+            <p><strong>desinv22</strong>: prototyping and fabrication</p>
+            <p><strong>desinv10</strong>: discovering design</p>
+            <p><strong>desinv21</strong>: visual communication & sketching (intended)</p>
+          </div>
+        </div>
+
+        <div class="edu column" data-aos="fade">
+          <div class="card">
+            <h3>miscellaneous</h3>
+            <p><strong>ee16a/b</strong>: designing information devices and systems</p>
+            <p><strong>ugba191p</strong>: leadership and personal development</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="classes" data-aos="fade">
+        <h1>University of California, Berkeley</h1>
+        <h2>B.S., Electrical Engineering and Computer Sciences 2022</h2>
+        <div>
+          <img src="assets/calbear.png" alt="berkeley bear">
+          <div class="edu row">
+            <div class="edu column" style="background-color:#FDB515; margin-left: 0;">
+              <h3>Computer Science Coursework</h3>
+              <a href="https://sp19.datastructur.es/" target="_blank">Data Structures</a><br>
+              <a href="https://inst.eecs.berkeley.edu/~cs61a/fa18/" target="_blank">Structure and Interpretation of
+                Computer Programs</a><br>
+              <a href="https://www2.eecs.berkeley.edu/Courses/CS61C/" target="_blank">Machine Structures</a><br>
+            </div>
+            <div class="edu column" style="background-color:#E09E19;">
+              <h3>Electrical Engineering Coursework</h3>
+              <a href="https://inst.eecs.berkeley.edu/~ee16b/sp18/" target="_blank">Designing Information Devices and
+                Systems II</a><br>
+              <a href="https://inst.eecs.berkeley.edu/~ee16a/fa18/" target="_blank">Designing Information Devices and
+                Systems I</a><br>
+            </div>
+            <div class="edu column" style="background-color:#BC9B6A;">
+              <h3>Relevant Coursework</h3>
+              <a href="https://decal.berkeley.edu/courses/4543" target="_blank">iOS Development</a><br>
+              <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Prototyping & Fabrication</a><br>
+              <a href="http://guide.berkeley.edu/courses/des_inv/" target="_blank">Discovering Design</a><br>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> -->
+
+  </section>
+
+  <!-- <section id="hobbiesSection" class="text-center">
   <div class="hobbiesContainer"
           data-aos="fade"
           data-aos-delay="0"
@@ -289,9 +543,9 @@
 </div> -->
 
 
-</section>
+  <!-- </section> -->
 
-<section id="contactSection">
+  <!-- <section id="contactSection">
 
   <div class="container"
         data-aos="fade"
@@ -319,31 +573,20 @@
 
     </form>
   </div>
-</section>
+</section> -->
 
+  <div class="footer">
+    <p>Created with &#9829; in Bay Area, CA © Ritik Batra</p>
+  </div>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<!--  <script>-->
-<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
-<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')-->
-<!--  </script>-->
-<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
-<script>
-  document.addEventListener("DOMContentLoaded", function(e) {
-    document.body.className = '';
-  });
-</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (e) {
+      document.body.className = '';
+    });
+  </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-    easing: 'ease-out-back',
-    duration: 800,
-    delay: 300,
-    once: true,
-    disable: 'mobile'
-  });
-</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="js/aos.js"></script>
 </body>
 
 </html>
