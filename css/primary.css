@@ -280,12 +280,9 @@ a:hover i:hover {
 /* About Section */
 
 .about {
-  background-position-x: 50%;
-  background-position-y: 0;
   background-position: center top;
   margin: auto;
   position: relative;
-  background-color: #003262;
   background-image: url("../assets/zahanat.jpg");
   background-size: cover;
   background-attachment: fixed;
