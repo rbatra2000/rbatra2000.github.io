@@ -1,0 +1,642 @@
+/*This file is for my own personal styling for the website*/
+
+/* In case you want to do some cool parallax stuff https://www.superhi.com/video/hooking-up-page-scrolling-with-fading-with-javascript*/
+/* Replace all vw's and vh's with %'s */
+
+/* General */
+h1 {
+  font-family: "Avenir Next", Lato, sans-serif;
+  font-size: 8vw;
+}
+
+h3 {
+  font-family: "Avenir Next", Lato, sans-serif;
+}
+
+p {
+  font-family: "Avenir Next", Lato, sans-serif;
+}
+
+body {
+  opacity: 1;
+  transition: 1.5s opacity;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background-color: #BAC7BE;
+}
+
+h2 {
+  font-family: "Avenir Next", Lato, sans-serif;
+  font-size: 3vw;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (max-height: 700px) {
+  section {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  section {
+    width: 350px;
+  }
+}
+
+
+a {
+  font-family: "Avenir Next", Lato, sans-serif;
+  text-decoration: none;
+
+}
+
+.title {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Navigation Bar */
+
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.imgLogo {
+  height: 35px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a, a:active, a:visited, a:focus {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Fix the color + the weird toggle problem later */
+nav ul li a:hover {
+  text-decoration: none;
+  color: #B80C09;
+}
+
+
+.menu-icon {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 800px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin: 8px;
+  }
+
+  nav ul {
+    max-height: 0;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  nav.black ul {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .showing {
+    max-height: 40em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Focus on Home Section */
+
+.home {
+  background-color: #566a5c;
+}
+
+#name {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.arrow {
+  text-align: center;
+  font-size: 3vh;
+  color: white;
+}
+
+.scrollDown h2 {
+  margin-top: -2%;
+  padding-bottom: 2%;
+  font-size: 3vh;
+  color: white;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  /* Fix Particles moving down issue */
+  #particles-js {
+    opacity: 0;
+  }
+}
+
+/* Eventually fix the smallest window problem with Arrow*/
+#scroll {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* About Section */
+
+.about {
+  background-position-x: 50%;
+  background-position-y: 0;
+  background-position: center top;
+  background-image: url("../assets/zahanat.jpg");
+  margin: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutPage {
+  width: 75%;
+  color: #82CBA7;
+  background-color: rgba(0,0,0,.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutPage h1 {
+  color: white;
+}
+
+.aboutPage h2 {
+  font-size: calc(15px + 2vw);
+}
+
+.aboutPage p {
+  font-size: calc(15px + 1vw);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  from {opacity: 0; transform: scale(.7,.7)}
+  to {opacity: 1;}
+}
+
+/* Do resume peak in stuff later */
+
+.btn {
+  -webkit-transition: 0.2s all ease;
+  transition: 0.2s all ease;
+  padding: 20px 25px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Avenir Next", Lato, sans-serif;
+  font-size: calc(15px + 1vw);
+  letter-spacing: 5px;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Education Section */
+
+#educationSection {
+  background-color: #003262;
+  background-image: url("../assets/berkeley.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 50, 98, 0.7);
+  width: 100%;
+}
+
+.classes {
+  width: 90%;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 2%;
+  margin-left: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 32vh;
+}
+
+.column h3{
+  color: white;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+  }
+}
+
+.classes img {
+  width: 15%;
+  padding-top: 2%;
+}
+
+@media screen and (max-height: 600px) {
+  .classes img {
+    height: 50px;
+    width: auto;
+    padding-top: 1%;
+  }
+
+  .column {
+    height: auto;
+  }
+}
+
+.classes a, a:active {
+  font-size: calc(12px + 0.1vw);
+  color: #333333;
+}
+
+.classes h1, h2 {
+  color: white;
+}
+
+.classes h1 {
+  font-size: calc(35px + 2vw);
+  padding-top: 5%;
+}
+
+/* Experience Section */
+
+#experienceSection {
+  background-color: #3f4958;
+  position: relative;
+}
+
+.experiences h1 {
+  color: white;
+}
+
+.experiences {
+  margin: auto;
+  width: 90%;
+}
+
+.timeline .timeline-item::after, .timeline .timeline-item::before {
+  clear: both;
+  content: '';
+  display: block;
+  width: 100%;
+}
+
+.timeline {
+  margin: 30px auto;
+  padding: 0 10px;
+  position: relative;
+  transition: all 0.25s ease-in;
+  width: 100%;
+}
+
+.timeline::before {
+  background: #fefefe;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.timeline::after {
+  clear: both;
+  content: '';
+  display: table;
+  width: 100%;
+}
+
+.timeline a {
+  color: #fefefe;
+  font-weight: bold;
+  transition: all 0.25s ease-in;
+}
+
+.timeline a:hover {
+  box-shadow: 0 1px 0 0 #fefefe;
+  transition: all 0.25s ease-in;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item .timeline-icon {
+  background: #fefefe;
+  border-radius: 50%;
+  height: 50px;
+  left: 50%;
+  margin-left: -23px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 50px;
+}
+
+.timeline .timeline-item .timeline-icon img{
+  position: relative;
+}
+
+.timeline .timeline-item .timeline-icon img {
+  top: 5px;
+}
+
+.timeline .timeline-item .timeline-content {
+  padding: 10px;
+  text-align: right;
+  transition: all 0.25s ease-in;
+  width: 45%;
+  background: transparent;
+}
+
+.timeline .timeline-item .timeline-content p {
+  color: #fefefe;
+}
+
+.timeline .timeline-item .timeline-content p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content .timeline-content-date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.timeline .timeline-item .timeline-content.right {
+  float: right;
+  text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline {
+    margin: 30px;
+    padding: 0;
+    width: 90%;
+  }
+  .timeline .timeline-item .timeline-content p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  .timeline::before {
+    left: 0;
+  }
+  .timeline .timeline-item .timeline-content {
+    float: right;
+    text-align: left;
+    width: 90%;
+  }
+  .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
+    border-left: 0;
+    border-right: 7px solid #fefefe;
+    left: 10%;
+    margin-left: -6px;
+  }
+  .timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
+}
+
+
+/* Portfolio Section */
+
+#portfolioSection {
+    background-color: #5a6c8a;
+  position: relative;
+}
+
+#portfolioSection .row {
+  margin: auto;
+}
+
+#granim-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+}
+
+.table .row:after {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .table .row:after {
+    padding: 0;
+  }
+
+  .column img {
+    display: none;
+  }
+
+  .table .column {
+    padding: 0;
+  }
+}
+
+.table {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.table .column:hover {
+  background-color: #b85e4c;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.column img {
+  height: 30%;
+  padding-top: 10px;
+  width: auto;
+}
+
+.table h1 {
+  color: white;
+  font-size: 8vw;
+}
+
+/* Hobbies Section */
+
+#hobbiesSection {
+  background-color: rgba(84, 66, 142, 1);
+  position: relative;
+}
+
+.hobbiesContainer {
+  margin: auto;
+}
+
+.hobbiesContainer .column {
+  border-radius: 50%;
+  vertical-align: middle;
+  padding: 0;
+  width: 30%;
+  background-size: cover;
+}
+
+.hobbiesContainer h3 {
+  position: relative;
+  width: auto;
+  color: white;
+}
+
+.rowOverlay {
+  z-index: 1;
+  height: 100%;
+  border-radius: 50%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 600px) {
+  .hobbiesContainer .column {
+    width: 100%;
+    height: 25vh;
+    margin-left: 0;
+  }
+}
+
+/* Contact Section */
+#contactSection {
+  background-color: #566a5c;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #566a5c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #223528;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  margin: auto;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: calc(30px + 2vh);
+}
