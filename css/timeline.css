@@ -1210,7 +1210,7 @@ u,
 	border-radius:0.25em;
 	border-radius:var(--btn-radius,
 	0.25em);
-	color: #fff;
+	color: white;
 }
 
 
@@ -2545,7 +2545,7 @@ u,
 				}
 				
 				.cd-timeline a:hover {
-					color: #303F4A;
+					color: white;
 					text-decoration-color: #000000;
 				}
 
