@@ -994,16 +994,16 @@ u,
 	line-height:1.2;
 	line-height:var(--component-heading-line-height,
 	1.2);
-	margin-bottom:0.25em;
-	margin-bottom:calc(var(--space-xxxs)*var(--text-vspace-multiplier,
-	1))
+	margin-bottom:0;
+	/* margin-bottom:calc(var(--space-xxxs)*var(--text-vspace-multiplier,
+	1)) */
 }
 .text-component h2,
 .text-component h3,
 .text-component h4 {
 	margin-top:0.75em;
-	margin-top:calc(var(--space-sm)*var(--text-vspace-multiplier,
-	1))
+	/* margin-top:calc(var(--space-sm)*var(--text-vspace-multiplier, */
+	/* 1)) */
 }
 .text-component p,
 .text-component blockquote,
@@ -1018,8 +1018,8 @@ u,
 .text-component blockquote,
 .text-component .text-component__block {
 	margin-bottom:0.75em;
-	margin-bottom:calc(var(--space-sm)*var(--text-vspace-multiplier,
-	1))
+	/* margin-bottom:calc(var(--space-sm)*var(--text-vspace-multiplier,
+	1)) */
 }
 .text-component ul,
 .text-component ol {
@@ -2490,7 +2490,7 @@ u,
 					--cd-color-6-s:85%;
 					--cd-color-6-l:61%;
 					--cd-header-height:200px;
-					--font-primary:'Proxima Nova';
+					--font-primary:'proxima_nova_rgregular';
 					--font-secondary:'Lato'
 				}
 				@supports (--css: variables) {
@@ -2515,7 +2515,7 @@ u,
 					-moz-osx-font-smoothing:grayscale
 				}
 				.cd-main-header h1 {
-					font-family:'Proxima Nova';
+					font-family:'proxima_nova_rgregular';
 					color:inherit
 				}
 				.cd-timeline {
@@ -2528,10 +2528,10 @@ u,
 					background-color:hsl(var(--cd-color-2-h),
 					var(--cd-color-2-s),
 					calc(var(--cd-color-2-l)*1.05));
-					font-family:'Proxima Nova';
+					font-family:'proxima_nova_rgregular';
 				}
 				.cd-timeline h2 {
-					font-family:'Proxima Nova';
+					font-family:'proxima_nova_rgregular';
 					font-weight:700
 				}
 				.cd-timeline__container {
@@ -2691,7 +2691,7 @@ u,
 						will-change:transform;
 						margin:0;
 						font-size:1em;
-						--line-height-multiplier:1.2
+						/* --line-height-multiplier:1.2 */
 					}
 					.cd-timeline__content::before {
 						top:24px
@@ -2722,7 +2722,7 @@ u,
 				@media (min-width: 64rem) {
 					.cd-timeline__date {
 						left:120%;
-						top:20px
+						/* top:20px */
 					}
 					.cd-timeline__block:nth-child(even) .cd-timeline__date {
 						left:auto;
