@@ -4,6 +4,7 @@
 /* Replace all vw's and vh's with %'s */
 
 /* General */
+
 h1 {
   font-family: "Proxima Nova", Lato;
 }
@@ -236,7 +237,7 @@ a:hover i:hover {
 
 .scrollDown h2 {
   font-size: 3vh;
-  margin-bottom: 2.5%;
+  margin-bottom: 2%;
   color: white;
 }
 
@@ -255,22 +256,27 @@ a:hover i:hover {
 #particles-js {
   height: 100%;
   width: 100%;
+  position: absolute;
+  opacity: 20%;
+  /* background-image: linear-gradient(top, rgba(0,0,0,1), rgba(255,255,255,0)); */
 }
 
 #scroll {
-  bottom: 0;
+  bottom: 20px;
   position: absolute;
   width: 100%;
 }
 
-#name {
-  width: 80%;
+#name2 {
+  width: 100%;
   position: absolute;
-  left: 10%;
-  top: 20%;
-  height: 0%;
-  margin-top: -10%;
-  overflow: visible;
+  opacity: 100%;
+  top: 30vh;
+  color: white;
+  font-size: 20vw;
+  /* height: 0%; */
+  /* margin-top: -10%; */
+  /* overflow: visible; */
 }
 
 .home svg {
@@ -283,28 +289,28 @@ a:hover i:hover {
   background-position: center top;
   margin: auto;
   position: relative;
-  background-image: url("../assets/zahanat.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  height: 100%;
+  align-items: center;
+  background-color :#000000;
 }
 
 .aboutPage {
-  width: 90%;
-  background-color: rgba(0,0,0,.9);
-  position: absolute;
-  top: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-  left: 50%;
-  border-radius: 25px;
-  transform: translate(-50%, -50%);
+  margin-top: 10vh;
+  width: 80vw;
+  margin-left: 10vw;
+  align-items: center;
+}
+
+.aboutPage .container {
+  width: auto;
 }
 
 .selfportrait {
-  height: 200px;
-  width: 200px;
+  width: 75%;
+  height: auto;
   background-color: #FFFFFF;
   border-radius: 50%;
+  align-items: left;
   margin-top: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
@@ -316,14 +322,14 @@ a:hover i:hover {
 .aboutPage h2 {
   font-size: calc(15px + 2vw);
   color: white;
+  text-align: left;
 
 }
 
 .aboutPage p {
-  font-size: calc(10px + 1vw);
+  font-size: calc(10px + 0.75vh);
   color: white;
-  margin-left: 5%;
-  margin-right: 5%;
+  text-align: left;
 }
 
 .hidden {
@@ -337,6 +343,7 @@ a:hover i:hover {
 
 strong {
   font-weight: 600;
+  color: #785EF0;
 }
 
 .btn {
@@ -346,8 +353,8 @@ strong {
   border: 1px solid white;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 15px;
-  font-size: calc(15px + 1vw);
+  border-radius: 5px;
+  font-size: calc(15px);
   letter-spacing: 3px;
   color: #fff;
 }
@@ -357,17 +364,19 @@ strong {
 }
 
 .btn:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #785EF0;
 }
 
 
 /* Experience Section */
 
 #experienceSection {
-  background-color: #785EF0;
+  background-color :#000000;
   position: relative;
   height: 100%;
+  padding-top: 8vh;
+  padding-bottom: 0;
   overflow: visible;
 }
 
@@ -378,7 +387,7 @@ strong {
 #portfolioSection {
   background-color: #000;
   position: relative;
-  height: 100%;
+  height: 50%;
   overflow: visible;
 }
 
@@ -394,7 +403,7 @@ h1 {
 }
 
 #portfolioSection .row {
-  margin: 50px auto 10vw auto;
+  margin: 50px auto 1vw auto;
   width: 95%;
 }
 
@@ -441,13 +450,13 @@ h1 {
 }
 
 .after {
-  width: 101%;
-  height: 101%;
+  width: 100%;
+  height: 100%;
   background-color: rgba(255, 255, 255,0.9);
 }
 
 .after h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 1px;
@@ -475,11 +484,8 @@ h1 {
 
 /* Content */
 .content {
-  background-color: white;
   position: relative;
-  padding: 10px;
   transition: 0.5s ease;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
 }
 
 .content img {
@@ -589,18 +595,20 @@ and (max-width : 600px)  {
 /* Education Section */
 
 #educationSection {
-  background-color: #003262;
+  background-color: #000000;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 75%;
 }
 
 .overlay {
   height: 100%;
-  width: 100%;
-  padding: 30px;
+  margin: auto;
+  width: 90vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Float two columns side by side */
@@ -608,19 +616,21 @@ and (max-width : 600px)  {
   flex: 1;
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .edu.row {
-  width: 90%;
+  width: 90vw;
   margin: auto;
   display: flex;
 }
 
 .overlay h1 {
   margin: auto;
-  margin-left: 6%;
+  text-align: left;
+  word-wrap: break-word;
+  margin-left: 5px;
   color: #FDB515;
   overflow-wrap: break-word;
   font-weight: 900;
@@ -629,7 +639,9 @@ and (max-width : 600px)  {
 
 .overlay h2 {
   margin: auto;
-  margin-left: 6%;
+  margin-left: 5px;
+  word-wrap: break-word;
+  text-align: left;
   color: #FDB515;
   font-weight: 500;
   font-size: 1.5em;
@@ -660,11 +672,19 @@ and (max-width : 600px)  {
 
 .card h3 {
   font-weight: bold;
-  color: #3b7ea1;
+  color: #785EF0;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card p {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
 .card strong {
-  color: #3b7ea1;
+  color: #785EF0;
   font-weight: 700;
 }
 

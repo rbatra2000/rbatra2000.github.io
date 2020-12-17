@@ -12,9 +12,9 @@
   </script>
 
   <meta charset="utf-8">
-  <title>Ritik Batra</title>
+  <title>ritik batra</title>
   <meta name="description"
-    content="Welcome to Ritik Batra's Portfolio, built using HTML5, CSS3, and JS. If you like what you see, please feel free to reach out to me for Summer 2021 opportunities!">
+    content="ritik batra's portfolio">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="manifest" href="site.webmanifest">
@@ -30,7 +30,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
   <meta name="theme-color" content="#FFFFFF">
 </head>
@@ -82,6 +81,8 @@
       </nav>
     </header>
   </div>
+  <div id="particles-js" class="animated fadeIn slower"></div>
+
 
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -96,12 +97,12 @@
   <section class="home" id="homeSection">
     <div class="title text-center">
       <div class="landing">
-        <div class="animated pulse infinite delay-4s slower" id="name"> </div>
-        <div id="particles-js" class="animated fadeIn delay-4s slower"></div>
+        <!-- <div class="animated pulse infinite delay-4s slower" id="name"> </div> -->
+        <h1 id="name2">ritik batra</h1>
       </div>
-      <div class="animated fadeIn delay-4s" id="scroll">
+      <div id="scroll">
         <div class="scrollDown">
-          <h2>scroll down</h2>
+          <h2>learn more</h2>
         </div>
         <div class="arrow">
           <i class="fas fa-arrow-down animated bounce slow infinite"></i>
@@ -113,31 +114,44 @@
     </div>
   </section>
 
-  <section class="about" id="aboutSection" title="Background Berkeley Zahanat">
-    <div data-aos="fade">
+  <section class="about" id="aboutSection">
+    <div>
 
       <!-- TODO: Change it such that its parallax and its message on right and pics on left or smth -->
-      <div class="title">
-        <div class="aboutPage">
-          <img class="selfportrait" src="assets/selfportrait.png" alt="self portrait">
-          <h2><b>risk. fail. assess. succeed. repeat.</b></h2>
-          <p>Hello! Welcome to my website! My name is Ritik and I'm from the Bay Area in California.
-            I am currently an undergraduate at <strong>UC Berkeley</strong> studying <strong>Electrical Engineering and
-              Computer
-              Sciences</strong> with a Minor in Data Science, Berkeley Certificate in Design Innovation, and
-            Certificate in Entrepreneurship and Technology. My interests lie in between user-focused design and software
-            development.
-            <br><br>Last summer, I worked with the iOS mobile development team at Rally Health in San
-            Francisco. This summer, I will be working at
-            Goldman Sachs
-            as an Engineering Analyst in the Services division. Apart from my technical work, I love graphic art,
-            animation, dancing, and running in my free time.
-            <br><br>If you like what you see, feel free to reach out to me for Summer 2021 opportunities!
-          </p>
+      <div class="aboutPage">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <img class="selfportrait" src="assets/selfportrait.png" alt="self portrait">
+            </div>
+            <div class="col-sm-8">
+              <h2><b>developer. designer. dancer. dreamer.</b></h2>
+              <p>Hi there! My name is Ritik and I'm from the Bay Area in California.
+                I am currently an undergraduate at <strong>UC Berkeley</strong> studying <strong>Electrical Engineering
+                  and Computer Sciences</strong> with minors in Data Science and Political Economy. I am also working
+                towards the Berkeley Certificate in Design
+                Innovation and Certificate in Entrepreneurship and Technology.
 
-          <a href="https://drive.google.com/file/d/10MfqqcgjtkQIQNJ2nvs7CTJjgjRm_STJ/view?usp=sharing" target="_blank">
-            <span class="btn">resume</span>
-          </a>
+                <br><br>
+
+                My biggest drive is impact – I love being part of communities and teams that are passionate about
+                igniting change. The world we live in has a whole array of problems and I can't help but start chipping
+                away at them one-by-one.
+
+                I have worked
+                at <strong>Goldman Sachs</strong> and <strong>Rally Health</strong> in past summers and am currently
+                working under Professor Alice Agogino's guidance in <strong>Squishy Robotics</strong>.
+                Apart from my technical work, in quarantine I've been refining and honing my passions for graphic art,
+                animation, dancing, and baking.
+                <br><br>If you like what you see, please feel free to reach out to me for Summer 2021 opportunities!
+              </p>
+
+              <a href="https://drive.google.com/file/d/10MfqqcgjtkQIQNJ2nvs7CTJjgjRm_STJ/view?usp=sharing"
+                target="_blank">
+                <span class="btn">resume</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -146,7 +160,7 @@
   <section id="portfolioSection" class="text-center">
     <!-- Portfolio Gallery Grid -->
     <div class="row">
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <div class="desktop">
             <iframe alt="Jacobs Hall Lady Strandbeest Product" frameborder="0"
@@ -170,7 +184,7 @@
           </div>
         </div>
       </div>
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <img src="assets/interviewXL.jpg" alt="Computer Science 160 UI/UX">
           <div class="after">
@@ -186,7 +200,7 @@
           </div>
         </div>
       </div>
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <img src="assets/website.jpg" alt="Personal branding website">
           <div class="after">
@@ -201,29 +215,28 @@
           </div>
         </div>
       </div>
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <img src="assets/iclass.jpg" alt="Berkeley iOS Decal iClass">
           <div class="after">
             <h1>iClass</h1>
-            <p>Charged with developing an iOS application, my team created an iOS app to make attendance tracking and
+            <p>My team created an iOS app to make attendance tracking and
               lecturing easier for professors. This app uses the location of the professor in comparison to students to
               determine whether a student is actually in class or not when signing in for attendance that day and the
               professor can turn on and off attendance tracking. We were one of the 10
-              projects selected from 40 teams to showcase our project to UC Berkeley CS professors at the end of the
-              semester to receive critiques and advice.
+              projects selected from 40 teams to showcase our project to UC Berkeley CS professors.
             </p>
             <a href="https://www.youtube.com/watch?v=F64EUHZBgPw" target="_blank" class="btn btn--primary">learn
               more</a>
           </div>
         </div>
       </div>
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <img src="assets/choreoX.jpg" alt="Figma choreoX prototype choreographer dancer">
           <div class="after">
-            <h1>choreoX</h1>
-            <p>This is a project I am currently working on. As a dancer and choreographer, I've found multiple pain
+            <h1>formatio</h1>
+            <p>As a dancer and choreographer, I've found multiple pain
               points with the current solutions for creating dance formations online, so I'm employing the design
               process of design, prototype, evaluate, iterate to create a working minimum viable product for my friends
               in dance teams to use first and hopefully publish to the app store by the end of summer. I am building
@@ -235,7 +248,7 @@
         </div>
       </div>
 
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <div class="desktop">
             <iframe alt="UC Berkeley 3D Modeling and Animation Decal Video" frameborder="0"
@@ -258,7 +271,7 @@
         </div>
       </div>
       <!-- Future Referencec: https://www.hackerearth.com/challenges/hackathon/cal-hacks-50/dashboard/a665160/submission/ -->
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <img src="assets/easypay.jpg" alt="Berkeley CalHacks EasyPay PayPal Prize">
           <div class="after">
@@ -274,7 +287,7 @@
           </div>
         </div>
       </div>
-      <div class="column" data-aos="fade">
+      <div class="column">
         <div class="content">
           <div class="desktop">
             <iframe alt="Jacobs Hall Sound Machine Design Innovation 22 Video" frameborder="0"
@@ -299,17 +312,17 @@
     </div>
   </section>
 
-  <div class="divider row green2">
+  <!-- <div class="divider row green2">
     <div>
       <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep4" viewBox="0 0 1600 200"
         style="display: block;" data-height="200">
-        <polygon class="" style="fill: #785EF0;" points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 ">
+        <polygon class="" style="fill: #000000;" points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 ">
         </polygon>
         <polygon class="" style="opacity: 1;fill: #fff;" points="800,172 886,86 900,86 800,186 700,86 714,86 ">
         </polygon>
       </svg>
     </div>
-  </div>
+  </div> -->
 
   <link rel="stylesheet" href="css/timeline.css">
   <section class="cd-timeline js-cd-timeline" id="experienceSection">
@@ -321,8 +334,7 @@
 
         <div class="cd-timeline__content text-component">
           <h2>Goldman Sachs</h2>
-          <p class="color-contrast-medium">Will be working remotely due to COVID-19 on the Services team as an
-            <strong>Engineering Summer Analyst.</strong></p>
+          <p class="color-contrast-medium">Redesigned the core platform system for processing over 50K monthly requests for third-party services such as Zoom and Office using RabbitMQ and Typescript. </p>
 
           <div class="flex justify-between items-center">
             <span class="cd-timeline__date">Summer 2020</span>
@@ -341,12 +353,14 @@
           <p class="color-contrast-medium">Currently the <strong>External Vice President</strong> for Fall 2020 who is
             responsible for intracollege marketing and
             industrial relations as well as managing an organization of 40 members.<br><br>Previously outlined projects
-            and managed teams of 4 consultants for <a href="https://hover.to/" target="_blank"><strong style="color: black">HOVER
+            and managed teams of 4 consultants for <a href="https://hover.to/" target="_blank"><strong>HOVER
                 Inc.</strong></a>
-            and <a href="https://hemptownusa.com/" target="_blank"><strong style="color: black">Hemptown USA</strong></a> to provide them
+            and <a href="https://hemptownusa.com/" target="_blank"><strong>Hemptown
+                USA</strong></a> to provide them
             with actionable recommendations for international
             expansion, potential acquisitions, and marketing strategies.<br><br>Consulted for <a
-              href="https://n3twork.com" target="_blank"><strong style="color: black">N3twork</strong></a> and filtered through
+              href="https://n3twork.com" target="_blank"><strong>N3twork</strong></a> and filtered
+            through
             the iOS App Store to find mobile games for the company to partner with. I also created an internal tool for
             the company to easily filter for these apps automatically.</p>
 
@@ -401,7 +415,7 @@
   </section> <!-- cd-timeline -->
 
   <script src="js/timeline.js"></script>
-  <div class="divider row">
+  <!-- <div class="divider row">
     <div>
       <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep10" viewBox="0 0 1600 200"
         style="display: block;" data-height="200">
@@ -425,53 +439,58 @@
         </path>
       </svg>
     </div>
-  </div>
+  </div> -->
 
   <section id="educationSection">
     <div class="overlay">
-      <h1 data-aos="fade">university of california, berkeley coursework</h1>
-      <h2 data-aos="fade">b.s. electrical engineering and computer sciences 2022</h2>
+      <h1>uc berkeley courses</h1>
+      <h2>b.s. electrical engineering and computer sciences 2022</h2>
 
       <div class="edu row">
-        <div class="edu column" data-aos="fade">
+        <div class="edu column">
           <div class="card">
             <h3>computer science</h3>
-            <p><strong>cs188</strong>: introduction to artificial intelligence</p>
+            <p><strong>cs162</strong>: operating systems and system programming</p>
             <p><strong>cs170</strong>: efficient algorithms and intractable problems</p>
-            <p><strong>cs61b</strong>: data structures</p>
-            <p><strong>cs198</strong>: iOS swift development</p>
-            <p><strong>cs70</strong>: discrete mathematics and probability theory</p>
+            <p><strong>cs186</strong>: introduction to database systems</p>
+
+            <p><strong>cs188</strong>: introduction to artificial intelligence</p>
+            <p><strong>cs189/289</strong>: introduction to machine learning</p>
+            <p><strong>cs198</strong>: ios swift development</p>
             <p><strong>cs61a</strong>: the structure and interpretation of computer programs</p>
-            <p><strong>cs162</strong>: operating systems and system programming (intended)</p>
+            <p><strong>cs61b</strong>: data structures</p>
+            <p><strong>cs70</strong>: discrete mathematics and probability theory</p>
           </div>
         </div>
 
-        <div class="edu column" data-aos="fade">
+        <div class="edu column">
           <div class="card">
             <h3>data science</h3>
-            <p><strong>statc8</strong>: foundations of data science (intended)</p>
-            <p><strong>datasci100</strong>: principles and techniques of data science (intended)</p>
-            <p><strong>ieor135/290</strong>: applied data science with venture applications (intended)</p>
+            <p><strong>africam134</strong>: information technology and society</p>
+            <p><strong>datasci100/200</strong>: principles and techniques of data science</p>
+            <p><strong>ieor135/290</strong>: applied data science with venture applications</p>
+            <p><strong>statc8</strong>: foundations of data science</p>
+
           </div>
         </div>
       </div>
       <div class="edu row">
 
-        <div class="edu column" data-aos="fade">
+        <div class="edu column">
           <div class="card">
             <h3>design</h3>
             <p><strong>cs160/260</strong>: user interface design and development</p>
             <p><strong>desinv22</strong>: prototyping and fabrication</p>
             <p><strong>desinv10</strong>: discovering design</p>
-            <p><strong>desinv21</strong>: visual communication & sketching (intended)</p>
+            <p><strong>desinv21</strong>: visual communication & sketching</p>
           </div>
         </div>
 
-        <div class="edu column" data-aos="fade">
+        <div class="edu column">
           <div class="card">
             <h3>miscellaneous</h3>
             <p><strong>ee16a/b</strong>: designing information devices and systems</p>
-            <p><strong>ugba191p</strong>: leadership and personal development</p>
+            <p><strong>econ100a</strong>: economic analysis – micro</p>
           </div>
         </div>
       </div>
@@ -576,7 +595,7 @@
 </section> -->
 
   <div class="footer">
-    <p>Created with &#9829; in Bay Area, CA © Ritik Batra</p>
+    <p>Created with &#9829; in Bay Area, CA © 2020</p>
   </div>
 
   <script>

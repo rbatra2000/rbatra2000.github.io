@@ -68,7 +68,7 @@ var pJS = function(tag_id, params){
         enable: true,
         distance: 100,
         color: '#fff',
-        opacity: 1,
+        opacity: 0.3,
         width: 1
       },
       move: {
@@ -104,7 +104,7 @@ var pJS = function(tag_id, params){
         grab:{
           distance: 100,
           line_linked:{
-            opacity: 1
+            opacity: 0.7
           }
         },
         bubble:{
