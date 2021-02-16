@@ -382,7 +382,13 @@ strong {
 }
 
 .teaching {
-  margin-left: 5px;
+  margin-left: 0px;
+}
+
+@media(min-width: 432px) {
+  .teaching {
+    margin-left: 5px;
+  }
 }
 
 .btn:visited {
