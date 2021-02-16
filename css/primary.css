@@ -324,7 +324,13 @@ a:hover i:hover {
 }
 
 .aboutPage .container {
-  width: auto;
+  width: calc(85% - 1.25em);
+}
+
+@media(max-width: 432px) {
+  .aboutPage .container {
+    width: 85vw;
+  }
 }
 
 .selfportrait {
@@ -449,7 +455,7 @@ h1 {
 
 #portfolioSection .row {
   margin: 50px auto 1vw auto;
-  width: 95%;
+  width: calc(85% - 1.25em);
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -534,7 +540,7 @@ h1 {
 .content {
   position: relative;
   overflow: hidden;
-  height: 20vw;
+  height: 15vw;
 }
 
 .content img {
@@ -641,7 +647,7 @@ and (max-width : 600px)  {
 .overlay {
   height: 100%;
   margin: auto;
-  width: 90vw;
+  width: calc(85% - 1.25em);
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -650,13 +656,12 @@ and (max-width : 600px)  {
 .edu.column {
   flex: 1;
   float: left;
-  width: 50%;
   padding: 5px;
 }
 
 /* Remove extra left and right margins, due to padding in columns */
 .edu.row {
-  width: 90vw;
+  width: 100%;
   margin: auto;
   display: flex;
 }

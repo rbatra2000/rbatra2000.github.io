@@ -23,7 +23,7 @@
 	--max-width-xxl: 120rem
 }
 .container {
-	width: calc(85% - 1.25em);
+	width: calc(85% - 3.5em);
 	/* width: calc(100% - 2*var(--component-padding)); */
 	/* width: 90vw; */
 	margin-left: auto;
