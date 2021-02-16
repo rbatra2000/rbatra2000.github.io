@@ -126,7 +126,7 @@ a {
 }
 
 .imgLogo {
-  height: 35px;
+  height: 40px;
   color: #fff;
 }
 
@@ -176,7 +176,7 @@ nav ul li a:hover {
   color: #fff;
 }
 
-.fa-1x {
+.fa-2x {
   color: #fff;
 }
 
@@ -317,7 +317,7 @@ a:hover i:hover {
 }
 
 .aboutPage {
-  margin-top: 10vh;
+  margin-top: 5vh;
   width: 80vw;
   margin-left: 10vw;
   align-items: center;
@@ -379,6 +379,10 @@ strong {
   font-size: calc(15px);
   letter-spacing: 3px;
   color: #fff;
+}
+
+.teaching {
+  margin-left: 5px;
 }
 
 .btn:visited {
