@@ -5,6 +5,8 @@
 
 /* General */
 
+@import "../assets/youngserif/fontface.css";
+
 @font-face {
 	font-family: 'proxima_nova_rgregular';
 	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
@@ -27,7 +29,7 @@
 }
 
 h1 {
-	font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+	font-family: 'youngserifregular', 'proxima_nova_rgregular', Helvetica, Arial;
 }
 
 h2 {
@@ -206,7 +208,7 @@ a:hover i:hover {
 }
 
 
-@media(max-width: 900px) {
+@media(max-width: 1020px) {
   .logo {
     position: fixed;
     top: 0;
@@ -295,7 +297,7 @@ a:hover i:hover {
   opacity: 100%;
   top: 30vh;
   color: white;
-  font-size: 20vw;
+  font-size: 15vw;
   /* height: 0%; */
   /* margin-top: -10%; */
   /* overflow: visible; */
@@ -317,13 +319,14 @@ a:hover i:hover {
 }
 
 .aboutPage {
-  margin-top: 5vh;
-  width: 80vw;
-  margin-left: 10vw;
+  /* margin-top: 5vh; */
+  /* width: 80vw; */
+  margin: 50px auto 1vw auto;
   align-items: center;
 }
 
 .aboutPage .container {
+  /* width: calc(85% - 1.25em); */
   width: calc(85% - 1.25em);
 }
 
@@ -345,14 +348,16 @@ a:hover i:hover {
 
 .aboutPage h1 {
   color: white;
+  font-size: calc(15px + 1vh);
+  text-align: left;
 }
 
-.aboutPage h2 {
+/* .aboutPage h2 {
   font-size: calc(15px + 2vw);
   color: white;
   text-align: left;
 
-}
+} */
 
 .aboutPage p {
   font-size: calc(10px + 0.75vh);
@@ -420,14 +425,8 @@ strong {
 
 .timeline-img {
   width: 25%;
-  /* height: 5vh; */
-  /* margin: 0 !important; */
-  /* align-items: left; */
-
   float:left;
-  /* margin-bottom: 5px; */
   margin: 0 20px 0 0 !important;
-  /* height: 100%; */
 }
 
 
@@ -494,10 +493,6 @@ h1 {
   font-weight: bold;
 }
 
-/* .content:hover .iframe {
-  opacity: 0.3;
-} */
-
 .after .btn {
   margin: 0;
   padding: 8px;
@@ -507,7 +502,7 @@ h1 {
   width: 101%;
 }
 
-.after h1 {
+.after h2 {
   font-size: 1.25em;
   font-weight: bold;
   z-index: 99;
@@ -527,10 +522,6 @@ h1 {
   font-size: .95vw;
 }
 
-/* .content:hover .after {
-  opacity: 1;
-} */
-
 /* Clear floats after rows */
 #portfolioSection .row:after {
   content: "";
@@ -546,11 +537,6 @@ h1 {
 }
 
 .content img {
-  /* min-width: 100%; */
-  /* min-height: 20vh; */
-  /* height: 20vw; */
-  /* max-width: auto;
-  min-height: 20vw; */
   transition: transform 1.5s, filter 1.5s ease-in-out;
   filter: grayscale(100%);
   object-fit: cover;
@@ -567,16 +553,6 @@ h1 {
   opacity: 0;
   transition: all 1.5s;
 }
-
-/* .content iframe {
-  /* max-width: 100%;
-  min-width: 25vw; */
-  /* height: 20vw; */
-  /* zoom: 1.2; */
-  /* width: 100%;
-  height: 20vw;
-  overflow: hidden;
-} */
 
 .desktop {
   display: block;
@@ -616,7 +592,6 @@ and (max-width : 600px)  {
 
   .content img {
     max-width: auto;
-    /* height: 60vw; */
     width: 100%;
   }
   
@@ -634,9 +609,6 @@ and (max-width : 600px)  {
 
   .content img {
     height: 100%;
-    /* max-width: auto; */
-    /* height: auto; */
-    /* width: 100%; */
   }
 }
 
@@ -789,4 +761,15 @@ and (max-width : 600px)  {
 .svg-separator.bottom{
   top: auto;
   bottom: 0;
+}
+
+/* Miscellaneous */
+.sectionTitle {
+  color: white;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  /* margin-bottom: 5px; */
 }

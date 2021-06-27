@@ -32,7 +32,7 @@ $('a[href^="#"]').on('click', function (event) {
     if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - 65
         }, 1000);
 
         if ($('nav ul').hasClass('showing')) {
