@@ -1,6 +1,5 @@
 document.body.className = 'fade';
 
-
 // Improve the transition between x and hamburger menu
 $(document).ready(function () {
     $(".menu-icon").on("click", function () {
@@ -49,9 +48,8 @@ $('a[href^="#"]').on('click', function (event) {
 
         $('nav ul').removeClass('showing');
         var x = document.getElementsByClassName("navtoggle");
-        
-    }
 
+    }
 });
 
 var animateHTML = function () {

@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #000000;
+  color: #121212;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -90,7 +90,7 @@ textarea {
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
-  color: #000;
+  color: #121212;
   padding: 0.2em 0;
 }
 
@@ -209,7 +209,7 @@ textarea {
   *:before,
   *:after {
     background: transparent !important;
-    color: #000 !important;
+    color: #121212 !important;
     /* Black prints faster */
     -webkit-box-shadow: none !important;
     box-shadow: none !important;

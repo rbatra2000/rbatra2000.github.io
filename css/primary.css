@@ -72,7 +72,7 @@ body {
 html {
   max-height: 100vh; /* keep */
   max-width: 100vw; /* keep */
-  background-color: #000000;
+  background-color: #121212;
 }
 
 section {
@@ -248,7 +248,7 @@ a:hover i:hover {
 /* Focus on Home Section */
 
 .home {
-  background-color: #000000;
+  background-color: #121212;
 }
 
 .arrow {
@@ -313,7 +313,7 @@ a:hover i:hover {
   position: relative;
   height: 100%;
   align-items: center;
-  background-color :#000000;
+  background-color :#121212;
 }
 
 .aboutPage {
@@ -410,7 +410,7 @@ strong {
 /* Experience Section */
 
 #experienceSection {
-  background-color :#000000;
+  background-color :#121212;
   position: relative;
   height: 100%;
   padding-top: 0vh;
@@ -436,7 +436,7 @@ strong {
 /* Portfolio Section */
 
 #portfolioSection {
-  background-color: #000;
+  background-color: #121212;
   position: relative;
   height: 50%;
   overflow: visible;
@@ -479,14 +479,14 @@ h1 {
 
 .after {
   transition: .5s ease;
-  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
+  transition: transform .5s, filter .5s ease-in-out;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  padding: 12px;
+  transition: all 1s;
 }
 
 .after a {
@@ -503,18 +503,19 @@ h1 {
   padding: 8px;
 }
 
-/* .after {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255,0.9);
-} */
+.after {
+  width: 101%;
+}
 
 .after h1 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold;
-  margin-top: 0px;
-  margin-bottom: 1px;
-  color: #000000;
+  z-index: 99;
+  margin: auto;
+  color: rgba(255, 255, 255,0.9);
+  background-color: #121212;
+  white-space: break-spaces;
+  padding: 2px 0;
 }
 
 .after p {
@@ -529,6 +530,7 @@ h1 {
 /* .content:hover .after {
   opacity: 1;
 } */
+
 /* Clear floats after rows */
 #portfolioSection .row:after {
   content: "";
@@ -549,7 +551,7 @@ h1 {
   /* height: 20vw; */
   /* max-width: auto;
   min-height: 20vw; */
-  transition: transform .5s, filter .5s ease-in-out;
+  transition: transform 1.5s, filter 1.5s ease-in-out;
   filter: grayscale(100%);
   object-fit: cover;
   width: 100%;
@@ -559,6 +561,11 @@ h1 {
 .content:hover img {
   filter: grayscale(0);
   transform: scale(1.1);
+}
+
+.content:hover .after {
+  opacity: 0;
+  transition: all 1.5s;
 }
 
 /* .content iframe {
@@ -636,7 +643,7 @@ and (max-width : 600px)  {
 /* Education Section */
 
 #educationSection {
-  background-color: #000000;
+  background-color: #121212;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

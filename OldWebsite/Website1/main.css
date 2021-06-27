@@ -52,7 +52,7 @@ body h1 {
   color: #FFFFFF;
   bottom: 0px;
   height: 100vh;
-  text-shadow: 3px 3px 3px #000000;
+  text-shadow: 3px 3px 3px #121212;
 }
 
 .jumbotron2 {
@@ -62,7 +62,7 @@ body h1 {
   background-size: cover;
   color: #FFFFFF;
   height: 700px;
-  text-shadow: 0.25px 0.25px 0.25px #000000
+  text-shadow: 0.25px 0.25px 0.25px #121212
 }
 
 .jumbotron h2 {
@@ -93,7 +93,7 @@ section .row img {
   color: #f44336;
   text-shadow: none;
   background-color: #ffffff;
-  box-shadow: 2px 2px 2px #000000;
+  box-shadow: 2px 2px 2px #121212;
 
 }
 
