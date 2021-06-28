@@ -647,7 +647,7 @@ and (max-width : 600px)  {
 
 .overlay h1 {
   margin: auto;
-  text-align: left;
+  text-align: center;
   word-wrap: break-word;
   margin-left: 5px;
   color: #FFFFFF;
@@ -660,7 +660,7 @@ and (max-width : 600px)  {
   margin: auto;
   margin-left: 5px;
   word-wrap: break-word;
-  text-align: left;
+  text-align: center;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 1.5em;
@@ -694,6 +694,8 @@ and (max-width : 600px)  {
   color: #785EF0;
   text-align: left;
   margin-left: 10px;
+  transition: all 1.5s;
+  text-decoration: none;
 }
 
 .card p {
@@ -705,6 +707,21 @@ and (max-width : 600px)  {
 .card strong {
   color: #785EF0;
   font-weight: 700;
+}
+
+.highlight-card {
+	background-image: linear-gradient(#785Ef0, #785Ef0);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+  background-size: 100% 2px;
+	transition: background-size 1s, background-position .5s ease-in .5s;
+}
+
+.card:hover .highlight-card {
+	background-size: 100% 100%;
+  background-position: 0% 0%;
+  color: white;
+	transition: color 1.5s, background-position 1s, background-size .5s ease-in .5s;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */

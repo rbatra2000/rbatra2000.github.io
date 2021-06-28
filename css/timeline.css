@@ -1992,6 +1992,10 @@ u,
 	text-decoration: none;
 }
 
+.timeline-highlight:hover {
+	text-decoration: none;
+}
+
 /* .cd-timeline-highlight h2 {
 	margin: 0px;
 } */
