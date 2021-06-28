@@ -336,13 +336,21 @@ a:hover i:hover {
   }
 }
 
+.about-highlight {
+  color: white;
+  background-color: #785EF0;
+  font-weight: bold;
+}
+
 .selfportrait {
-  width: 75%;
-  height: auto;
+  width: 200px;
+  height: 200px;
   background-color: #FFFFFF;
   border-radius: 50%;
   align-items: left;
   margin-top: 10px;
+  filter: grayscale(100%);
+  transition: all 3s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
