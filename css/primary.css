@@ -343,8 +343,8 @@ a:hover i:hover {
 }
 
 .selfportrait {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: auto;
   background-color: #FFFFFF;
   border-radius: 50%;
   align-items: left;
