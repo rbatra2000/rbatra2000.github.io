@@ -423,6 +423,16 @@ strong {
   }
 }
 
+@media(max-width: 768px) {
+  .top {
+    display: none;
+  }
+
+  .selfportrait {
+    position: relative;
+  }
+}
+
 .btn:visited {
   color: #fff;
 }
