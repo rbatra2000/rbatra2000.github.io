@@ -52,16 +52,6 @@ $('a[href^="#"]').on('click', function (event) {
     }
 });
 
-function hoverPortrait(element) {
-    element.setAttribute('src', 'assets/headshot.jpg');
-    element.style.filter = "grayscale(0%)";
-  }
-  
-  function unhoverPortrait(element) {
-    element.setAttribute('src', 'assets/selfportrait.png');
-    element.style.filter = "grayscale(100%)";
-  }
-
 var animateHTML = function () {
     var elems;
     var windowHeight;

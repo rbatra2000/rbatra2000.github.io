@@ -298,9 +298,6 @@ a:hover i:hover {
   top: 30vh;
   color: white;
   font-size: 15vw;
-  /* height: 0%; */
-  /* margin-top: -10%; */
-  /* overflow: visible; */
 }
 
 .home svg {
@@ -345,14 +342,30 @@ a:hover i:hover {
 .selfportrait {
   width: 100%;
   height: auto;
+  position:absolute;
+  left: 0;
   background-color: #FFFFFF;
   border-radius: 50%;
   align-items: left;
   margin-top: 10px;
-  filter: grayscale(100%);
-  transition: all 3s;
+  filter: grayscale(0%);
+  transition: all 1.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
+
+img.top:hover {
+  opacity:0;
+  filter: grayscale(0%);
+}
+
+img.top {
+  filter: grayscale(100%)
+}
+
+.selfportrait:hover {
+  filter: grayscale(0%);
+}
+
 
 .aboutPage h1 {
   color: white;
