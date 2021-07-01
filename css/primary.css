@@ -159,7 +159,7 @@ nav.black ul li a:hover {
 
 nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding: 25px;
 }
 
 nav ul li a, nav ul li a:active, nav ul li a:visited, nav ul li a:focus {
@@ -208,7 +208,7 @@ a:hover i:hover {
 }
 
 
-@media(max-width: 1020px) {
+@media(max-width: 1085px) {
   .logo {
     position: fixed;
     top: 0;
@@ -311,13 +311,12 @@ a:hover i:hover {
   margin: auto;
   position: relative;
   height: 100%;
+  width: 100vw;
   align-items: center;
   background-color :#121212;
 }
 
 .aboutPage {
-  /* margin-top: 5vh; */
-  /* width: 80vw; */
   margin: 50px auto 1vw auto;
   align-items: center;
 }
@@ -325,12 +324,6 @@ a:hover i:hover {
 .aboutPage .container {
   /* width: calc(85% - 1.25em); */
   width: calc(85% - 1.25em);
-}
-
-@media(max-width: 432px) {
-  .aboutPage .container {
-    width: 85vw;
-  }
 }
 
 .about-highlight {
@@ -342,24 +335,14 @@ a:hover i:hover {
 .selfportrait {
   width: 100%;
   height: auto;
-  position:absolute;
   left: 0;
   background-color: #FFFFFF;
   border-radius: 50%;
   align-items: left;
   margin-top: 10px;
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   transition: all 1.5s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-}
-
-img.top:hover {
-  opacity:0;
-  filter: grayscale(0%);
-}
-
-img.top {
-  filter: grayscale(100%)
 }
 
 .selfportrait:hover {
@@ -427,10 +410,6 @@ strong {
   .top {
     display: none;
   }
-
-  .selfportrait {
-    position: relative;
-  }
 }
 
 .btn:visited {
@@ -480,7 +459,6 @@ strong {
 
 h1 {
   font-size: 50px;
-  word-break: break-all;
 }
 
 #portfolioSection .row {
