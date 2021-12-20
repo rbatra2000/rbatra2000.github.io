@@ -797,5 +797,6 @@ and (max-width : 600px)  {
   position: absolute;
   width: 100%;
   padding: 10px;
+  font-size: var(--text-xxl,2.074em);
   /* margin-bottom: 5px; */
 }

@@ -994,9 +994,8 @@ u,
 	line-height:1.2;
 	line-height:var(--component-heading-line-height,
 	1.2);
-	margin-bottom:0;
-	/* margin-bottom:calc(var(--space-xxxs)*var(--text-vspace-multiplier,
-	1)) */
+	/* margin-bottom:0; */
+	margin-bottom:calc(var(--space-xxsxs)*var(--text-vspace-multiplier, 1))
 }
 .text-component h2,
 .text-component h3,
