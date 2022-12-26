@@ -760,6 +760,11 @@ and (max-width : 600px)  {
   z-index: 999;
 }
 
+.footer p {
+  margin: auto;
+  vertical-align: middle;
+}
+
 /* Section Dividers */
 .divider.row{
   width:100%;
