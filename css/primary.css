@@ -724,6 +724,7 @@ and (max-width : 600px)  {
 	background-position: 0% 100%;
   background-size: 100% 2px;
 	transition: background-size 1s, background-position .5s ease-in .5s;
+  text-decoration: none;
 }
 
 .card:hover .highlight-card {
