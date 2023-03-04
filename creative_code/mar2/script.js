@@ -17,7 +17,7 @@ function setup() {
   noStroke();
 
   // Set up star locations
-  let maxStars = 500;
+  let maxStars = 300;
   let minStars = 100;
   let numStars = Math.random() * (maxStars - minStars) + minStars;
 
