@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(
   1000
 );
 
-const light = new THREE.PointLight(0xffffff, 2);
+const light = new THREE.SpotLight(0xffffff);
 light.position.set(0, 5, 15);
 scene.add(light);
 
@@ -19,24 +19,28 @@ const controls = new OrbitControls(camera, renderer.domElement);
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const material = new THREE.MeshStandardMaterial();
-const numPlates = 40;
+const numPlates = 100;
 const size = 2;
 const plates = [];
 
 for (let i = 0; i < numPlates; i++) {
   const geometry = new THREE.CylinderGeometry(size, size, 0.1);
   geometry.translate(Math.random() * 2 - 1, 0, 0);
+  const material = new THREE.MeshStandardMaterial({
+    color:
+      "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0"),
+  });
+
   const cylinder = new THREE.Mesh(geometry, material);
-  cylinder.position.y += 0.2 * i;
+  cylinder.position.y += 0.1 * i;
   cylinder.rotation.y += Math.random(2 * Math.pi);
 
   scene.add(cylinder);
-  plates.push({ mesh: cylinder, speed: Math.random() * 0.05 });
+  plates.push({ mesh: cylinder, speed: Math.random() * 0.2 });
 }
 
 camera.position.z = 15;
-camera.position.y = 7;
+camera.position.y = 5;
 
 function animate() {
   requestAnimationFrame(animate);
