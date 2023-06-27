@@ -1,6 +1,6 @@
-const minSize = 1
+const minSize = 10
 const maxSize = 100
-const stepSize = 5;
+const stepSize = 10;
 const lineWeight = 1.5;
 
 function setup() {
