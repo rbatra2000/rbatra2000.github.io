@@ -22,18 +22,25 @@ import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import theme from "./theme";
+import {
+  Book,
+  NavEntry,
+  ResearchPaper,
+  Subheading,
+  WorkExperience,
+} from "./utils";
 
-const drawerWidth = 250;
-interface Props {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window?: () => Window;
-}
+const drawerWidth = 150;
+// interface PageProps {
+//   /**
+//    * Injected by the documentation to work in an iframe.
+//    * You won't need it on your project.
+//    */
+//   window?: () => Window;
+// }
 
-export default function Home(props: Props) {
-  const { window } = props;
+export default function Home() {
+  // const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -60,41 +67,32 @@ export default function Home(props: Props) {
         >
           ritik batra
         </Typography>
-      </div>
 
-      <List>
-        {[
-          "about",
-          "research",
-          "work",
-          "teaching",
-          "bookshelf",
-          "creative",
-          "writing",
-        ].map((text, index) => (
-          <ListItem key={text}>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-      {/* <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List> */}
+        <List>
+          {[
+            "about",
+            "research",
+            "industry",
+            "teaching",
+            "bookshelf",
+            "creative",
+            "writing",
+          ].map((text) => (
+            <NavEntry section={text} key={text} />
+          ))}
+        </List>
+        <Typography paragraph style={{
+          position: "fixed",
+          bottom: "0",
+          textAlign: "center",
+          paddingBottom: "10px"
+        }}></Typography>
+      </div>
     </div>
   );
 
-  const container =
-    window !== undefined ? () => window().document.body : undefined;
+  // const container =
+  //   window !== undefined ? () => window.document.body : undefined;
 
   return (
     <ThemeProvider theme={theme}>
@@ -120,9 +118,6 @@ export default function Home(props: Props) {
             >
               <MenuIcon />
             </IconButton>
-            {/* <Typography variant="h6" noWrap component="div">
-            hi there, i'm ritik!
-          </Typography> */}
           </Toolbar>
         </AppBar>
         <Box
@@ -135,8 +130,9 @@ export default function Home(props: Props) {
           aria-label="navigation"
         >
           {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+          {/* TODO: At some point should make the words bold as you scroll through */}
           <Drawer
-            container={container}
+            // container={container}
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
@@ -177,83 +173,150 @@ export default function Home(props: Props) {
               // width: { sm: `calc(100% - ${drawerWidth}px)` },
             }}
           >
-            {/* <Toolbar /> */}
-            <Typography variant="h1">hi, i'm ritik!</Typography>
-            <Grid
-              container
-              spacing={{ xs: 2, md: 3 }}
-              columns={{ xs: 4, sm: 8, md: 12 }}
-              justifyContent="center"
-              alignItems="center"
-            >
-              <Grid item xs={4}>
-                <Image
-                  src="/../public/assets/portrait.png"
-                  loading="lazy"
-                  height={1000}
-                  width={1000}
-                  alt="portrait image"
-                  style={{
-                    borderRadius: "50%",
-                    border: "0px solid #000",
-                    backgroundColor: "white",
-                    width: "100%",
-                    margin: "auto",
-                  }}
+            <div id="about">
+              <Typography variant="h1">hi, i'm ritik!</Typography>
+            </div>
+            <div className="subsection">
+              <Grid
+                container
+                spacing={{ xs: 2, md: 3 }}
+                columns={{ xs: 4, sm: 8, md: 12 }}
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Grid item xs={4}>
+                  {/* TODO: It would be cool to make this picture change as you highlight over different words (I.e. phd add a grad cap and gown, stripe add glasses and tech shirt, nyc add a funny t shirt for nyc, craftmanship add a tattoos or smth) */}
+                  <Image
+                    src="/../public/assets/portrait.png"
+                    loading="lazy"
+                    height={1000}
+                    width={1000}
+                    alt="portrait image"
+                    style={{
+                      borderRadius: "50%",
+                      border: "0px solid #000",
+                      backgroundColor: "white",
+                      width: "100%",
+                      height: "auto",
+                      margin: "auto",
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={8}>
+                  <Typography paragraph>
+                    I am an incoming PhD student in Information Science at
+                    Cornell University, advised by Cindy H. Kao. Until the
+                    semester begins, I will be continuing to work as a software
+                    engineer at Stripe in NYC and exploring what the city has to
+                    offer.
+                    <br />
+                    <br />I am constantly seeking opportunities to complement my
+                    technical background through art and self-expression.
+                    Through this journey, I have been reflecting about how
+                    craftsmanship serves as an intersection of art and
+                    technology that not only empowers individuals but also
+                    preserves cultural symbols and traditions with deep
+                    historical significance. Through the exploration of these
+                    worlds, I hope to forge new pathways towards personal and
+                    inclusive fabrication.
+                  </Typography>
+                </Grid>
+              </Grid>
+            </div>
+            <div className="subsection">
+              <Subheading title="research" />
+              <Typography variant="h3">statement</Typography>
+              <Typography paragraph>
+                The central theme of my work is inspired by a curiosity of how
+                we can rely on technology to create tailored experiences for us
+                to extend our identity to our objects, machines, and
+                environment. In a world with personalized fabrication, users
+                have more control over their environment by shaping their tools,
+                clothing, and interfaces to fit their needs rather than
+                adjusting to what is available. This inspires more accessible
+                design tools for fabrication and smaller expertise gaps in
+                manufacturing.
+              </Typography>
+              <Typography variant="h3">papers</Typography>
+
+              <ResearchPaper
+                text="Ritik Batra and Kaitlyn Yi Ran Lee. 2022.
+                  Redycler: Daily Outfit Texture Fabrication Appliance Using
+                  Re-Programmable Dyes. In Sixteenth International Conference on
+                  Tangible, Embedded, and Embodied Interaction (TEI '22).
+                  Association for Computing Machinery, New York, NY, USA,
+                  Article 41, 1–4. https://doi.org/10.1145/3490149.3502424"
+              />
+              <ResearchPaper
+                text="Alice Agogino, Hae Young Jang, Vivek Rao,
+                  Ritik Batra, Felicity Liao, Rohan Sood,
+                  Irving Fang, R. Lily Hu, Emerson Shoichet-Bartus, John
+                  Matranga. 2021. Dynamic Placement of Rapidly Deployable Mobile
+                  Sensor Robots Using Machine Learning and Expected Value of
+                  Information. In Proceedings of the ASME 2021 International
+                  Mechanical Engineering Congress and Exposition. Volume 13:
+                  Safety Engineering, Risk, and Reliability Analysis; Research
+                  Posters. Virtual, Online. V013T14A027. ASME.
+                  https://doi.org/10.1115/IMECE2021-70759"
+              />
+            </div>
+
+            <div className="subsection">
+              <Subheading title="industry" />
+              <Grid container spacing={2}>
+                <WorkExperience
+                  company="stripe"
+                  description="software engineer • link consumer experience"
+                />
+
+                <WorkExperience
+                  company="asana"
+                  description="product engineering intern • android foundations"
+                />
+                <WorkExperience
+                  company="goldman_sachs"
+                  description="summer engineering analyst • corporate workplace solutions"
+                />
+
+                <WorkExperience
+                  company="rally_health"
+                  description="iOS software engineering intern • mobile engineering"
                 />
               </Grid>
-              <Grid item xs={8}>
-                <Typography paragraph sx={{ fontStyle: "italic" }}>
-                  Consequat mauris nunc congue nisi vitae suscipit. Fringilla
-                  est ullamcorper eget nulla facilisi etiam dignissim diam.
-                  Pulvinar elementum integer enim neque volutpat ac tincidunt.
-                  Ornare suspendisse sed nisi lacus sed viverra tellus. Purus
-                  sit amet volutpat consequat mauris. Elementum eu facilisis sed
-                  odio morbi. Euismod lacinia at quis risus sed vulputate odio.
-                  Morbi tincidunt ornare massa eget egestas purus viverra
-                  accumsan in. In hendrerit gravida rutrum quisque non tellus
-                  orci ac. Pellentesque nec nam aliquam sem et tortor. Habitant
-                  morbi tristique senectus et. Adipiscing elit duis tristique
-                  sollicitudin nibh sit. Ornare aenean euismod elementum nisi
-                  quis eleifend. Commodo viverra maecenas accumsan lacus vel
-                  facilisis. Nulla posuere sollicitudin aliquam ultrices
-                  sagittis orci a.
-                </Typography>
+            </div>
+
+            <div className="subsection">
+              <Subheading title="teaching" />
+            </div>
+
+            <div className="subsection">
+              <Subheading title="bookshelf" />
+              <Grid
+                container
+                spacing={2}
+                justifyContent="center"
+                alignItems="center"
+              >
+                <Book title="bad_blood" url="37976541-bad-blood" />
+                <Book title="my_own_words" url="29868604-my-own-words" />
+                <Book title="the_last_lecture" url="40611510-the-last-lecture" />
+                <Book title="becoming" url="38746485-becoming" />
+                <Book title="the_little_prince" url="157993.The_Little_Prince" />
+                <Book title="range" url="41795733-range" />
+
               </Grid>
-            </Grid>
+            </div>
 
-            <Typography variant="h2">research</Typography>
-            <Typography paragraph>
-              Consequat mauris nunc congue nisi vitae suscipit. Fringilla est
-              ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar
-              elementum integer enim neque volutpat ac tincidunt. Ornare
-              suspendisse sed nisi lacus sed viverra tellus. Purus sit amet
-              volutpat consequat mauris. Elementum eu facilisis sed odio morbi.
-              Euismod lacinia at quis risus sed vulputate odio. Morbi tincidunt
-              ornare massa eget egestas purus viverra accumsan in. In hendrerit
-              gravida rutrum quisque non tellus orci ac. Pellentesque nec nam
-              aliquam sem et tortor. Habitant morbi tristique senectus et.
-              Adipiscing elit duis tristique sollicitudin nibh sit. Ornare
-              aenean euismod elementum nisi quis eleifend. Commodo viverra
-              maecenas accumsan lacus vel facilisis. Nulla posuere sollicitudin
-              aliquam ultrices sagittis orci a.
-            </Typography>
-            <Typography paragraph>
-              <Box sx={{ fontStyle: "italic", m: 1 }}>
-                Ritik Batra and Kaitlyn Yi Ran Lee. 2022. Redycler: Daily Outfit
-                Texture Fabrication Appliance Using Re-Programmable Dyes. In
-                Sixteenth International Conference on Tangible, Embedded, and
-                Embodied Interaction (TEI '22). Association for Computing
-                Machinery, New York, NY, USA, Article 41, 1–4.
-                https://doi.org/10.1145/3490149.3502424
-              </Box>
-            </Typography>
+            <div className="subsection">
+              <Subheading title="creative" />
+            </div>
 
-            <Typography variant="h2">industry</Typography>
-            <Typography variant="h2">teaching</Typography>
-            <Typography variant="h2">bookshelf</Typography>
-            <Typography variant="h2">creative</Typography>
-            <Typography variant="h2">thoughts</Typography>
+            <div className="subsection">
+              <Subheading title="thoughts" />
+              <Typography paragraph>
+                Will update with some recent reflections!
+              </Typography>
+            </div>
           </Box>
         </Container>
       </Box>

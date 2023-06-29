@@ -624,3 +624,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.subsection {
+  margin-top: 2vw;
+}
