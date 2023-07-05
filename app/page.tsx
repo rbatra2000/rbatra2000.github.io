@@ -57,7 +57,7 @@ export default function Home() {
         style={{ marginLeft: "15px" }} // TODO: hardcoded
       >
         <Image
-          src="/../public/assets/black_logo.png"
+          src="assets/black_logo.png"
           width={50}
           height={50}
           alt="logo"
@@ -195,7 +195,7 @@ export default function Home() {
                 <Grid item xs={4}>
                   {/* TODO: It would be cool to make this picture change as you highlight over different words (I.e. phd add a grad cap and gown, stripe add glasses and tech shirt, nyc add a funny t shirt for nyc, craftmanship add a tattoos or smth) */}
                   <Image
-                    src="/../public/assets/portrait.png"
+                    src="assets/portrait.png"
                     loading="lazy"
                     height={1000}
                     width={1000}
