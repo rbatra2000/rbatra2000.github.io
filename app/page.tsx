@@ -24,11 +24,14 @@ import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import theme from "./theme";
 import {
   Book,
-  NavEntry,
+  MediaItem,
+  NavListItem,
   ResearchPaper,
   Subheading,
+  TeachingExperience,
   WorkExperience,
 } from "./utils";
+import Link from "next/link";
 
 const drawerWidth = 150;
 // interface PageProps {
@@ -68,6 +71,7 @@ export default function Home() {
           ritik batra
         </Typography>
 
+        {/* TODO: I don't like this transition lol should be more of a wipe */}
         <List>
           {[
             "about",
@@ -76,23 +80,27 @@ export default function Home() {
             "teaching",
             "bookshelf",
             "creative",
-            "writing",
+            // "thoughts",
           ].map((text) => (
-            <NavEntry section={text} key={text} />
+            <NavListItem
+              section={text}
+              key={text}
+              handleClick={handleDrawerToggle}
+            />
           ))}
         </List>
-        <Typography paragraph style={{
-          position: "fixed",
-          bottom: "0",
-          textAlign: "center",
-          paddingBottom: "10px"
-        }}></Typography>
+        <Typography
+          paragraph
+          style={{
+            position: "fixed",
+            bottom: "0",
+            textAlign: "center",
+            paddingBottom: "10px",
+          }}
+        ></Typography>
       </div>
     </div>
   );
-
-  // const container =
-  //   window !== undefined ? () => window.document.body : undefined;
 
   return (
     <ThemeProvider theme={theme}>
@@ -204,6 +212,21 @@ export default function Home() {
                 </Grid>
                 <Grid item xs={8}>
                   <Typography paragraph>
+                    {/* I am an incoming <strong>PhD student</strong> in Information
+                    Science at Cornell University, advised by Cindy H. Kao.
+                    Until the semester begins, I will be continuing to work as a{" "}
+                    <strong>software engineer</strong> at Stripe in NYC and
+                    exploring what the city has to offer.
+                    <br />
+                    <br />I am constantly seeking opportunities to complement my
+                    technical background through self-expression. Through this
+                    journey, I have been reflecting about how{" "}
+                    <strong>craftsmanship</strong> serves as an intersection of
+                    art and technology that not only empowers individuals but
+                    also preserves cultural symbols and traditions with deep
+                    historical significance. Through the exploration of these
+                    worlds, I hope to forge new pathways towards personal and
+                    inclusive fabrication. */}
                     I am an incoming PhD student in Information Science at
                     Cornell University, advised by Cindy H. Kao. Until the
                     semester begins, I will be continuing to work as a software
@@ -211,14 +234,13 @@ export default function Home() {
                     offer.
                     <br />
                     <br />I am constantly seeking opportunities to complement my
-                    technical background through art and self-expression.
-                    Through this journey, I have been reflecting about how
-                    craftsmanship serves as an intersection of art and
-                    technology that not only empowers individuals but also
-                    preserves cultural symbols and traditions with deep
-                    historical significance. Through the exploration of these
-                    worlds, I hope to forge new pathways towards personal and
-                    inclusive fabrication.
+                    technical background through self-expression. Through this
+                    journey, I have been reflecting about how craftsmanship
+                    serves as an intersection of art and technology that not
+                    only empowers individuals but also preserves cultural
+                    symbols and traditions with deep historical significance.
+                    Through the exploration of these worlds, I hope to forge new
+                    pathways towards personal and inclusive fabrication.
                   </Typography>
                 </Grid>
               </Grid>
@@ -265,28 +287,51 @@ export default function Home() {
               <Subheading title="industry" />
               <Grid container spacing={2}>
                 <WorkExperience
-                  company="stripe"
-                  description="software engineer • link consumer experience"
+                  company="stripelogo"
+                  description="link consumer experience"
+                  role="software engineer"
                 />
 
                 <WorkExperience
-                  company="asana"
-                  description="product engineering intern • android foundations"
+                  company="asanalogo"
+                  description="android foundations"
+                  role="product engineering intern"
                 />
                 <WorkExperience
-                  company="goldman_sachs"
-                  description="summer engineering analyst • corporate workplace solutions"
+                  company="goldmansachs"
+                  description="corporate workplace solutions"
+                  role="summer engineering analyst"
                 />
 
                 <WorkExperience
                   company="rally_health"
-                  description="iOS software engineering intern • mobile engineering"
+                  description="mobile engineering"
+                  role="iOS software engineering intern"
                 />
               </Grid>
             </div>
 
             <div className="subsection">
               <Subheading title="teaching" />
+              <Grid container spacing={1} justifyContent="center" columns={12}>
+                <TeachingExperience
+                  course="databases"
+                  description="compsci 186: introduction to database"
+                  title="undergraduate student instructor"
+                />
+                <TeachingExperience
+                  course="interfaces"
+                  description="compsci 160: user interface design and development"
+                  title="undergraduate student instructor"
+                />
+                <TeachingExperience
+                  course="data_structures"
+                  description="compsci 61b: data structures"
+                  title="lab assistant & content mentor"
+                />
+              </Grid>
+              {/* cs186, cs160, cs61b */}
+              {/* TODO idea is simple flaticon logos for this where you show what the class is kinda and position (like work exp) */}
             </div>
 
             <div className="subsection">
@@ -296,27 +341,77 @@ export default function Home() {
                 spacing={2}
                 justifyContent="center"
                 alignItems="center"
+                columns={12}
               >
                 <Book title="bad_blood" url="37976541-bad-blood" />
                 <Book title="my_own_words" url="29868604-my-own-words" />
-                <Book title="the_last_lecture" url="40611510-the-last-lecture" />
+                <Book
+                  title="the_last_lecture"
+                  url="40611510-the-last-lecture"
+                />
                 <Book title="becoming" url="38746485-becoming" />
-                <Book title="the_little_prince" url="157993.The_Little_Prince" />
+                <Book
+                  title="the_little_prince"
+                  url="157993.The_Little_Prince"
+                />
                 <Book title="range" url="41795733-range" />
-
+                <Book
+                  title="stories_of_your_life_and_others"
+                  url="223380.Stories_of_Your_Life_and_Others"
+                />
               </Grid>
             </div>
 
+            {/* TODO: eventually make the hoverable */}
             <div className="subsection">
               <Subheading title="creative" />
+              <Typography variant="h3" style={{ marginBottom: "10px" }}>
+                i like making "stuff".{" "}
+                {/* <Link style={{textDecoration: "underline"}} href="https://www.instagram.com/ritikulousdesigns">
+                  @ritikulousdesigns
+                </Link> */}
+              </Typography>
+              <Grid
+                container
+                spacing={1}
+                justifyContent="center"
+                alignItems="center"
+                columns={{ xs: 12, sm: 9, md: 9, lg: 9 }}
+              >
+                <MediaItem title="moon drip" path="moon_drip" type="jpeg" />
+                <MediaItem
+                  title="glass planet"
+                  path="glass_planet"
+                  type="png"
+                />
+                <MediaItem title="dance clip" path="forever" type="gif" />
+                <MediaItem title="broadway dance" path="dance_bdc" type="gif" />
+
+                {/* <MediaItem title="mountains" path="mountains" type="jpeg" /> */}
+                <MediaItem
+                  title="lady strandbeest"
+                  path="strandbeest1"
+                  type="gif"
+                />
+                <MediaItem title="stool" path="stool" type="jpeg" />
+
+                <MediaItem title="story of a pencil" path="pencil" type="gif" />
+                {/* <MediaItem title="house" path="house" type="png" /> */}
+                <MediaItem
+                  title="creative coding"
+                  path="creative_coding"
+                  type="gif"
+                />
+                <MediaItem title="plate" path="design_plate" type="jpeg" />
+              </Grid>
             </div>
 
-            <div className="subsection">
+            {/* <div className="subsection">
               <Subheading title="thoughts" />
               <Typography paragraph>
-                Will update with some recent reflections!
+                Coming soon!!
               </Typography>
-            </div>
+            </div> */}
           </Box>
         </Container>
       </Box>

@@ -320,7 +320,7 @@
     },
     "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page": {
       "modules": [
-        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/@fontsource/bebas-neue/index.css",
+        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/@fontsource/poppins/index.css",
         "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/typeface-roboto/index.css"
       ],
       "files": [

@@ -29,3 +29,10 @@ body {
 .subsection {
   margin-top: 2vw;
 }
+
+.navListItem:hover{
+  border-radius: 15%;
+  background-color: black;
+  transition: 1s;
+  color: white;
+}
