@@ -20,6 +20,7 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Container from "@mui/material/Container";
 import Paper from "@mui/material/Paper";
+import { Analytics } from '@vercel/analytics/react';
 import { Grid, ThemeProvider, createTheme } from "@mui/material";
 import theme from "./theme";
 import {
@@ -103,6 +104,8 @@ export default function Home() {
   );
 
   return (
+    <>
+  
     <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
@@ -416,5 +419,7 @@ export default function Home() {
         </Container>
       </Box>
     </ThemeProvider>
+    <Analytics />
+    </>
   );
 }
