@@ -504,7 +504,7 @@ const Subheading = (props)=>{
             alignItems: "center",
             spacing: 0,
             style: {
-                marginBottom: "10px"
+                marginBottom: "25px"
             },
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
@@ -545,7 +545,7 @@ const ResearchPaper = (props)=>{
     });
 };
 const WorkExperience = (props)=>{
-    const imageUri = `assets/work/${props.company}.png`;
+    const imageUri = `/assets/work/${props.company}.png`;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
         item: true,
         container: true,
@@ -589,7 +589,7 @@ const WorkExperience = (props)=>{
     });
 };
 const TeachingExperience = (props)=>{
-    const imageUri = `assets/teaching/${props.course}.png`;
+    const imageUri = `/assets/instruction/${props.course}.png`;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
         item: true,
         container: true,
@@ -636,7 +636,7 @@ const TeachingExperience = (props)=>{
     });
 };
 const Book = (props)=>{
-    const imageUri = `assets/books/${props.title}.jpeg`;
+    const imageUri = `/assets/books/${props.title}.jpeg`;
     const goodreadsUrl = `https://www.goodreads.com/book/show/${props.url}`;
     return /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
         item: true,
@@ -700,7 +700,7 @@ const NavListItem = (props)=>{
     }, props.section);
 };
 const MediaItem = (props)=>{
-    const imageUri = `assets/art/${props.path}.${props.type}`;
+    const imageUri = `/assets/art/${props.path}.${props.type}`;
     return /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
         item: true,
         xs: 6,
@@ -759,7 +759,7 @@ function Home() {
                 },
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "assets/black_logo.png",
+                        src: "/assets/black_logo.png",
                         width: 50,
                         height: 50,
                         alt: "logo"
@@ -923,7 +923,7 @@ function Home() {
                                             item: true,
                                             xs: 4,
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                src: "assets/portrait.png",
+                                                src: "/assets/portrait.png",
                                                 loading: "lazy",
                                                 height: 1000,
                                                 width: 1000,
@@ -1056,7 +1056,7 @@ function Home() {
                                         spacing: 2,
                                         justifyContent: "center",
                                         alignItems: "center",
-                                        columns: 12,
+                                        columns: 16,
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx(Book, {
                                                 title: "bad_blood",

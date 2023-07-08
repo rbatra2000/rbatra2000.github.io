@@ -17,7 +17,7 @@ export const Subheading: React.FC<SubheadingProps> = (
         justifyContent="center"
         alignItems="center"
         spacing={0}
-        style={{ marginBottom: "10px" }}
+        style={{ marginBottom: "25px" }}
       >
         <Grid item lg={2} md={2}>
           <Typography variant="h2">{props.title}</Typography>
@@ -49,7 +49,7 @@ interface WorkProps {
 }
 
 export const WorkExperience: React.FC<WorkProps> = (props: WorkProps) => {
-  const imageUri = `assets/work/${props.company}.png`;
+  const imageUri = `/assets/work/${props.company}.png`;
   return (
     <Grid item container justifyContent="center" sm={3} md={3} spacing={1}>
       <Grid item justifyContent="center" alignItems="center" container xs={12}>
@@ -83,7 +83,7 @@ interface TeachingProps {
 export const TeachingExperience: React.FC<TeachingProps> = (
   props: TeachingProps
 ) => {
-  const imageUri = `assets/teaching/${props.course}.png`;
+  const imageUri = `/assets/instruction/${props.course}.png`;
   return (
     <Grid item container justifyContent="center" sm={4} md={4} spacing={2}>
       <Grid item justifyContent="center" container alignItems="center" xs={12}>
@@ -116,7 +116,7 @@ interface BookProps {
 }
 
 export const Book: React.FC<BookProps> = (props: BookProps) => {
-  const imageUri = `assets/books/${props.title}.jpeg`;
+  const imageUri = `/assets/books/${props.title}.jpeg`;
   const goodreadsUrl = `https://www.goodreads.com/book/show/${props.url}`;
 
   return (
@@ -198,7 +198,7 @@ interface MediaProps {
 }
 
 export const MediaItem: React.FC<MediaProps> = (props: MediaProps) => {
-  const imageUri = `assets/art/${props.path}.${props.type}`;
+  const imageUri = `/assets/art/${props.path}.${props.type}`;
 
   return (
     <Grid item key={props.path} xs={6} sm={3} md={3}>
