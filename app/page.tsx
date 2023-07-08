@@ -318,7 +318,7 @@ export default function Home() {
                     title="undergraduate student instructor"
                   />
                   <TeachingExperience
-                    course="data_structures"
+                    course="datastructures"
                     description="compsci 61b: data structures"
                     title="lab assistant & content mentor"
                   />

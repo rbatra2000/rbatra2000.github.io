@@ -309,15 +309,6 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page": {
-      "modules": [
-        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/@fontsource/poppins/index.css",
-        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/typeface-roboto/index.css"
-      ],
-      "files": [
-        "static/css/app/page.css"
-      ]
-    },
     "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/layout": {
       "modules": [
         "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/globals.css",
@@ -325,6 +316,15 @@
       ],
       "files": [
         "static/css/app/layout.css"
+      ]
+    },
+    "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page": {
+      "modules": [
+        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/@fontsource/poppins/index.css",
+        "/Users/ritikbatra/Desktop/rbatra2000.github.io/node_modules/typeface-roboto/index.css"
+      ],
+      "files": [
+        "static/css/app/page.css"
       ]
     }
   }
