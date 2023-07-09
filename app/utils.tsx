@@ -36,9 +36,23 @@ interface PaperProps {
 }
 
 export const ResearchPaper: React.FC<PaperProps> = (props: PaperProps) => {
+  const nameIndex = props.text.indexOf("Ritik");
+  const nameLength = "Ritik Batra".length;
+
+  const urlIndex = props.text.indexOf("https://");
+
+  const before = props.text.substring(0, nameIndex);
+  const after = props.text.substring(nameIndex + nameLength, urlIndex);
+  const url = props.text.substring(urlIndex);
+
   return (
     <Box sx={{ fontStyle: "italic" }}>
-      <Typography paragraph>{props.text}</Typography>
+      <Typography paragraph>
+        {before}
+        <strong>Ritik Batra</strong>
+        {after}
+        <Link href={url} style={{textDecoration: "underline", textUnderlineOffset: "3px"}}>{url}</Link>
+      </Typography>
     </Box>
   );
 };
