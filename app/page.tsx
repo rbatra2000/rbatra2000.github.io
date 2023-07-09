@@ -18,7 +18,6 @@ import {
   Book,
   MediaItem,
   NavListItem,
-  Portrait,
   PortraitEnum,
   PortraitTrigger,
   ResearchPaper,
