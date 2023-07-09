@@ -75,15 +75,6 @@ export default function Home() {
             />
           ))}
         </List>
-        <Typography
-          paragraph
-          style={{
-            position: "fixed",
-            bottom: "0",
-            textAlign: "center",
-            paddingBottom: "10px",
-          }}
-        ></Typography>
       </div>
     </div>
   );
@@ -214,21 +205,25 @@ export default function Home() {
                     historical significance. Through the exploration of these
                     worlds, I hope to forge new pathways towards personal and
                     inclusive fabrication. */}
-                      I am an incoming PhD student in Information Science at
-                      Cornell University, advised by Cindy H. Kao. Until the
-                      semester begins, I will be continuing to work as a
-                      software engineer at Stripe in NYC and exploring what the
-                      city has to offer.
-                      <br />
-                      <br />I am constantly seeking opportunities to complement
-                      my technical background through self-expression. Through
-                      this journey, I have been reflecting about how
-                      craftsmanship serves as an intersection of art and
-                      technology that not only empowers individuals but also
-                      preserves cultural symbols and traditions with deep
-                      historical significance. Through the exploration of these
-                      worlds, I hope to forge new pathways towards personal and
-                      inclusive fabrication.
+                      I am an incoming PhD student in the Information Science
+                      department at Cornell University, advised by Cindy H. Kao.
+                      Until the semester begins, I will be continuing to work as
+                      a software engineer at Stripe in NYC and exploring what
+                      the city has to offer.
+                    </Typography>
+                    <Typography paragraph>
+                      I am constantly seeking opportunities to complement my
+                      technical background through self-expression. Through this
+                      journey, I have been reflecting about how craftsmanship
+                      serves as an intersection of art and technology that not
+                      only empowers individuals but also preserves cultural
+                      symbols and traditions with deep historical significance.
+                      Through the exploration of these worlds, I hope to forge
+                      new pathways towards personal and inclusive fabrication.
+                    </Typography>
+
+                    <Typography paragraph>
+                      You can contact me at ritikbatra[at]berkeley.edu
                     </Typography>
                   </Grid>
                 </Grid>
@@ -275,18 +270,18 @@ export default function Home() {
                 <Subheading title="industry" />
                 <Grid container spacing={2}>
                   <WorkExperience
-                    company="stripelogo"
+                    company="stripe"
                     description="link consumer experience"
-                    role="software engineer"
+                    role="full-stack software engineer"
                   />
 
                   <WorkExperience
-                    company="asanalogo"
+                    company="asana"
                     description="android foundations"
                     role="product engineering intern"
                   />
                   <WorkExperience
-                    company="goldmansachs"
+                    company="goldman_sachs"
                     description="corporate workplace solutions"
                     role="summer engineering analyst"
                   />
@@ -323,8 +318,6 @@ export default function Home() {
                     title="lab assistant & content mentor"
                   />
                 </Grid>
-                {/* cs186, cs160, cs61b */}
-                {/* TODO idea is simple flaticon logos for this where you show what the class is kinda and position (like work exp) */}
               </div>
 
               <div className="subsection">
@@ -334,7 +327,7 @@ export default function Home() {
                   spacing={2}
                   justifyContent="center"
                   alignItems="center"
-                  columns={16}
+                  columns={15}
                 >
                   <Book title="bad_blood" url="37976541-bad-blood" />
                   <Book title="my_own_words" url="29868604-my-own-words" />

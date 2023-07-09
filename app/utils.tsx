@@ -2,6 +2,7 @@ import { Divider, Grid, ListItem, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Image from "next/image";
 import Link from "next/link";
+import { styled } from "styled-components";
 
 interface SubheadingProps {
   title: string;
@@ -49,7 +50,7 @@ interface WorkProps {
 }
 
 export const WorkExperience: React.FC<WorkProps> = (props: WorkProps) => {
-  const imageUri = `/assets/work/${props.company}.png`;
+  const imageUri = `/assets/experience/${props.company}.png`;
   return (
     <Grid item container justifyContent="center" sm={3} md={3} spacing={1}>
       <Grid item justifyContent="center" alignItems="center" container xs={12}>
@@ -177,11 +178,7 @@ export const NavListItem: React.FC<NavProps> = (props: NavProps) => {
       >
         <Typography
           paragraph
-          style={{
-            textDecoration: "underline",
-            textUnderlineOffset: "3px",
-            margin: "5px 0px 5px 0px",
-          }}
+          className={'navListItemText'}
         >
           {props.section}
         </Typography>
