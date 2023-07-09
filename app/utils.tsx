@@ -2,7 +2,7 @@ import { Divider, Grid, ListItem, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Image from "next/image";
 import Link from "next/link";
-import { styled } from "styled-components";
+import React from "react";
 
 interface SubheadingProps {
   title: string;
@@ -176,10 +176,7 @@ export const NavListItem: React.FC<NavProps> = (props: NavProps) => {
         }}
         className={"navListItem"}
       >
-        <Typography
-          paragraph
-          className={'navListItemText'}
-        >
+        <Typography paragraph className={"navListItemText"}>
           {props.section}
         </Typography>
       </Link>
@@ -213,5 +210,104 @@ export const MediaItem: React.FC<MediaProps> = (props: MediaProps) => {
         }}
       />
     </Grid>
+  );
+};
+
+export enum PortraitEnum {
+  DEFAULT = "default",
+  GRAD = "grad",
+  ENGINEER = "engineer",
+}
+
+// interface PortraitProps {
+//   title: PortraitEnum;
+// }
+
+// export const Portrait: React.FC<PortraitProps> = (props: PortraitProps) => {
+//   const imageUri = `/assets/portraits/${props.title}.png`;
+
+//   return (
+//     <>
+//       <Image
+//         src={`/assets/portraits/${PortraitEnum.DEFAULT}.png`}
+//         loading="lazy"
+//         height={1000}
+//         width={1000}
+//         alt="self portrait drawing"
+//         style={{
+//           borderRadius: "50%",
+//           border: "0px solid #000",
+//           backgroundColor: "white",
+//           width: "100%",
+//           opacity: "0",
+//           height: "auto",
+//           margin: "auto",
+//           transition: "all 1s ease-in-out",
+//         }}
+//       />
+
+//       <Image
+//         src={`/assets/portraits/${PortraitEnum.GRAD}.png`}
+//         loading="lazy"
+//         height={1000}
+//         width={1000}
+//         alt="self portrait drawing"
+//         style={{
+//           borderRadius: "50%",
+//           border: "0px solid #000",
+//           backgroundColor: "white",
+//           width: "100%",
+//           opacity: "0",
+//           height: "auto",
+//           margin: "auto",
+//           transition: "all 1s ease-in-out",
+//         }}
+//       />
+
+//       <Image
+//         src={`/assets/portraits/${PortraitEnum.ENGINEER}.png`}
+//         loading="lazy"
+//         height={1000}
+//         width={1000}
+//         alt="self portrait drawing"
+//         style={{
+//           borderRadius: "50%",
+//           border: "0px solid #000",
+//           backgroundColor: "white",
+//           width: "100%",
+//           opacity: "0",
+//           height: "auto",
+//           margin: "auto",
+//           transition: "all 1s ease-in-out",
+//         }}
+//       />
+//     </>
+//   );
+// };
+
+interface PortraitTriggerProps {
+  text: string;
+  image: PortraitEnum;
+  setter: Function;
+}
+
+export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
+  props: PortraitTriggerProps
+) => {
+  return (
+    <>
+      {" "}
+      <a
+        onMouseEnter={() => {
+          props.setter(props.image);
+        }}
+        onMouseLeave={() => {
+          props.setter(PortraitEnum.DEFAULT);
+        }}
+        style={{ display: "inline-block" }}
+      >
+        {props.text}
+      </a>{" "}
+    </>
   );
 };

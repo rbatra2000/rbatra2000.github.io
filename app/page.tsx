@@ -18,6 +18,9 @@ import {
   Book,
   MediaItem,
   NavListItem,
+  Portrait,
+  PortraitEnum,
+  PortraitTrigger,
   ResearchPaper,
   Subheading,
   TeachingExperience,
@@ -36,6 +39,7 @@ const drawerWidth = 150;
 export default function Home() {
   // const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
+  const [portrait, setPortrait] = React.useState(PortraitEnum.DEFAULT);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -57,7 +61,7 @@ export default function Home() {
           ritik batra
         </Typography>
 
-        {/* TODO: I don't like this transition lol should be more of a wipe */}
+        {/* TODO: I don't like this transition lol should be more of a entrance animation */}
         <List>
           {[
             "about",
@@ -172,12 +176,14 @@ export default function Home() {
                 >
                   <Grid item xs={4}>
                     {/* TODO: It would be cool to make this picture change as you highlight over different words (I.e. phd add a grad cap and gown, stripe add glasses and tech shirt, nyc add a funny t shirt for nyc, craftmanship add a tattoos or smth) */}
+                    {/* TODO: make sure we underline the word when hovered over */}
+                    {/* TODO: ugh it's not fading in */}
                     <Image
-                      src="/assets/portrait.png"
+                      src={`/assets/portraits/${portrait}.png`}
                       loading="lazy"
                       height={1000}
                       width={1000}
-                      alt="portrait image"
+                      alt="self portrait drawing"
                       style={{
                         borderRadius: "50%",
                         border: "0px solid #000",
@@ -185,31 +191,27 @@ export default function Home() {
                         width: "100%",
                         height: "auto",
                         margin: "auto",
+                        transition: "all 1s ease-in-out",
                       }}
                     />
                   </Grid>
                   <Grid item xs={8}>
                     <Typography paragraph>
-                      {/* I am an incoming <strong>PhD student</strong> in Information
-                    Science at Cornell University, advised by Cindy H. Kao.
-                    Until the semester begins, I will be continuing to work as a{" "}
-                    <strong>software engineer</strong> at Stripe in NYC and
-                    exploring what the city has to offer.
-                    <br />
-                    <br />I am constantly seeking opportunities to complement my
-                    technical background through self-expression. Through this
-                    journey, I have been reflecting about how{" "}
-                    <strong>craftsmanship</strong> serves as an intersection of
-                    art and technology that not only empowers individuals but
-                    also preserves cultural symbols and traditions with deep
-                    historical significance. Through the exploration of these
-                    worlds, I hope to forge new pathways towards personal and
-                    inclusive fabrication. */}
-                      I am an incoming PhD student in the Information Science
-                      department at Cornell University, advised by Cindy H. Kao.
-                      Until the semester begins, I will be continuing to work as
-                      a software engineer at Stripe in NYC and exploring what
-                      the city has to offer.
+                      I am an incoming
+                      <PortraitTrigger
+                        text="PhD student"
+                        image={PortraitEnum.GRAD}
+                        setter={setPortrait}
+                      />
+                      in the Information Science department at Cornell
+                      University, advised by Cindy H. Kao. Until the semester
+                      begins, I will be continuing to work as a
+                      <PortraitTrigger
+                        text="software engineer at Stripe"
+                        image={PortraitEnum.ENGINEER}
+                        setter={setPortrait}
+                      />
+                      in NYC and exploring what the city has to offer.
                     </Typography>
                     <Typography paragraph>
                       I am constantly seeking opportunities to complement my
@@ -364,6 +366,7 @@ export default function Home() {
                   alignItems="center"
                   columns={{ xs: 12, sm: 9, md: 9, lg: 9 }}
                 >
+                  {/* TODO: have a placeholder in case gif doesn't load */}
                   <MediaItem title="moon drip" path="moon_drip" type="jpeg" />
                   <MediaItem
                     title="glass planet"
