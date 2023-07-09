@@ -51,12 +51,12 @@ export const ResearchPaper: React.FC<PaperProps> = (props: PaperProps) => {
         {before}
         <strong>Ritik Batra</strong>
         {after}
-        <Link
+        <a
           href={url}
           style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}
         >
           {url}
-        </Link>
+        </a>
       </Typography>
     </Box>
   );
