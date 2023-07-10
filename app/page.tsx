@@ -87,17 +87,17 @@ export default function Home() {
   );
 
   // React.useEffect(() => {
+  //   if (typeof window !== "undefined") {
   //   const image = document.getElementById("portrait");
   //   console.log(image)
   //   if (image) {
-  //     image.style.opacity = "0";
-
   //     setTimeout(() => {
   //       image.style.opacity = "1";
   //     }, 1000);
   //   }
+  // }
 
-  // }, [portrait]);
+  // }, []);
 
   return (
     <>
@@ -196,7 +196,6 @@ export default function Home() {
                 >
                   <Grid item xs={4}>
                     {/* TODO add more animations */}
-                    {/* TODO: ugh it's not fading in */}
                     <Image
                       src={`/assets/portraits/${portrait}.png`}
                       loading="lazy"
@@ -224,8 +223,10 @@ export default function Home() {
                         setter={setPortrait}
                       />
                       in the Information Science department at Cornell
-                      University, advised by Cindy H. Kao. Until the semester
-                      begins, I will be continuing to work as a
+                      University, advised by Cindy H. Kao. In 2022, I graduated
+                      from Berkeley with a BS in EECS and minors in political
+                      economy and data science. Until the semester begins, I
+                      will be continuing to work as a
                       <PortraitTrigger
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}
