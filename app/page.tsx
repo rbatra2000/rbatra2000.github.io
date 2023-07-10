@@ -245,7 +245,7 @@ export default function Home() {
                     </Typography>
 
                     <Typography paragraph>
-                      You can contact me at ritikbatra[at]berkeley.edu
+                      You can contact me at ritikbatra[at]berkeley[dot]edu
                     </Typography>
                   </Grid>
                 </Grid>
