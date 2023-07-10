@@ -163,7 +163,7 @@ export default function Home() {
                     xs: drawerWidth,
                     sm: "15vw",
                     md: "15vw",
-                    lg: "15vw",
+                    lg: "20vw",
                     xl: drawerWidth,
                   },
                   borderRight: "none !important",
@@ -222,7 +222,6 @@ export default function Home() {
                         text="PhD student"
                         image={PortraitEnum.GRAD}
                         setter={setPortrait}
-                        imageElement={document.getElementById("portrait")}
                       />
                       in the Information Science department at Cornell
                       University, advised by Cindy H. Kao. Until the semester
@@ -231,7 +230,6 @@ export default function Home() {
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}
                         setter={setPortrait}
-                        imageElement={document.getElementById("portrait")}
                       />
                       in NYC and exploring what the city has to offer.
                     </Typography>
