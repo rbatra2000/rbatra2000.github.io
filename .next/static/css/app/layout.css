@@ -584,6 +584,12 @@ video {
 .fixed {
   position: fixed;
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .block {
   display: block;
 }
@@ -592,6 +598,9 @@ video {
 }
 .flex {
   display: flex;
+}
+.hidden {
+  display: none;
 }
 .border {
   border-width: 1px;
@@ -654,5 +663,20 @@ body {
 .navListItemText:hover {
   -webkit-text-decoration: underline solid transparent;
           text-decoration: underline solid transparent;
+}
+
+.portraitTrigger {
+  -webkit-text-decoration: underline solid transparent;
+          text-decoration: underline solid transparent;
+  transition: -webkit-text-decoration 1s ease;
+  transition: text-decoration 1s ease;
+  transition: text-decoration 1s ease, -webkit-text-decoration 1s ease;
+  text-underline-offset: 5px;
+  cursor: pointer;
+}
+
+.portraitTrigger:hover {
+  -webkit-text-decoration: underline solid;
+          text-decoration: underline solid;
 }
 

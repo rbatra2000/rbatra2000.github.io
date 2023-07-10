@@ -238,72 +238,6 @@ export enum PortraitEnum {
   ENGINEER = "engineer",
 }
 
-// interface PortraitProps {
-//   title: PortraitEnum;
-// }
-
-// export const Portrait: React.FC<PortraitProps> = (props: PortraitProps) => {
-//   const imageUri = `/assets/portraits/${props.title}.png`;
-
-//   return (
-//     <>
-//       <Image
-//         src={`/assets/portraits/${PortraitEnum.DEFAULT}.png`}
-//         loading="lazy"
-//         height={1000}
-//         width={1000}
-//         alt="self portrait drawing"
-//         style={{
-//           borderRadius: "50%",
-//           border: "0px solid #000",
-//           backgroundColor: "white",
-//           width: "100%",
-//           opacity: "0",
-//           height: "auto",
-//           margin: "auto",
-//           transition: "all 1s ease-in-out",
-//         }}
-//       />
-
-//       <Image
-//         src={`/assets/portraits/${PortraitEnum.GRAD}.png`}
-//         loading="lazy"
-//         height={1000}
-//         width={1000}
-//         alt="self portrait drawing"
-//         style={{
-//           borderRadius: "50%",
-//           border: "0px solid #000",
-//           backgroundColor: "white",
-//           width: "100%",
-//           opacity: "0",
-//           height: "auto",
-//           margin: "auto",
-//           transition: "all 1s ease-in-out",
-//         }}
-//       />
-
-//       <Image
-//         src={`/assets/portraits/${PortraitEnum.ENGINEER}.png`}
-//         loading="lazy"
-//         height={1000}
-//         width={1000}
-//         alt="self portrait drawing"
-//         style={{
-//           borderRadius: "50%",
-//           border: "0px solid #000",
-//           backgroundColor: "white",
-//           width: "100%",
-//           opacity: "0",
-//           height: "auto",
-//           margin: "auto",
-//           transition: "all 1s ease-in-out",
-//         }}
-//       />
-//     </>
-//   );
-// };
-
 interface PortraitTriggerProps {
   text: string;
   image: PortraitEnum;
@@ -313,17 +247,31 @@ interface PortraitTriggerProps {
 export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
   props: PortraitTriggerProps
 ) => {
+  const image = document.getElementById("portrait");
+  if (!image) {
+    return
+  }
   return (
     <>
       {" "}
       <a
         onMouseEnter={() => {
-          props.setter(props.image);
+          image.style.opacity = "0";
+          setTimeout(() => {
+            props.setter(props.image);
+            image.style.opacity = "1";
+          }, 1000);
+
         }}
         onMouseLeave={() => {
-          props.setter(PortraitEnum.DEFAULT);
+          image.style.opacity = "0";
+          setTimeout(() => {
+            props.setter(PortraitEnum.DEFAULT);
+            image.style.opacity = "1";
+          }, 1000);
         }}
         style={{ display: "inline-block" }}
+        className={"portraitTrigger"}
       >
         {props.text}
       </a>{" "}

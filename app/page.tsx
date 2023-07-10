@@ -26,7 +26,8 @@ import {
   WorkExperience,
 } from "./utils";
 
-const drawerWidth = 150;
+const drawerWidth = "25vw";
+const drawerContentWidth = 95;
 // interface PageProps {
 //   /**
 //    * Injected by the documentation to work in an iframe.
@@ -45,10 +46,13 @@ export default function Home() {
   };
 
   const drawer = (
-    <div>
-      <Toolbar />
+    <div
+      style={{
+        marginLeft: mobileOpen ? "0px" : `calc(100% - ${drawerContentWidth}px)`,
+      }}
+    >
       <div
-        style={{ marginLeft: "15px" }} // TODO: hardcoded
+        style={{ marginTop: "45px", marginLeft: "15px" }} // TODO: hardcoded
       >
         <Image src="/assets/black_logo.png" width={50} height={50} alt="logo" />
         <br />
@@ -82,6 +86,19 @@ export default function Home() {
     </div>
   );
 
+  // React.useEffect(() => {
+  //   const image = document.getElementById("portrait");
+  //   console.log(image)
+  //   if (image) {
+  //     image.style.opacity = "0";
+
+  //     setTimeout(() => {
+  //       image.style.opacity = "1";
+  //     }, 1000);
+  //   }
+
+  // }, [portrait]);
+
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -91,15 +108,14 @@ export default function Home() {
             position="fixed"
             elevation={0}
             sx={{
-              width: { sm: `calc(100% - ${drawerWidth}px)` },
-              ml: { sm: `${drawerWidth}px` },
+              width: { sm: drawerWidth },
+              ml: { sm: `calc(100% - ${drawerWidth}px)` },
               backgroundColor: "inherit",
               border: "none",
             }}
           >
             <Toolbar>
               <IconButton
-                // color="black"
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
@@ -112,9 +128,8 @@ export default function Home() {
           <Box
             component="nav"
             sx={{
-              width: { sm: drawerWidth },
+              width: { sm: drawerContentWidth },
               flexShrink: { sm: 0 },
-              // TODO: kind of want to move nav bar a little more to left
             }}
             aria-label="navigation"
           >
@@ -132,7 +147,7 @@ export default function Home() {
                 display: { xs: "block", sm: "none" },
                 "& .MuiDrawer-paper": {
                   boxSizing: "border-box",
-                  width: drawerWidth,
+                  width: "150px",
                 },
               }}
             >
@@ -144,7 +159,13 @@ export default function Home() {
                 display: { xs: "none", sm: "block" },
                 "& .MuiDrawer-paper": {
                   boxSizing: "border-box",
-                  width: drawerWidth,
+                  width: {
+                    xs: drawerWidth,
+                    sm: "15vw",
+                    md: "15vw",
+                    lg: "20vw",
+                    xl: drawerWidth,
+                  },
                   borderRight: "none !important",
                 },
               }}
@@ -174,12 +195,12 @@ export default function Home() {
                   alignItems="center"
                 >
                   <Grid item xs={4}>
-                    {/* TODO: It would be cool to make this picture change as you highlight over different words (I.e. phd add a grad cap and gown, stripe add glasses and tech shirt, nyc add a funny t shirt for nyc, craftmanship add a tattoos or smth) */}
-                    {/* TODO: make sure we underline the word when hovered over */}
+                    {/* TODO add more animations */}
                     {/* TODO: ugh it's not fading in */}
                     <Image
                       src={`/assets/portraits/${portrait}.png`}
                       loading="lazy"
+                      id="portrait"
                       height={1000}
                       width={1000}
                       alt="self portrait drawing"
@@ -190,7 +211,7 @@ export default function Home() {
                         width: "100%",
                         height: "auto",
                         margin: "auto",
-                        transition: "all 1s ease-in-out",
+                        transition: "opacity 1s",
                       }}
                     />
                   </Grid>
