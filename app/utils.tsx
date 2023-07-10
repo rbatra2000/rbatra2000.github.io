@@ -242,39 +242,40 @@ interface PortraitTriggerProps {
   text: string;
   image: PortraitEnum;
   setter: Function;
+  imageElement: HTMLElement | null;
 }
 
 export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
   props: PortraitTriggerProps
 ) => {
-  const image = document.getElementById("portrait");
-  if (!image) {
-    return
+  const imageElement = props.imageElement;
+  if (imageElement) {
+    return (
+      <>
+        {" "}
+        <a
+          onMouseEnter={() => {
+            imageElement.style.opacity = "0";
+            setTimeout(() => {
+              props.setter(props.image);
+              imageElement.style.opacity = "1";
+            }, 1000);
+          }}
+          onMouseLeave={() => {
+            imageElement.style.opacity = "0";
+            setTimeout(() => {
+              props.setter(PortraitEnum.DEFAULT);
+              imageElement.style.opacity = "1";
+            }, 1000);
+          }}
+          style={{ display: "inline-block" }}
+          className={"portraitTrigger"}
+        >
+          {props.text}
+        </a>{" "}
+      </>
+    );
+  } else {
+    return <> {props.text} </>;
   }
-  return (
-    <>
-      {" "}
-      <a
-        onMouseEnter={() => {
-          image.style.opacity = "0";
-          setTimeout(() => {
-            props.setter(props.image);
-            image.style.opacity = "1";
-          }, 1000);
-
-        }}
-        onMouseLeave={() => {
-          image.style.opacity = "0";
-          setTimeout(() => {
-            props.setter(PortraitEnum.DEFAULT);
-            image.style.opacity = "1";
-          }, 1000);
-        }}
-        style={{ display: "inline-block" }}
-        className={"portraitTrigger"}
-      >
-        {props.text}
-      </a>{" "}
-    </>
-  );
 };
