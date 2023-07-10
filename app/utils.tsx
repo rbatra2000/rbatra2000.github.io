@@ -247,7 +247,7 @@ interface PortraitTriggerProps {
 export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
   props: PortraitTriggerProps
 ) => {
-    if (typeof window !== "undefined") {
+    if (typeof window === "undefined") {
       return <> {props.text} </>;
     }
     const image = document.getElementById("portrait");
