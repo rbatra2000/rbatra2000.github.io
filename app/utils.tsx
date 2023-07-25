@@ -221,6 +221,8 @@ export const MediaItem: React.FC<MediaProps> = (props: MediaProps) => {
         height={1000}
         width={1000}
         alt={props.title}
+        placeholder="blur"
+        blurDataURL="/assets/loading.png"
         style={{
           borderRadius: "10%",
           //   width: "100%",
