@@ -88,14 +88,15 @@ export default function Home() {
 
   // React.useEffect(() => {
   //   if (typeof window !== "undefined") {
-  //   const image = document.getElementById("portrait");
-  //   console.log(image)
-  //   if (image) {
-  //     setTimeout(() => {
-  //       image.style.opacity = "1";
-  //     }, 1000);
+  //     const image = document.getElementById("portrait");
+  //     console.log(image);
+  //     if (image) {
+  //       setTimeout(() => {
+  //         image.style.opacity = "1";
+  //       }, 1000);
+  //     }
   //   }
-  // }
+  // }, []);
 
   // }, []);
 
@@ -210,7 +211,8 @@ export default function Home() {
                         width: "100%",
                         height: "auto",
                         margin: "auto",
-                        transition: "opacity 1s",
+                        opacity: "1",
+                        transition: "opacity .5s ease-in-out",
                       }}
                     />
                   </Grid>

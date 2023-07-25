@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "aos": "^2.3.4",
-    "codyhouse-framework": "^2.1.2",
-    "granim": "^2.0.0",
-    "particles.js": "^2.0.0"
-  }
-}

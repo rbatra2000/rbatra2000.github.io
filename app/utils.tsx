@@ -263,14 +263,14 @@ export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
           setTimeout(() => {
             props.setter(props.image);
             image.style.opacity = "1";
-          }, 1000);
+          }, 500);
         }}
         onMouseLeave={() => {
           image.style.opacity = "0";
           setTimeout(() => {
             props.setter(PortraitEnum.DEFAULT);
             image.style.opacity = "1";
-          }, 1000);
+          }, 500);
         }}
         style={{ display: "inline-block" }}
         className={"portraitTrigger"}
