@@ -218,7 +218,7 @@ export default function Home() {
                   </Grid>
                   <Grid item xs={8}>
                     <Typography paragraph>
-                      I am an incoming
+                      I am a first-year
                       <PortraitTrigger
                         text="PhD student"
                         image={PortraitEnum.GRAD}
@@ -227,14 +227,13 @@ export default function Home() {
                       in the Information Science department at Cornell
                       University, advised by Cindy H. Kao. In 2022, I graduated
                       from Berkeley with a BS in EECS and minors in political
-                      economy and data science. Until the semester begins, I
-                      will be continuing to work as a
+                      economy and data science. Before moving to Ithaca, I was a
                       <PortraitTrigger
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}
                         setter={setPortrait}
                       />
-                      in NYC and exploring what the city has to offer.
+                      living in the New York City.
                     </Typography>
                     <Typography paragraph>
                       I am constantly seeking opportunities to complement my
@@ -244,7 +243,8 @@ export default function Home() {
                       only empowers individuals but also preserves cultural
                       symbols and traditions with deep historical significance.
                       Through the exploration of these worlds, I hope to forge
-                      new pathways towards personal and inclusive fabrication.
+                      new pathways towards personal fabrication that is
+                      inclusive, accessible, sustainable, and so much more.
                     </Typography>
 
                     <Typography paragraph>
@@ -327,6 +327,12 @@ export default function Home() {
                   justifyContent="center"
                   columns={12}
                 >
+                  <TeachingExperience
+                    course="designtech"
+                    description="info 4240: designing technology for social impact"
+                    title="graduate teaching assistant"
+                  />
+
                   <TeachingExperience
                     course="databases"
                     description="compsci 186: introduction to database"

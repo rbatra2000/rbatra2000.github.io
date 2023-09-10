@@ -105,7 +105,7 @@ export const TeachingExperience: React.FC<TeachingProps> = (
 ) => {
   const imageUri = `/assets/instruction/${props.course}.png`;
   return (
-    <Grid item container justifyContent="center" sm={4} md={4} spacing={2}>
+    <Grid item container justifyContent="center" sm={3} md={3} spacing={2}>
       <Grid item justifyContent="center" container alignItems="center" xs={12}>
         <Image
           src={imageUri}
