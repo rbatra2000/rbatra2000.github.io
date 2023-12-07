@@ -86,19 +86,9 @@ export default function Home() {
     </div>
   );
 
-  // React.useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     const image = document.getElementById("portrait");
-  //     console.log(image);
-  //     if (image) {
-  //       setTimeout(() => {
-  //         image.style.opacity = "1";
-  //       }, 1000);
-  //     }
-  //   }
-  // }, []);
-
-  // }, []);
+  React.useEffect(() => {
+    setPortrait(PortraitEnum.DEFAULT)
+  }, []);
 
   return (
     <>
@@ -199,7 +189,6 @@ export default function Home() {
                     {/* TODO add more animations */}
                     <Image
                       src={`/assets/portraits/${portrait}.png`}
-                      loading="lazy"
                       id="portrait"
                       height={1000}
                       width={1000}
@@ -225,9 +214,10 @@ export default function Home() {
                         setter={setPortrait}
                       />
                       in the Information Science department at Cornell
-                      University, advised by Cindy H. Kao. In 2022, I graduated
-                      from Berkeley with a BS in EECS and minors in political
-                      economy and data science. Before moving to Ithaca, I was a
+                      University, advised by Cindy H. Kao in the Hybrid Ecology
+                      Lab. In 2022, I graduated from Berkeley with a BS in EECS
+                      and minors in political economy and data science. Before
+                      this, I was a
                       <PortraitTrigger
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}

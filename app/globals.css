@@ -51,3 +51,14 @@ body {
 .portraitTrigger:hover {
   text-decoration: underline solid;
 }
+
+.portrait {
+  border-radius: 50%;
+  border: 0px solid #000;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
