@@ -11,7 +11,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.status(200).json({ msg: "MESSAGE SENT!!" });
   } else {
     // Handle any other HTTP method
-    var time = dateObj.toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute: '2-digit'})
+    var time = dateObj.toLocaleTimeString([], {weekday: 'short', hour: '2-digit', minute: '2-digit', timeZone: "EST"})
     res.status(200).json({ msg: sharedTxt, time });
   }
 }
