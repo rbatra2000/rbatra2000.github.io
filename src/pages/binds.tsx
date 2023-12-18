@@ -63,7 +63,7 @@ export default function Profile() {
         <Button
           variant="contained"
           onClick={() => {
-            fetch(`http://ritikbatra.com/api/binds?msg=${msg}`, requestOptions)
+            fetch(`https://ritikbatra.com/api/binds?msg=${msg}`, requestOptions)
               .then(() => setDone("Woot sent!!"))
               .catch((error) => console.log(error));
           }}
