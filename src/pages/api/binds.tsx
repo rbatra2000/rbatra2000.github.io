@@ -5,15 +5,26 @@ var greenLed = false;
 var yellowLed = false;
 var redLed = false;
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+const allowCors = (fn: any) => async (req: NextApiRequest, res: NextApiResponse) => {
   res.setHeader("Access-Control-Allow-Credentials", "true");
   res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Methods", "GET,DELETE,PATCH,POST,PUT");
+  // another common pattern
+  // res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET,OPTIONS,PATCH,DELETE,POST,PUT"
+  );
   res.setHeader(
     "Access-Control-Allow-Headers",
     "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
   );
-
+  if (req.method === "OPTIONS") {
+    res.status(200).end();
+    return;
+  }
+  return await fn(req, res);
+};
+const handler = (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
     // Process a POST request
     const { msg, green, yellow, red } = req.query;
@@ -34,4 +45,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     });
     res.status(200).json({ msg: sharedTxt, time, greenLed, yellowLed, redLed });
   }
-}
+};
+
+module.exports = allowCors(handler);
