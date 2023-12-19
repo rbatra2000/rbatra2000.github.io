@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const label = { inputProps: { "aria-label": "switches" } };
 const requestOptions = {
-  method: "POST"
+  method: "POST",
 };
 
 const YellowSwitch = styled(Switch)(({ theme }) => ({
@@ -34,7 +34,7 @@ export default function Profile() {
     handleRed(!red);
   };
   const [msg, setMsg] = useState("");
-  const [done, setDone] = useState("")
+  const [done, setDone] = useState("");
 
   return (
     <Grid container>
@@ -64,6 +64,7 @@ export default function Profile() {
           variant="contained"
           onClick={() => {
             fetch(`https://ritikbatra.com/api/binds?msg=${msg}`, requestOptions)
+              .then((response) => response.json())
               .then(() => setDone("Woot sent!!"))
               .catch((error) => console.log(error));
           }}
@@ -72,9 +73,7 @@ export default function Profile() {
         </Button>
       </Grid>
       <Grid item xs={12}>
-      <Typography paragraph>
-          {done}
-        </Typography>
+        <Typography paragraph>{done}</Typography>
       </Grid>
     </Grid>
   );
