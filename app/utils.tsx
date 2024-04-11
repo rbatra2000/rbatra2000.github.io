@@ -105,17 +105,24 @@ export const TeachingExperience: React.FC<TeachingProps> = (
 ) => {
   const imageUri = `/assets/instruction/${props.course}.png`;
   return (
-    <Grid item container justifyContent="center" sm={3} md={3} spacing={2}>
-      <Grid item justifyContent="center" container alignItems="center" xs={12}>
+    <Grid item container justifyContent="center" sm={3} md={4} spacing={2}>
+      <Grid
+        item
+        justifyContent="center"
+        container
+        alignItems="center"
+        height="10vh"
+      >
         <Image
           src={imageUri}
           loading="lazy"
           key={props.course}
-          height={75}
-          width={75}
+          height={100}
+          width={100}
           alt={props.course}
           style={{
-            borderRadius: "5%",
+            height: "100%",
+            width: "auto",
           }}
         />
       </Grid>
@@ -126,6 +133,7 @@ export const TeachingExperience: React.FC<TeachingProps> = (
           <i>{props.title}</i>
         </Typography>
       </Grid>
+      {/* TODO: add some gap here to make it even */}
     </Grid>
   );
 };
@@ -133,11 +141,30 @@ export const TeachingExperience: React.FC<TeachingProps> = (
 interface BookProps {
   title: string;
   url: string;
+  // isbn?: string;
 }
 
 export const Book: React.FC<BookProps> = (props: BookProps) => {
   const imageUri = `/assets/books/${props.title}.jpeg`;
   const goodreadsUrl = `https://www.goodreads.com/book/show/${props.url}`;
+  // const bookcoverApi = `https://api.bookcover.longitood.com/bookcover/${props.isbn}`;
+
+  // Make a GET request
+  // TODO: https://api.bookcover.longitood.com/:path* need to use this api to call book covers instead
+  // fetch(bookcoverApi)
+  //   .then((response) => {
+  //     if (!response.ok) {
+  //       throw new Error("Network response was not ok");
+  //     }
+  //     console.log(response.json())
+  //     return response.json();
+  //   })
+  //   .then((data) => {
+  //     console.log(data);
+  //   })
+  //   .catch((error) => {
+  //     console.error("Error:", error);
+  //   });
 
   return (
     <Grid item sm={3}>

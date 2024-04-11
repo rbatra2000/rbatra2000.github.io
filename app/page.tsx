@@ -87,7 +87,7 @@ export default function Home() {
   );
 
   React.useEffect(() => {
-    setPortrait(PortraitEnum.DEFAULT)
+    setPortrait(PortraitEnum.DEFAULT);
   }, []);
 
   return (
@@ -311,32 +311,45 @@ export default function Home() {
 
               <div className="subsection">
                 <Subheading title="teaching" />
+                {/* Icons here: https://www.flaticon.com/authors/freepik Flat Circular Flat */}
                 <Grid
                   container
-                  spacing={1}
+                  spacing={3}
                   justifyContent="center"
                   columns={12}
                 >
                   <TeachingExperience
+                    course="machinelearning"
+                    description="break through tech ai program"
+                    title="head ta @ cornell tech (su24)"
+                  />
+
+                  <TeachingExperience
+                    course="webdevelopment"
+                    description="info 2300: intermediate design and programming for the web"
+                    title="graduate ta @ cornell (sp24)"
+                  />
+
+                  <TeachingExperience
                     course="designtech"
                     description="info 4240: designing technology for social impact"
-                    title="graduate teaching assistant"
+                    title="graduate ta @ cornell (fa23)"
                   />
 
                   <TeachingExperience
                     course="databases"
-                    description="compsci 186: introduction to database"
-                    title="undergraduate student instructor"
+                    description="compsci 186: introduction to database systems"
+                    title="teaching assistant @ berkeley (sp22)"
                   />
                   <TeachingExperience
                     course="interfaces"
                     description="compsci 160: user interface design and development"
-                    title="undergraduate student instructor"
+                    title="teaching assistant @ berkeley (su21)"
                   />
                   <TeachingExperience
                     course="datastructures"
                     description="compsci 61b: data structures"
-                    title="lab assistant & content mentor"
+                    title="lab assistant & content mentor @ berkeley (fa20)"
                   />
                 </Grid>
               </div>
@@ -350,7 +363,8 @@ export default function Home() {
                   alignItems="center"
                   columns={15}
                 >
-                  <Book title="bad_blood" url="37976541-bad-blood" />
+
+                  <Book title="bad_blood" url="37976541-bad-blood"/>
                   <Book title="my_own_words" url="29868604-my-own-words" />
                   <Book
                     title="the_last_lecture"

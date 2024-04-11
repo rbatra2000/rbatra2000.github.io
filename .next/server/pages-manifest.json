@@ -1,6 +1,8 @@
 {
+  "/api/binds": "pages/api/binds.js",
+  "/binds": "pages/binds.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/binds": "pages/binds.js"
+  "/404": "pages/404.html"
 }
