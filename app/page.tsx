@@ -40,6 +40,7 @@ export default function Home() {
   // const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [portrait, setPortrait] = React.useState(PortraitEnum.DEFAULT);
+  const [portraitOpacity, setPortraitOpacity] = React.useState(0);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -88,6 +89,7 @@ export default function Home() {
 
   React.useEffect(() => {
     setPortrait(PortraitEnum.DEFAULT);
+    setPortraitOpacity(1);
   }, []);
 
   return (
@@ -200,7 +202,7 @@ export default function Home() {
                         width: "100%",
                         height: "auto",
                         margin: "auto",
-                        opacity: "1",
+                        opacity: `${portraitOpacity}`,
                         transition: "opacity .5s ease-in-out",
                       }}
                     />
@@ -212,6 +214,7 @@ export default function Home() {
                         text="PhD student"
                         image={PortraitEnum.GRAD}
                         setter={setPortrait}
+                        opacity={setPortraitOpacity}
                       />
                       in the Information Science department at Cornell
                       University, advised by Cindy H. Kao in the Hybrid Ecology
@@ -222,6 +225,7 @@ export default function Home() {
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}
                         setter={setPortrait}
+                        opacity={setPortraitOpacity}
                       />
                       living in the New York City.
                     </Typography>

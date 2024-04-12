@@ -260,34 +260,28 @@ interface PortraitTriggerProps {
   text: string;
   image: PortraitEnum;
   setter: Function;
+  opacity: Function;
 }
 
 export const PortraitTrigger: React.FC<PortraitTriggerProps> = (
   props: PortraitTriggerProps
 ) => {
-  if (typeof window === "undefined") {
-    return <> {props.text} </>;
-  }
-  const image = document.getElementById("portrait");
-  if (!image) {
-    return <> {props.text} </>;
-  }
   return (
     <>
       {" "}
       <a
         onMouseEnter={() => {
-          image.style.opacity = "0";
+          props.opacity(0);
           setTimeout(() => {
             props.setter(props.image);
-            image.style.opacity = "1";
+            props.opacity(1);
           }, 500);
         }}
         onMouseLeave={() => {
-          image.style.opacity = "0";
+          props.opacity(0);
           setTimeout(() => {
             props.setter(PortraitEnum.DEFAULT);
-            image.style.opacity = "1";
+            props.opacity(1);
           }, 500);
         }}
         style={{ display: "inline-block" }}
