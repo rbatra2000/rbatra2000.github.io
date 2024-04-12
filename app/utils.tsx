@@ -1,5 +1,6 @@
 import { Divider, Grid, ListItem, Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import {useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -140,48 +141,36 @@ export const TeachingExperience: React.FC<TeachingProps> = (
 
 interface BookProps {
   title: string;
-  url: string;
-  // isbn?: string;
+  isbn: string;
+  url?: string;
 }
 
-export const Book: React.FC<BookProps> = (props: BookProps) => {
-  const imageUri = `/assets/books/${props.title}.jpeg`;
-  const goodreadsUrl = `https://www.goodreads.com/book/show/${props.url}`;
-  // const bookcoverApi = `https://api.bookcover.longitood.com/bookcover/${props.isbn}`;
+const LAST_BOOK = "stories_of_your_life_and_others"
 
-  // Make a GET request
-  // TODO: https://api.bookcover.longitood.com/:path* need to use this api to call book covers instead
-  // fetch(bookcoverApi)
-  //   .then((response) => {
-  //     if (!response.ok) {
-  //       throw new Error("Network response was not ok");
-  //     }
-  //     console.log(response.json())
-  //     return response.json();
-  //   })
-  //   .then((data) => {
-  //     console.log(data);
-  //   })
-  //   .catch((error) => {
-  //     console.error("Error:", error);
-  //   });
+export const Book: React.FC<BookProps> = ({title, url, isbn}: BookProps) => {
+  // const goodreadsUrl = `https://www.goodreads.com/book/show/${url}`;
+  const bookcoverUrl = `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg?default=false`;
+  const [width, setWidth] = useState(1);
 
   return (
-    <Grid item sm={3}>
-      <Link href={goodreadsUrl}>
-        <Image
-          src={imageUri}
-          loading="lazy"
-          height={100}
-          width={100}
-          alt={props.title}
-          style={{
-            width: "100%",
-            height: "auto",
-            margin: "auto",
-          }}
-        />
-      </Link>
+    <Grid item sm={width} style={{transition: "all 1s ease-in-out"}}>
+      <div style={{ width: "125px", height: "175px", position: "relative" }}>
+        {/* <Link href={goodreadsUrl} target="_blank"> */}
+          <Image
+            src={bookcoverUrl}
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            onMouseEnter={() => title == LAST_BOOK ? setWidth(1) : setWidth(3)}
+            onMouseLeave={() => setWidth(1)}
+            fill
+            className="w-full h-auto"
+            alt={title}
+            style={{
+              margin: "auto",
+            }}
+          />
+        {/* </Link> */}
+      </div>
     </Grid>
   );
 };

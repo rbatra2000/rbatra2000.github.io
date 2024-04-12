@@ -358,27 +358,51 @@ export default function Home() {
                 <Subheading title="bookshelf" />
                 <Grid
                   container
-                  spacing={2}
-                  justifyContent="center"
+                  spacing={1}
+                  justifyContent="left"
                   alignItems="center"
                   columns={15}
                 >
-
-                  <Book title="bad_blood" url="37976541-bad-blood"/>
-                  <Book title="my_own_words" url="29868604-my-own-words" />
+                  <Book
+                    title="bad_blood"
+                    url="37976541-bad-blood"
+                    isbn="9781984833631"
+                  />
+                  <Book
+                    title="my_own_words"
+                    url="29868604-my-own-words"
+                    isbn="9781683244356"
+                  />
                   <Book
                     title="the_last_lecture"
                     url="40611510-the-last-lecture"
+                    isbn="9781401323257"
                   />
-                  <Book title="becoming" url="38746485-becoming" />
+                  <Book
+                    title="becoming"
+                    url="38746485-becoming"
+                    isbn="9780241334140"
+                  />
                   <Book
                     title="the_little_prince"
                     url="157993.The_Little_Prince"
+                    isbn="9789001708528"
                   />
-                  <Book title="range" url="41795733-range" />
+
+                  <Book title="educated" isbn="9780525528050" />
+                  <Book title="uncanny_valley" isbn="9781432880064" />
+                  <Book title="when_breath_becomes_air" isbn="9780812988406" />
+                  <Book
+                    title="algorithms_of_oppression"
+                    url="34762552-algorithms-of-oppression"
+                    isbn="9781479837243"
+                  />
+                  <Book title="shoedog" isbn="9781471146732" />
+
                   <Book
                     title="stories_of_your_life_and_others"
                     url="223380.Stories_of_Your_Life_and_Others"
+                    isbn="076530418X"
                   />
                 </Grid>
               </div>

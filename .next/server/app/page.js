@@ -1,258 +1,87 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 931;
-exports.ids = [931];
+exports.id = "app/page";
+exports.ids = ["app/page"];
 exports.modules = {
 
-/***/ 40252:
+/***/ "../../client/components/action-async-storage.external":
+/*!*******************************************************************************!*\
+  !*** external "next/dist/client/components/action-async-storage.external.js" ***!
+  \*******************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/cookie");
+module.exports = require("next/dist/client/components/action-async-storage.external.js");
 
 /***/ }),
 
-/***/ 97999:
+/***/ "./request-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external" ***!
+  \*****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/path-to-regexp");
+module.exports = require("next/dist/client/components/request-async-storage.external");
 
 /***/ }),
 
-/***/ 18038:
+/***/ "../../client/components/request-async-storage.external":
+/*!********************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external.js" ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react");
+module.exports = require("next/dist/client/components/request-async-storage.external.js");
 
 /***/ }),
 
-/***/ 98704:
+/***/ "./static-generation-async-storage.external":
+/*!***************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external");
 
 /***/ }),
 
-/***/ 97897:
+/***/ "../../client/components/static-generation-async-storage.external":
+/*!******************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external.js");
 
 /***/ }),
 
-/***/ 56786:
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react/jsx-runtime");
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
 
 /***/ }),
 
-/***/ 61090:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/app-render/get-segment-param.js");
-
-/***/ }),
-
-/***/ 78652:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/future/helpers/interception-routes.js");
-
-/***/ }),
-
-/***/ 53918:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/amp-context.js");
-
-/***/ }),
-
-/***/ 45732:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/amp-mode.js");
-
-/***/ }),
-
-/***/ 3280:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/app-router-context.js");
-
-/***/ }),
-
-/***/ 47244:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/hash.js");
-
-/***/ }),
-
-/***/ 92796:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head-manager-context.js");
-
-/***/ }),
-
-/***/ 69274:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/hooks-client-context.js");
-
-/***/ }),
-
-/***/ 64486:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-blur-svg.js");
-
-/***/ }),
-
-/***/ 50744:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 35843:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config.js");
-
-/***/ }),
-
-/***/ 99552:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-loader");
-
-/***/ }),
-
-/***/ 24964:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router-context.js");
-
-/***/ }),
-
-/***/ 11751:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
-
-/***/ }),
-
-/***/ 23938:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
-
-/***/ }),
-
-/***/ 21668:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll.js");
-
-/***/ }),
-
-/***/ 1897:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
-
-/***/ }),
-
-/***/ 71109:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
-
-/***/ }),
-
-/***/ 28854:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
-
-/***/ }),
-
-/***/ 93297:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
-
-/***/ }),
-
-/***/ 87782:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
-
-/***/ }),
-
-/***/ 3349:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/server-inserted-html.js");
-
-/***/ }),
-
-/***/ 82470:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/side-effect.js");
-
-/***/ }),
-
-/***/ 59232:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 40618:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
-
-/***/ }),
-
-/***/ 71017:
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
 /***/ ((module) => {
 
 "use strict";
@@ -260,7 +89,10 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 57310:
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
 /***/ ((module) => {
 
 "use strict";
@@ -268,1089 +100,117 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 53134:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   AppRouter: () => (/* reexport default from dynamic */ next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default.a),
-/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default.a),
-/* harmony export */   LayoutRouter: () => (/* reexport default from dynamic */ next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default.a),
-/* harmony export */   RenderFromTemplateContext: () => (/* reexport default from dynamic */ next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default.a),
-/* harmony export */   StaticGenerationSearchParamsBailoutProvider: () => (/* reexport default from dynamic */ next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8___default.a),
-/* harmony export */   __next_app_webpack_require__: () => (/* binding */ __next_app_webpack_require__),
-/* harmony export */   actionAsyncStorage: () => (/* reexport safe */ next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__.actionAsyncStorage),
-/* harmony export */   createSearchParamsBailoutProxy: () => (/* reexport safe */ next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__.createSearchParamsBailoutProxy),
-/* harmony export */   decodeAction: () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.decodeAction),
-/* harmony export */   decodeReply: () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.decodeReply),
-/* harmony export */   originalPathname: () => (/* binding */ originalPathname),
-/* harmony export */   pages: () => (/* binding */ pages),
-/* harmony export */   preconnect: () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preconnect),
-/* harmony export */   preloadFont: () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preloadFont),
-/* harmony export */   preloadStyle: () => (/* reexport safe */ next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__.preloadStyle),
-/* harmony export */   renderToReadableStream: () => (/* reexport safe */ react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__.renderToReadableStream),
-/* harmony export */   requestAsyncStorage: () => (/* reexport safe */ next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__.requestAsyncStorage),
-/* harmony export */   serverHooks: () => (/* reexport module object */ next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__),
-/* harmony export */   staticGenerationAsyncStorage: () => (/* reexport safe */ next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__.staticGenerationAsyncStorage),
-/* harmony export */   staticGenerationBailout: () => (/* reexport safe */ next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__.staticGenerationBailout),
-/* harmony export */   tree: () => (/* binding */ tree)
-/* harmony export */ });
-/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(54592);
-/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(76301);
-/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(57431);
-/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(52673);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(30094);
-/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(24437);
-/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(46127);
-/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(45486);
-/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(86404);
-/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(95486);
-/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(63332);
-/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(27902);
-/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(93099);
-/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__);
-
-    const tree = {
-        children: [
-        '',
-        {
-        children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73428)), "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83174))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-        }]
-      },
-        {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60729)), "/Users/ritikbatra/Desktop/rbatra2000.github.io/app/layout.tsx"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83174))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-        }
-      ]
-      }.children;
-    const pages = ["/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx"];
-
-    
-    
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-
-    
-    const __next_app_webpack_require__ = __webpack_require__
-    
-
-    const originalPathname = "/page"
-  
+module.exports = require("util");
 
 /***/ }),
 
-/***/ 49577:
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js?5bc9\");\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/client/components/error-boundary */ \"(rsc)/./node_modules/next/dist/client/components/error-boundary.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"originalPathname\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n        children: ['__PAGE__', {}, {\n          page: [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/page.tsx */ \"(rsc)/./app/page.tsx\")), \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\"],\n          metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n        }]\n      },\n        {\n        'layout': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/layout.tsx */ \"(rsc)/./app/layout.tsx\")), \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/layout.tsx\"],\n'not-found': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23)), \"next/dist/client/components/not-found-error\"],\n        metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n      }\n      ]\n      }.children;\nconst pages = [\"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\"];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst originalPathname = \"/page\";\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/page\",\n        pathname: \"/\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\",\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZwYWdlJnBhZ2U9JTJGcGFnZSZhcHBQYXRocz0lMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGcGFnZS50c3gmYXBwRGlyPSUyRlVzZXJzJTJGcml0aWtiYXRyYSUyRkRlc2t0b3AlMkZyYmF0cmEyMDAwLmdpdGh1Yi5pbyUyRmFwcCZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJnJvb3REaXI9JTJGVXNlcnMlMkZyaXRpa2JhdHJhJTJGRGVza3RvcCUyRnJiYXRyYTIwMDAuZ2l0aHViLmlvJmlzRGV2PXRydWUmdHNjb25maWdQYXRoPXRzY29uZmlnLmpzb24mYmFzZVBhdGg9JmFzc2V0UHJlZml4PSZuZXh0Q29uZmlnT3V0cHV0PSZwcmVmZXJyZWRSZWdpb249Jm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEISIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQW9HO0FBQ3JDO0FBQy9EO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLGlDQUFpQztBQUNqQyx1QkFBdUIsd0lBQWdHO0FBQ3ZIO0FBQ0Esb0NBQW9DLDhlQUEwUDtBQUM5UjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsU0FBUztBQUNULE9BQU87QUFDUDtBQUNBLHlCQUF5Qiw0SUFBa0c7QUFDM0gsb0JBQW9CLDBOQUFnRjtBQUNwRztBQUNBLG9DQUFvQyw4ZUFBMFA7QUFDOVI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxPQUFPO0FBQ1A7QUFDdUI7QUFDNkQ7QUFDcEYsNkJBQTZCLG1CQUFtQjtBQUNoRDtBQUNPO0FBQ0E7QUFDUDtBQUNBO0FBQ0E7QUFDdUQ7QUFDdkQ7QUFDTyx3QkFBd0IsOEdBQWtCO0FBQ2pEO0FBQ0EsY0FBYyx5RUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0w7QUFDQTtBQUNBO0FBQ0EsQ0FBQzs7QUFFRCIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvP2NiNzgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXBwUGFnZVJvdXRlTW9kdWxlIH0gZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvYXBwLXBhZ2UvbW9kdWxlLmNvbXBpbGVkXCI7XG5pbXBvcnQgeyBSb3V0ZUtpbmQgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUta2luZFwiO1xuLy8gV2UgaW5qZWN0IHRoZSB0cmVlIGFuZCBwYWdlcyBoZXJlIHNvIHRoYXQgd2UgY2FuIHVzZSB0aGVtIGluIHRoZSByb3V0ZVxuLy8gbW9kdWxlLlxuY29uc3QgdHJlZSA9IHtcbiAgICAgICAgY2hpbGRyZW46IFtcbiAgICAgICAgJycsXG4gICAgICAgIHtcbiAgICAgICAgY2hpbGRyZW46IFsnX19QQUdFX18nLCB7fSwge1xuICAgICAgICAgIHBhZ2U6IFsoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vYXBwL3BhZ2UudHN4XCIpLCBcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vYXBwL3BhZ2UudHN4XCJdLFxuICAgICAgICAgIG1ldGFkYXRhOiB7XG4gICAgaWNvbjogWyhhc3luYyAocHJvcHMpID0+IChhd2FpdCBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQtbWV0YWRhdGEtaW1hZ2UtbG9hZGVyP3R5cGU9ZmF2aWNvbiZzZWdtZW50PSZiYXNlUGF0aD0mcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyEvVXNlcnMvcml0aWtiYXRyYS9EZXNrdG9wL3JiYXRyYTIwMDAuZ2l0aHViLmlvL2FwcC9mYXZpY29uLmljbz9fX25leHRfbWV0YWRhdGFfX1wiKSkuZGVmYXVsdChwcm9wcykpXSxcbiAgICBhcHBsZTogW10sXG4gICAgb3BlbkdyYXBoOiBbXSxcbiAgICB0d2l0dGVyOiBbXSxcbiAgICBtYW5pZmVzdDogdW5kZWZpbmVkXG4gIH1cbiAgICAgICAgfV1cbiAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgJ2xheW91dCc6IFsoKSA9PiBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vYXBwL2xheW91dC50c3hcIiksIFwiL1VzZXJzL3JpdGlrYmF0cmEvRGVza3RvcC9yYmF0cmEyMDAwLmdpdGh1Yi5pby9hcHAvbGF5b3V0LnRzeFwiXSxcbidub3QtZm91bmQnOiBbKCkgPT4gaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvbm90LWZvdW5kLWVycm9yXCIpLCBcIm5leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtZXJyb3JcIl0sXG4gICAgICAgIG1ldGFkYXRhOiB7XG4gICAgaWNvbjogWyhhc3luYyAocHJvcHMpID0+IChhd2FpdCBpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIm5leHQtbWV0YWRhdGEtaW1hZ2UtbG9hZGVyP3R5cGU9ZmF2aWNvbiZzZWdtZW50PSZiYXNlUGF0aD0mcGFnZUV4dGVuc2lvbnM9dHN4JnBhZ2VFeHRlbnNpb25zPXRzJnBhZ2VFeHRlbnNpb25zPWpzeCZwYWdlRXh0ZW5zaW9ucz1qcyEvVXNlcnMvcml0aWtiYXRyYS9EZXNrdG9wL3JiYXRyYTIwMDAuZ2l0aHViLmlvL2FwcC9mYXZpY29uLmljbz9fX25leHRfbWV0YWRhdGFfX1wiKSkuZGVmYXVsdChwcm9wcykpXSxcbiAgICBhcHBsZTogW10sXG4gICAgb3BlbkdyYXBoOiBbXSxcbiAgICB0d2l0dGVyOiBbXSxcbiAgICBtYW5pZmVzdDogdW5kZWZpbmVkXG4gIH1cbiAgICAgIH1cbiAgICAgIF1cbiAgICAgIH0uY2hpbGRyZW47XG5jb25zdCBwYWdlcyA9IFtcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vYXBwL3BhZ2UudHN4XCJdO1xuZXhwb3J0IHsgdHJlZSwgcGFnZXMgfTtcbmV4cG9ydCB7IGRlZmF1bHQgYXMgR2xvYmFsRXJyb3IgfSBmcm9tIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2Vycm9yLWJvdW5kYXJ5XCI7XG5jb25zdCBfX25leHRfYXBwX3JlcXVpcmVfXyA9IF9fd2VicGFja19yZXF1aXJlX19cbmNvbnN0IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fID0gKCkgPT4gUHJvbWlzZS5yZXNvbHZlKClcbmV4cG9ydCBjb25zdCBvcmlnaW5hbFBhdGhuYW1lID0gXCIvcGFnZVwiO1xuZXhwb3J0IGNvbnN0IF9fbmV4dF9hcHBfXyA9IHtcbiAgICByZXF1aXJlOiBfX25leHRfYXBwX3JlcXVpcmVfXyxcbiAgICBsb2FkQ2h1bms6IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fXG59O1xuZXhwb3J0ICogZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvYXBwLXJlbmRlci9lbnRyeS1iYXNlXCI7XG4vLyBDcmVhdGUgYW5kIGV4cG9ydCB0aGUgcm91dGUgbW9kdWxlIHRoYXQgd2lsbCBiZSBjb25zdW1lZC5cbmV4cG9ydCBjb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBQYWdlUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLkFQUF9QQUdFLFxuICAgICAgICBwYWdlOiBcIi9wYWdlXCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9cIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIixcbiAgICAgICAgYXBwUGF0aHM6IFtdXG4gICAgfSxcbiAgICB1c2VybGFuZDoge1xuICAgICAgICBsb2FkZXJUcmVlOiB0cmVlXG4gICAgfVxufSk7XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1wYWdlLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp%2Fpage.tsx&server=true!":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp%2Fpage.tsx&server=true! ***!
+  \**************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/page.tsx */ \"(ssr)/./app/page.tsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZyaXRpa2JhdHJhJTJGRGVza3RvcCUyRnJiYXRyYTIwMDAuZ2l0aHViLmlvJTJGYXBwJTJGcGFnZS50c3gmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vd2Vic2l0ZS8/YTkwMSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vYXBwL3BhZ2UudHN4XCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp%2Fpage.tsx&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true! ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/app-router.js */ \"(ssr)/./node_modules/next/dist/client/components/app-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/error-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/error-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/layout-router.js */ \"(ssr)/./node_modules/next/dist/client/components/layout-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/not-found-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/render-from-template-context.js */ \"(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js */ \"(ssr)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZyaXRpa2JhdHJhJTJGRGVza3RvcCUyRnJiYXRyYTIwMDAuZ2l0aHViLmlvJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGYXBwLXJvdXRlci5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGcml0aWtiYXRyYSUyRkRlc2t0b3AlMkZyYmF0cmEyMDAwLmdpdGh1Yi5pbyUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRmVycm9yLWJvdW5kYXJ5LmpzJm1vZHVsZXM9JTJGVXNlcnMlMkZyaXRpa2JhdHJhJTJGRGVza3RvcCUyRnJiYXRyYTIwMDAuZ2l0aHViLmlvJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGbGF5b3V0LXJvdXRlci5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGcml0aWtiYXRyYSUyRkRlc2t0b3AlMkZyYmF0cmEyMDAwLmdpdGh1Yi5pbyUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRm5vdC1mb3VuZC1ib3VuZGFyeS5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGcml0aWtiYXRyYSUyRkRlc2t0b3AlMkZyYmF0cmEyMDAwLmdpdGh1Yi5pbyUyRm5vZGVfbW9kdWxlcyUyRm5leHQlMkZkaXN0JTJGY2xpZW50JTJGY29tcG9uZW50cyUyRnJlbmRlci1mcm9tLXRlbXBsYXRlLWNvbnRleHQuanMmbW9kdWxlcz0lMkZVc2VycyUyRnJpdGlrYmF0cmElMkZEZXNrdG9wJTJGcmJhdHJhMjAwMC5naXRodWIuaW8lMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZzdGF0aWMtZ2VuZXJhdGlvbi1zZWFyY2hwYXJhbXMtYmFpbG91dC1wcm92aWRlci5qcyZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsa09BQTBJO0FBQzFJLDBPQUE4STtBQUM5SSx3T0FBNkk7QUFDN0ksa1BBQWtKO0FBQ2xKLHNRQUE0SjtBQUM1SiIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvPzQwZWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvcml0aWtiYXRyYS9EZXNrdG9wL3JiYXRyYTIwMDAuZ2l0aHViLmlvL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvYXBwLXJvdXRlci5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3JpdGlrYmF0cmEvRGVza3RvcC9yYmF0cmEyMDAwLmdpdGh1Yi5pby9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2Vycm9yLWJvdW5kYXJ5LmpzXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvcml0aWtiYXRyYS9EZXNrdG9wL3JiYXRyYTIwMDAuZ2l0aHViLmlvL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvbGF5b3V0LXJvdXRlci5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3JpdGlrYmF0cmEvRGVza3RvcC9yYmF0cmEyMDAwLmdpdGh1Yi5pby9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC1ib3VuZGFyeS5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3JpdGlrYmF0cmEvRGVza3RvcC9yYmF0cmEyMDAwLmdpdGh1Yi5pby9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL3JlbmRlci1mcm9tLXRlbXBsYXRlLWNvbnRleHQuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy9yaXRpa2JhdHJhL0Rlc2t0b3AvcmJhdHJhMjAwMC5naXRodWIuaW8vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9zdGF0aWMtZ2VuZXJhdGlvbi1zZWFyY2hwYXJhbXMtYmFpbG91dC1wcm92aWRlci5qc1wiKSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!\n");
+
+/***/ }),
+
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22app%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp%2Fglobals.css&server=true!":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22app%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp%2Fglobals.css&server=true! ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 1720:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 20212))
-
-/***/ }),
-
-/***/ 71750:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 90125, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 86249, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 97844, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 61522, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 13100, 23))
-
-/***/ }),
-
-/***/ 20212:
+/***/ "(ssr)/./app/page.tsx":
+/*!**********************!*\
+  !*** ./app/page.tsx ***!
+  \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(56786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(18038);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/AppBar/index.js
-var AppBar = __webpack_require__(59965);
-var AppBar_default = /*#__PURE__*/__webpack_require__.n(AppBar);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/Box/index.js
-var Box = __webpack_require__(46661);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/CssBaseline/index.js
-var CssBaseline = __webpack_require__(57981);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/Drawer/index.js
-var Drawer = __webpack_require__(79499);
-var Drawer_default = /*#__PURE__*/__webpack_require__.n(Drawer);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/IconButton/index.js
-var IconButton = __webpack_require__(16816);
-var IconButton_default = /*#__PURE__*/__webpack_require__.n(IconButton);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/List/index.js
-var List = __webpack_require__(54436);
-var List_default = /*#__PURE__*/__webpack_require__.n(List);
-// EXTERNAL MODULE: ./node_modules/@mui/icons-material/Menu.js
-var Menu = __webpack_require__(43900);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/Toolbar/index.js
-var Toolbar = __webpack_require__(90043);
-var Toolbar_default = /*#__PURE__*/__webpack_require__.n(Toolbar);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/Typography/index.js
-var Typography = __webpack_require__(43360);
-var Typography_default = /*#__PURE__*/__webpack_require__.n(Typography);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(48421);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/Container/index.js
-var Container = __webpack_require__(63246);
-var Container_default = /*#__PURE__*/__webpack_require__.n(Container);
-// EXTERNAL MODULE: ./node_modules/@vercel/analytics/dist/react/index.js
-var react = __webpack_require__(45900);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/index.js
-var node = __webpack_require__(64085);
-// EXTERNAL MODULE: ./node_modules/@mui/material/node/styles/index.js
-var styles = __webpack_require__(22166);
-// EXTERNAL MODULE: ./node_modules/typeface-roboto/index.css
-var typeface_roboto = __webpack_require__(12473);
-// EXTERNAL MODULE: ./node_modules/@fontsource/poppins/index.css
-var poppins = __webpack_require__(93080);
-;// CONCATENATED MODULE: ./app/theme.tsx
-
-
- // Defaults to weight 400
-const theme = (0,styles.createTheme)({
-    typography: {
-        h1: {
-            fontSize: "4rem",
-            fontFamily: "Poppins",
-            fontWeight: 600
-        },
-        h2: {
-            fontSize: "1.5rem",
-            fontFamily: "Poppins",
-            fontWeight: 600
-        },
-        h3: {
-            fontSize: "1rem",
-            fontFamily: "Poppins",
-            fontWeight: 600
-        },
-        body1: {
-            fontSize: "1rem",
-            fontFamily: "roboto"
-        }
-    }
-});
-/* harmony default export */ const app_theme = (theme);
-
-// EXTERNAL MODULE: ./node_modules/@mui/system/index.js
-var system = __webpack_require__(47447);
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(31621);
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-;// CONCATENATED MODULE: ./app/utils.tsx
-
-
-
-
-
-
-const Subheading = (props)=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        id: props.title,
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-            container: true,
-            justifyContent: "center",
-            alignItems: "center",
-            spacing: 0,
-            style: {
-                marginBottom: "25px"
-            },
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                    item: true,
-                    lg: 2,
-                    md: 2,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                        variant: "h2",
-                        children: props.title
-                    })
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                    item: true,
-                    lg: 10,
-                    md: 10,
-                    sm: 12,
-                    xs: 12,
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(node.Divider, {
-                        sx: {
-                            borderBottomWidth: 3,
-                            borderColor: "black"
-                        }
-                    })
-                })
-            ]
-        })
-    });
-};
-const ResearchPaper = (props)=>{
-    const nameIndex = props.text.indexOf("Ritik");
-    const nameLength = "Ritik Batra".length;
-    const urlIndex = props.text.indexOf("https://");
-    const before = props.text.substring(0, nameIndex);
-    const after = props.text.substring(nameIndex + nameLength, urlIndex);
-    const url = props.text.substring(urlIndex);
-    return /*#__PURE__*/ jsx_runtime_.jsx(system.Box, {
-        sx: {
-            fontStyle: "italic"
-        },
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Typography, {
-            paragraph: true,
-            children: [
-                before,
-                /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                    children: "Ritik Batra"
-                }),
-                after,
-                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    href: url,
-                    style: {
-                        textDecoration: "underline",
-                        textUnderlineOffset: "3px"
-                    },
-                    children: url
-                })
-            ]
-        })
-    });
-};
-const WorkExperience = (props)=>{
-    const imageUri = `/assets/experience/${props.company}.png`;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-        item: true,
-        container: true,
-        justifyContent: "center",
-        sm: 3,
-        md: 3,
-        spacing: 1,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                item: true,
-                justifyContent: "center",
-                alignItems: "center",
-                container: true,
-                xs: 12,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: imageUri,
-                    loading: "lazy",
-                    height: 75,
-                    width: 75,
-                    alt: props.company,
-                    style: {
-                        borderRadius: "5%"
-                    }
-                }, props.company)
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                item: true,
-                justifyContent: "center",
-                alignItems: "center",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Typography, {
-                    align: "center",
-                    paragraph: true,
-                    children: [
-                        props.role,
-                        " • ",
-                        props.description
-                    ]
-                })
-            })
-        ]
-    });
-};
-const TeachingExperience = (props)=>{
-    const imageUri = `/assets/instruction/${props.course}.png`;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-        item: true,
-        container: true,
-        justifyContent: "center",
-        sm: 3,
-        md: 4,
-        spacing: 2,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                item: true,
-                justifyContent: "center",
-                container: true,
-                alignItems: "center",
-                height: "10vh",
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: imageUri,
-                    loading: "lazy",
-                    height: 100,
-                    width: 100,
-                    alt: props.course,
-                    style: {
-                        height: "100%",
-                        width: "auto"
-                    }
-                }, props.course)
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                item: true,
-                justifyContent: "center",
-                alignItems: "center",
-                xs: 12,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Typography, {
-                    align: "center",
-                    paragraph: true,
-                    children: [
-                        props.description,
-                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                            children: props.title
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-};
-const Book = (props)=>{
-    const imageUri = `/assets/books/${props.title}.jpeg`;
-    const goodreadsUrl = `https://www.goodreads.com/book/show/${props.url}`;
-    // const bookcoverApi = `https://api.bookcover.longitood.com/bookcover/${props.isbn}`;
-    // Make a GET request
-    // TODO: https://api.bookcover.longitood.com/:path* need to use this api to call book covers instead
-    // fetch(bookcoverApi)
-    //   .then((response) => {
-    //     if (!response.ok) {
-    //       throw new Error("Network response was not ok");
-    //     }
-    //     console.log(response.json())
-    //     return response.json();
-    //   })
-    //   .then((data) => {
-    //     console.log(data);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error:", error);
-    //   });
-    return /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-        item: true,
-        sm: 3,
-        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-            href: goodreadsUrl,
-            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: imageUri,
-                loading: "lazy",
-                height: 100,
-                width: 100,
-                alt: props.title,
-                style: {
-                    width: "100%",
-                    height: "auto",
-                    margin: "auto"
-                }
-            })
-        })
-    });
-};
-const handleScroll = (e)=>{
-    // first prevent the default behavior
-    e.preventDefault();
-    // get the href and remove everything before the hash (#)
-    const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\#/, "");
-    // get the element by id and use scrollIntoView
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-        behavior: "smooth"
-    });
-};
-const NavListItem = (props)=>{
-    const href = `#${props.section}`;
-    return /*#__PURE__*/ jsx_runtime_.jsx(node.ListItem, {
-        style: {
-            paddingLeft: "0",
-            paddingBottom: "0"
-        },
-        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-            href: href,
-            onClick: async (e)=>{
-                handleScroll(e);
-            // // TODO: I hate this lol have to fix this at some point
-            // setTimeout(function () {
-            //   props.handleClick();
-            // }, 0);
-            },
-            className: "navListItem",
-            children: /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                paragraph: true,
-                className: "navListItemText",
-                children: props.section
-            })
-        })
-    }, props.section);
-};
-const MediaItem = (props)=>{
-    const imageUri = `/assets/art/${props.path}.${props.type}`;
-    return /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-        item: true,
-        xs: 6,
-        sm: 3,
-        md: 3,
-        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-            src: imageUri,
-            loading: "lazy",
-            height: 1000,
-            width: 1000,
-            alt: props.title,
-            placeholder: "blur",
-            blurDataURL: "/assets/loading.png",
-            style: {
-                borderRadius: "10%"
-            }
-        })
-    }, props.path);
-};
-var PortraitEnum;
-(function(PortraitEnum) {
-    PortraitEnum["DEFAULT"] = "default";
-    PortraitEnum["GRAD"] = "grad";
-    PortraitEnum["ENGINEER"] = "engineer";
-})(PortraitEnum || (PortraitEnum = {}));
-const PortraitTrigger = (props)=>{
-    if (true) {
-        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-            children: [
-                " ",
-                props.text,
-                " "
-            ]
-        });
-    }
-    const image = document.getElementById("portrait");
-    if (!image) {
-        return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-            children: [
-                " ",
-                props.text,
-                " "
-            ]
-        });
-    }
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            " ",
-            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                onMouseEnter: ()=>{
-                    image.style.opacity = "0";
-                    setTimeout(()=>{
-                        props.setter(props.image);
-                        image.style.opacity = "1";
-                    }, 500);
-                },
-                onMouseLeave: ()=>{
-                    image.style.opacity = "0";
-                    setTimeout(()=>{
-                        props.setter(PortraitEnum.DEFAULT);
-                        image.style.opacity = "1";
-                    }, 500);
-                },
-                style: {
-                    display: "inline-block"
-                },
-                className: "portraitTrigger",
-                children: props.text
-            }),
-            " "
-        ]
-    });
-};
-
-;// CONCATENATED MODULE: ./app/page.tsx
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const drawerWidth = "25vw";
-const drawerContentWidth = 95;
-// interface PageProps {
-//   /**
-//    * Injected by the documentation to work in an iframe.
-//    * You won't need it on your project.
-//    */
-//   window?: () => Window;
-// }
-function Home() {
-    // const { window } = props;
-    const [mobileOpen, setMobileOpen] = react_.useState(false);
-    const [portrait, setPortrait] = react_.useState(PortraitEnum.DEFAULT);
-    const handleDrawerToggle = ()=>{
-        setMobileOpen(!mobileOpen);
-    };
-    const drawer = /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        style: {
-            marginLeft: mobileOpen ? "0px" : `calc(100% - ${drawerContentWidth}px)`
-        },
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            style: {
-                marginTop: "45px",
-                marginLeft: "15px"
-            },
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/assets/black_logo.png",
-                    width: 50,
-                    height: 50,
-                    alt: "logo"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                    variant: "h3",
-                    noWrap: true,
-                    style: {
-                        textDecoration: "underline",
-                        textUnderlineOffset: "5px"
-                    },
-                    children: "ritik batra"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx((List_default()), {
-                    children: [
-                        "about",
-                        "research",
-                        "industry",
-                        "teaching",
-                        "bookshelf",
-                        "creative"
-                    ].map((text)=>/*#__PURE__*/ jsx_runtime_.jsx(NavListItem, {
-                            section: text,
-                            handleClick: handleDrawerToggle
-                        }, text))
-                })
-            ]
-        })
-    });
-    react_.useEffect(()=>{
-        setPortrait(PortraitEnum.DEFAULT);
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(node.ThemeProvider, {
-                theme: app_theme,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Box["default"], {
-                    sx: {
-                        display: "flex"
-                    },
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(CssBaseline["default"], {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx((AppBar_default()), {
-                            position: "fixed",
-                            elevation: 0,
-                            sx: {
-                                width: {
-                                    sm: drawerWidth
-                                },
-                                ml: {
-                                    sm: `calc(100% - ${drawerWidth}px)`
-                                },
-                                backgroundColor: "inherit",
-                                border: "none"
-                            },
-                            children: /*#__PURE__*/ jsx_runtime_.jsx((Toolbar_default()), {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx((IconButton_default()), {
-                                    "aria-label": "open drawer",
-                                    edge: "start",
-                                    onClick: handleDrawerToggle,
-                                    sx: {
-                                        mr: 2,
-                                        display: {
-                                            sm: "none"
-                                        }
-                                    },
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx(Menu/* default */.Z, {})
-                                })
-                            })
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Box["default"], {
-                            component: "nav",
-                            sx: {
-                                width: {
-                                    sm: drawerContentWidth
-                                },
-                                flexShrink: {
-                                    sm: 0
-                                }
-                            },
-                            "aria-label": "navigation",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx((Drawer_default()), {
-                                    // container={container}
-                                    variant: "temporary",
-                                    open: mobileOpen,
-                                    onClose: handleDrawerToggle,
-                                    ModalProps: {
-                                        keepMounted: true
-                                    },
-                                    sx: {
-                                        display: {
-                                            xs: "block",
-                                            sm: "none"
-                                        },
-                                        "& .MuiDrawer-paper": {
-                                            boxSizing: "border-box",
-                                            width: "150px"
-                                        }
-                                    },
-                                    children: drawer
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx((Drawer_default()), {
-                                    variant: "permanent",
-                                    sx: {
-                                        display: {
-                                            xs: "none",
-                                            sm: "block"
-                                        },
-                                        "& .MuiDrawer-paper": {
-                                            boxSizing: "border-box",
-                                            width: {
-                                                xs: drawerWidth,
-                                                sm: "15vw",
-                                                md: "15vw",
-                                                lg: "20vw",
-                                                xl: drawerWidth
-                                            },
-                                            borderRight: "none !important"
-                                        }
-                                    },
-                                    open: true,
-                                    children: drawer
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx((Container_default()), {
-                            maxWidth: "md",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Box["default"], {
-                                component: "main",
-                                sx: {
-                                    flexGrow: 1,
-                                    p: 4
-                                },
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        id: "about",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                            variant: "h1",
-                                            children: "hi, i'm ritik!"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "subsection",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                            container: true,
-                                            spacing: {
-                                                xs: 2,
-                                                md: 3
-                                            },
-                                            columns: {
-                                                xs: 4,
-                                                sm: 8,
-                                                md: 12
-                                            },
-                                            justifyContent: "center",
-                                            alignItems: "center",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
-                                                    item: true,
-                                                    xs: 4,
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                                        src: `/assets/portraits/${portrait}.png`,
-                                                        id: "portrait",
-                                                        height: 1000,
-                                                        width: 1000,
-                                                        alt: "self portrait drawing",
-                                                        style: {
-                                                            borderRadius: "50%",
-                                                            border: "0px solid #000",
-                                                            backgroundColor: "white",
-                                                            width: "100%",
-                                                            height: "auto",
-                                                            margin: "auto",
-                                                            opacity: "1",
-                                                            transition: "opacity .5s ease-in-out"
-                                                        }
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                                    item: true,
-                                                    xs: 8,
-                                                    children: [
-                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Typography_default()), {
-                                                            paragraph: true,
-                                                            children: [
-                                                                "I am a first-year",
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(PortraitTrigger, {
-                                                                    text: "PhD student",
-                                                                    image: PortraitEnum.GRAD,
-                                                                    setter: setPortrait
-                                                                }),
-                                                                "in the Information Science department at Cornell University, advised by Cindy H. Kao in the Hybrid Ecology Lab. In 2022, I graduated from Berkeley with a BS in EECS and minors in political economy and data science. Before this, I was a",
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(PortraitTrigger, {
-                                                                    text: "software engineer at Stripe",
-                                                                    image: PortraitEnum.ENGINEER,
-                                                                    setter: setPortrait
-                                                                }),
-                                                                "living in the New York City."
-                                                            ]
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                                            paragraph: true,
-                                                            children: "I am constantly seeking opportunities to complement my technical background through self-expression. Through this journey, I have been reflecting about how craftsmanship serves as an intersection of art and technology that not only empowers individuals but also preserves cultural symbols and traditions with deep historical significance. Through the exploration of these worlds, I hope to forge new pathways towards personal fabrication that is inclusive, accessible, sustainable, and so much more."
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                                            paragraph: true,
-                                                            children: "You can contact me at ritikbatra[at]berkeley[dot]edu"
-                                                        })
-                                                    ]
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "subsection",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Subheading, {
-                                                title: "research"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                                variant: "h3",
-                                                children: "statement"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                                paragraph: true,
-                                                children: "The central theme of my work is inspired by a curiosity of how we can rely on technology to create tailored experiences for us to extend our identity to our objects, machines, and environment. In a world with personalized fabrication, users have more control over their environment by shaping their tools, clothing, and interfaces to fit their needs rather than adjusting to what is available. This inspires more accessible design tools for fabrication and smaller expertise gaps in manufacturing."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
-                                                variant: "h3",
-                                                children: "papers"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(ResearchPaper, {
-                                                text: "Ritik Batra and Kaitlyn Yi Ran Lee. 2022. Redycler: Daily Outfit Texture Fabrication Appliance Using Re-Programmable Dyes. In Sixteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '22). Association for Computing Machinery, New York, NY, USA, Article 41, 1–4. https://doi.org/10.1145/3490149.3502424"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(ResearchPaper, {
-                                                text: "Alice Agogino, Hae Young Jang, Vivek Rao, Ritik Batra, Felicity Liao, Rohan Sood, Irving Fang, R. Lily Hu, Emerson Shoichet-Bartus, John Matranga. 2021. Dynamic Placement of Rapidly Deployable Mobile Sensor Robots Using Machine Learning and Expected Value of Information. In Proceedings of the ASME 2021 International Mechanical Engineering Congress and Exposition. Volume 13: Safety Engineering, Risk, and Reliability Analysis; Research Posters. Virtual, Online. V013T14A027. ASME. https://doi.org/10.1115/IMECE2021-70759"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "subsection",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Subheading, {
-                                                title: "industry"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                                container: true,
-                                                spacing: 2,
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(WorkExperience, {
-                                                        company: "stripe",
-                                                        description: "link consumer experience",
-                                                        role: "full-stack software engineer"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(WorkExperience, {
-                                                        company: "asana",
-                                                        description: "android foundations",
-                                                        role: "product engineering intern"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(WorkExperience, {
-                                                        company: "goldman_sachs",
-                                                        description: "corporate workplace solutions",
-                                                        role: "summer engineering analyst"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(WorkExperience, {
-                                                        company: "rally_health",
-                                                        description: "mobile engineering",
-                                                        role: "iOS software engineering intern"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "subsection",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Subheading, {
-                                                title: "teaching"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                                container: true,
-                                                spacing: 3,
-                                                justifyContent: "center",
-                                                columns: 12,
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "machinelearning",
-                                                        description: "break through tech ai program",
-                                                        title: "head ta @ cornell tech (su24)"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "webdevelopment",
-                                                        description: "info 2300: intermediate design and programming for the web",
-                                                        title: "graduate ta @ cornell (sp24)"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "designtech",
-                                                        description: "info 4240: designing technology for social impact",
-                                                        title: "graduate ta @ cornell (fa23)"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "databases",
-                                                        description: "compsci 186: introduction to database systems",
-                                                        title: "teaching assistant @ berkeley (sp22)"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "interfaces",
-                                                        description: "compsci 160: user interface design and development",
-                                                        title: "teaching assistant @ berkeley (su21)"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(TeachingExperience, {
-                                                        course: "datastructures",
-                                                        description: "compsci 61b: data structures",
-                                                        title: "lab assistant & content mentor @ berkeley (fa20)"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "subsection",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Subheading, {
-                                                title: "bookshelf"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                                container: true,
-                                                spacing: 2,
-                                                justifyContent: "center",
-                                                alignItems: "center",
-                                                columns: 15,
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "bad_blood",
-                                                        url: "37976541-bad-blood"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "my_own_words",
-                                                        url: "29868604-my-own-words"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "the_last_lecture",
-                                                        url: "40611510-the-last-lecture"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "becoming",
-                                                        url: "38746485-becoming"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "the_little_prince",
-                                                        url: "157993.The_Little_Prince"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "range",
-                                                        url: "41795733-range"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(Book, {
-                                                        title: "stories_of_your_life_and_others",
-                                                        url: "223380.Stories_of_Your_Life_and_Others"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "subsection",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(Subheading, {
-                                                title: "creative"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Typography_default()), {
-                                                variant: "h3",
-                                                style: {
-                                                    marginBottom: "10px"
-                                                },
-                                                children: [
-                                                    'i like making "stuff".',
-                                                    " "
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
-                                                container: true,
-                                                spacing: 1,
-                                                justifyContent: "center",
-                                                alignItems: "center",
-                                                columns: {
-                                                    xs: 12,
-                                                    sm: 9,
-                                                    md: 9,
-                                                    lg: 9
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "moon drip",
-                                                        path: "moon_drip",
-                                                        type: "jpeg"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "glass planet",
-                                                        path: "glass_planet",
-                                                        type: "png"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "dance clip",
-                                                        path: "forever",
-                                                        type: "gif"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "broadway dance",
-                                                        path: "dance_bdc",
-                                                        type: "gif"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "lady strandbeest",
-                                                        path: "strandbeest1",
-                                                        type: "gif"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "stool",
-                                                        path: "stool",
-                                                        type: "jpeg"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "story of a pencil",
-                                                        path: "pencil",
-                                                        type: "gif"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "creative coding",
-                                                        path: "creative_coding",
-                                                        type: "gif"
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx(MediaItem, {
-                                                        title: "plate",
-                                                        path: "design_plate",
-                                                        type: "jpeg"
-                                                    })
-                                                ]
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(react/* Analytics */.cp, {})
-        ]
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _mui_material_AppBar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material/AppBar */ \"(ssr)/./node_modules/@mui/material/node/AppBar/index.js\");\n/* harmony import */ var _mui_material_AppBar__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_material_AppBar__WEBPACK_IMPORTED_MODULE_11__);\n/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/Box */ \"(ssr)/./node_modules/@mui/material/node/Box/index.js\");\n/* harmony import */ var _mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material/CssBaseline */ \"(ssr)/./node_modules/@mui/material/node/CssBaseline/index.js\");\n/* harmony import */ var _mui_material_Drawer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material/Drawer */ \"(ssr)/./node_modules/@mui/material/node/Drawer/index.js\");\n/* harmony import */ var _mui_material_Drawer__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Drawer__WEBPACK_IMPORTED_MODULE_15__);\n/* harmony import */ var _mui_material_IconButton__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material/IconButton */ \"(ssr)/./node_modules/@mui/material/node/IconButton/index.js\");\n/* harmony import */ var _mui_material_IconButton__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_material_IconButton__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _mui_material_List__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/List */ \"(ssr)/./node_modules/@mui/material/node/List/index.js\");\n/* harmony import */ var _mui_material_List__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_material_List__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/icons-material/Menu */ \"(ssr)/./node_modules/@mui/icons-material/Menu.js\");\n/* harmony import */ var _mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material/Toolbar */ \"(ssr)/./node_modules/@mui/material/node/Toolbar/index.js\");\n/* harmony import */ var _mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/material/Typography */ \"(ssr)/./node_modules/@mui/material/node/Typography/index.js\");\n/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material/Container */ \"(ssr)/./node_modules/@mui/material/node/Container/index.js\");\n/* harmony import */ var _mui_material_Container__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Container__WEBPACK_IMPORTED_MODULE_16__);\n/* harmony import */ var _vercel_analytics_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @vercel/analytics/react */ \"(ssr)/./node_modules/@vercel/analytics/dist/react/index.js\");\n/* harmony import */ var _barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! __barrel_optimize__?names=Grid,ThemeProvider!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/styles/ThemeProvider.js\");\n/* harmony import */ var _barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! __barrel_optimize__?names=Grid,ThemeProvider!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/node/Grid/index.js\");\n/* harmony import */ var _barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17__);\n/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./theme */ \"(ssr)/./app/theme.tsx\");\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ \"(ssr)/./app/utils.tsx\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst drawerWidth = \"25vw\";\nconst drawerContentWidth = 95;\n// interface PageProps {\n//   /**\n//    * Injected by the documentation to work in an iframe.\n//    * You won't need it on your project.\n//    */\n//   window?: () => Window;\n// }\nfunction Home() {\n    // const { window } = props;\n    const [mobileOpen, setMobileOpen] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);\n    const [portrait, setPortrait] = react__WEBPACK_IMPORTED_MODULE_1__.useState(_utils__WEBPACK_IMPORTED_MODULE_5__.PortraitEnum.DEFAULT);\n    const handleDrawerToggle = ()=>{\n        setMobileOpen(!mobileOpen);\n    };\n    const drawer = /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: {\n            marginLeft: mobileOpen ? \"0px\" : `calc(100% - ${drawerContentWidth}px)`\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            style: {\n                marginTop: \"45px\",\n                marginLeft: \"15px\"\n            },\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                    src: \"/assets/black_logo.png\",\n                    width: 50,\n                    height: 50,\n                    alt: \"logo\"\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                    lineNumber: 57,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                    lineNumber: 58,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                    variant: \"h3\",\n                    noWrap: true,\n                    style: {\n                        textDecoration: \"underline\",\n                        textUnderlineOffset: \"5px\"\n                    },\n                    children: \"ritik batra\"\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                    lineNumber: 59,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_List__WEBPACK_IMPORTED_MODULE_7___default()), {\n                    children: [\n                        \"about\",\n                        \"research\",\n                        \"industry\",\n                        \"teaching\",\n                        \"bookshelf\",\n                        \"creative\"\n                    ].map((text)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.NavListItem, {\n                            section: text,\n                            handleClick: handleDrawerToggle\n                        }, text, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                            lineNumber: 78,\n                            columnNumber: 13\n                        }, this))\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                    lineNumber: 68,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n            lineNumber: 54,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n        lineNumber: 49,\n        columnNumber: 5\n    }, this);\n    react__WEBPACK_IMPORTED_MODULE_1__.useEffect(()=>{\n        setPortrait(_utils__WEBPACK_IMPORTED_MODULE_5__.PortraitEnum.DEFAULT);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {\n                theme: _theme__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {\n                    sx: {\n                        display: \"flex\"\n                    },\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_material_CssBaseline__WEBPACK_IMPORTED_MODULE_10__[\"default\"], {}, void 0, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                            lineNumber: 97,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_AppBar__WEBPACK_IMPORTED_MODULE_11___default()), {\n                            position: \"fixed\",\n                            elevation: 0,\n                            sx: {\n                                width: {\n                                    sm: drawerWidth\n                                },\n                                ml: {\n                                    sm: `calc(100% - ${drawerWidth}px)`\n                                },\n                                backgroundColor: \"inherit\",\n                                border: \"none\"\n                            },\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_12___default()), {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_IconButton__WEBPACK_IMPORTED_MODULE_13___default()), {\n                                    \"aria-label\": \"open drawer\",\n                                    edge: \"start\",\n                                    onClick: handleDrawerToggle,\n                                    sx: {\n                                        mr: 2,\n                                        display: {\n                                            sm: \"none\"\n                                        }\n                                    },\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_14__[\"default\"], {}, void 0, false, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 115,\n                                        columnNumber: 17\n                                    }, this)\n                                }, void 0, false, {\n                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                    lineNumber: 109,\n                                    columnNumber: 15\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                lineNumber: 108,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                            lineNumber: 98,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {\n                            component: \"nav\",\n                            sx: {\n                                width: {\n                                    sm: drawerContentWidth\n                                },\n                                flexShrink: {\n                                    sm: 0\n                                }\n                            },\n                            \"aria-label\": \"navigation\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Drawer__WEBPACK_IMPORTED_MODULE_15___default()), {\n                                    // container={container}\n                                    variant: \"temporary\",\n                                    open: mobileOpen,\n                                    onClose: handleDrawerToggle,\n                                    ModalProps: {\n                                        keepMounted: true\n                                    },\n                                    sx: {\n                                        display: {\n                                            xs: \"block\",\n                                            sm: \"none\"\n                                        },\n                                        \"& .MuiDrawer-paper\": {\n                                            boxSizing: \"border-box\",\n                                            width: \"150px\"\n                                        }\n                                    },\n                                    children: drawer\n                                }, void 0, false, {\n                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                    lineNumber: 129,\n                                    columnNumber: 13\n                                }, this),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Drawer__WEBPACK_IMPORTED_MODULE_15___default()), {\n                                    variant: \"permanent\",\n                                    sx: {\n                                        display: {\n                                            xs: \"none\",\n                                            sm: \"block\"\n                                        },\n                                        \"& .MuiDrawer-paper\": {\n                                            boxSizing: \"border-box\",\n                                            width: {\n                                                xs: drawerWidth,\n                                                sm: \"15vw\",\n                                                md: \"15vw\",\n                                                lg: \"20vw\",\n                                                xl: drawerWidth\n                                            },\n                                            borderRight: \"none !important\"\n                                        }\n                                    },\n                                    open: true,\n                                    children: drawer\n                                }, void 0, false, {\n                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                    lineNumber: 147,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                            lineNumber: 119,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Container__WEBPACK_IMPORTED_MODULE_16___default()), {\n                            maxWidth: \"md\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_material_Box__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {\n                                component: \"main\",\n                                sx: {\n                                    flexGrow: 1,\n                                    p: 4\n                                },\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        id: \"about\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                            variant: \"h1\",\n                                            children: \"hi, i'm ritik!\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                            lineNumber: 178,\n                                            columnNumber: 17\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 177,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                            container: true,\n                                            spacing: {\n                                                xs: 2,\n                                                md: 3\n                                            },\n                                            columns: {\n                                                xs: 4,\n                                                sm: 8,\n                                                md: 12\n                                            },\n                                            justifyContent: \"center\",\n                                            alignItems: \"center\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                    item: true,\n                                                    xs: 4,\n                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                                                        src: `/assets/portraits/${portrait}.png`,\n                                                        id: \"portrait\",\n                                                        height: 1000,\n                                                        width: 1000,\n                                                        alt: \"self portrait drawing\",\n                                                        style: {\n                                                            borderRadius: \"50%\",\n                                                            border: \"0px solid #000\",\n                                                            backgroundColor: \"white\",\n                                                            width: \"100%\",\n                                                            height: \"auto\",\n                                                            margin: \"auto\",\n                                                            opacity: \"1\",\n                                                            transition: \"opacity .5s ease-in-out\"\n                                                        }\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 190,\n                                                        columnNumber: 21\n                                                    }, this)\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                    lineNumber: 188,\n                                                    columnNumber: 19\n                                                }, this),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                    item: true,\n                                                    xs: 8,\n                                                    children: [\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                            paragraph: true,\n                                                            children: [\n                                                                \"I am a first-year\",\n                                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.PortraitTrigger, {\n                                                                    text: \"PhD student\",\n                                                                    image: _utils__WEBPACK_IMPORTED_MODULE_5__.PortraitEnum.GRAD,\n                                                                    setter: setPortrait\n                                                                }, void 0, false, {\n                                                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                                    lineNumber: 211,\n                                                                    columnNumber: 23\n                                                                }, this),\n                                                                \"in the Information Science department at Cornell University, advised by Cindy H. Kao in the Hybrid Ecology Lab. In 2022, I graduated from Berkeley with a BS in EECS and minors in political economy and data science. Before this, I was a\",\n                                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.PortraitTrigger, {\n                                                                    text: \"software engineer at Stripe\",\n                                                                    image: _utils__WEBPACK_IMPORTED_MODULE_5__.PortraitEnum.ENGINEER,\n                                                                    setter: setPortrait\n                                                                }, void 0, false, {\n                                                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                                    lineNumber: 221,\n                                                                    columnNumber: 23\n                                                                }, this),\n                                                                \"living in the New York City.\"\n                                                            ]\n                                                        }, void 0, true, {\n                                                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                            lineNumber: 209,\n                                                            columnNumber: 21\n                                                        }, this),\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                            paragraph: true,\n                                                            children: \"I am constantly seeking opportunities to complement my technical background through self-expression. Through this journey, I have been reflecting about how craftsmanship serves as an intersection of art and technology that not only empowers individuals but also preserves cultural symbols and traditions with deep historical significance. Through the exploration of these worlds, I hope to forge new pathways towards personal fabrication that is inclusive, accessible, sustainable, and so much more.\"\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                            lineNumber: 228,\n                                                            columnNumber: 21\n                                                        }, this),\n                                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                            paragraph: true,\n                                                            children: \"You can contact me at ritikbatra[at]berkeley[dot]edu\"\n                                                        }, void 0, false, {\n                                                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                            lineNumber: 240,\n                                                            columnNumber: 21\n                                                        }, this)\n                                                    ]\n                                                }, void 0, true, {\n                                                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                    lineNumber: 208,\n                                                    columnNumber: 19\n                                                }, this)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                            lineNumber: 181,\n                                            columnNumber: 17\n                                        }, this)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 180,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Subheading, {\n                                                title: \"research\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 247,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                variant: \"h3\",\n                                                children: \"statement\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 248,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                paragraph: true,\n                                                children: \"The central theme of my work is inspired by a curiosity of how we can rely on technology to create tailored experiences for us to extend our identity to our objects, machines, and environment. In a world with personalized fabrication, users have more control over their environment by shaping their tools, clothing, and interfaces to fit their needs rather than adjusting to what is available. This inspires more accessible design tools for fabrication and smaller expertise gaps in manufacturing.\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 249,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                variant: \"h3\",\n                                                children: \"papers\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 260,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.ResearchPaper, {\n                                                text: \"Ritik Batra and Kaitlyn Yi Ran Lee. 2022. Redycler: Daily Outfit Texture Fabrication Appliance Using Re-Programmable Dyes. In Sixteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '22). Association for Computing Machinery, New York, NY, USA, Article 41, 1–4. https://doi.org/10.1145/3490149.3502424\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 262,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.ResearchPaper, {\n                                                text: \"Alice Agogino, Hae Young Jang, Vivek Rao, Ritik Batra, Felicity Liao, Rohan Sood, Irving Fang, R. Lily Hu, Emerson Shoichet-Bartus, John Matranga. 2021. Dynamic Placement of Rapidly Deployable Mobile Sensor Robots Using Machine Learning and Expected Value of Information. In Proceedings of the ASME 2021 International Mechanical Engineering Congress and Exposition. Volume 13: Safety Engineering, Risk, and Reliability Analysis; Research Posters. Virtual, Online. V013T14A027. ASME. https://doi.org/10.1115/IMECE2021-70759\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 270,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 246,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Subheading, {\n                                                title: \"industry\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 285,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                container: true,\n                                                spacing: 2,\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.WorkExperience, {\n                                                        company: \"stripe\",\n                                                        description: \"link consumer experience\",\n                                                        role: \"full-stack software engineer\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 287,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.WorkExperience, {\n                                                        company: \"asana\",\n                                                        description: \"android foundations\",\n                                                        role: \"product engineering intern\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 293,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.WorkExperience, {\n                                                        company: \"goldman_sachs\",\n                                                        description: \"corporate workplace solutions\",\n                                                        role: \"summer engineering analyst\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 298,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.WorkExperience, {\n                                                        company: \"rally_health\",\n                                                        description: \"mobile engineering\",\n                                                        role: \"iOS software engineering intern\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 304,\n                                                        columnNumber: 19\n                                                    }, this)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 286,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 284,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Subheading, {\n                                                title: \"teaching\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 313,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                container: true,\n                                                spacing: 3,\n                                                justifyContent: \"center\",\n                                                columns: 12,\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"machinelearning\",\n                                                        description: \"break through tech ai program\",\n                                                        title: \"head ta @ cornell tech (su24)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 321,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"webdevelopment\",\n                                                        description: \"info 2300: intermediate design and programming for the web\",\n                                                        title: \"graduate ta @ cornell (sp24)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 327,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"designtech\",\n                                                        description: \"info 4240: designing technology for social impact\",\n                                                        title: \"graduate ta @ cornell (fa23)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 333,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"databases\",\n                                                        description: \"compsci 186: introduction to database systems\",\n                                                        title: \"teaching assistant @ berkeley (sp22)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 339,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"interfaces\",\n                                                        description: \"compsci 160: user interface design and development\",\n                                                        title: \"teaching assistant @ berkeley (su21)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 344,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.TeachingExperience, {\n                                                        course: \"datastructures\",\n                                                        description: \"compsci 61b: data structures\",\n                                                        title: \"lab assistant & content mentor @ berkeley (fa20)\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 349,\n                                                        columnNumber: 19\n                                                    }, this)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 315,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 312,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Subheading, {\n                                                title: \"bookshelf\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 358,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                container: true,\n                                                spacing: 1,\n                                                justifyContent: \"left\",\n                                                alignItems: \"center\",\n                                                columns: 15,\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"bad_blood\",\n                                                        url: \"37976541-bad-blood\",\n                                                        isbn: \"9781984833631\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 366,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"my_own_words\",\n                                                        url: \"29868604-my-own-words\",\n                                                        isbn: \"9781683244356\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 371,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"the_last_lecture\",\n                                                        url: \"40611510-the-last-lecture\",\n                                                        isbn: \"9781401323257\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 376,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"becoming\",\n                                                        url: \"38746485-becoming\",\n                                                        isbn: \"9780241334140\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 381,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"the_little_prince\",\n                                                        url: \"157993.The_Little_Prince\",\n                                                        isbn: \"9789001708528\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 386,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"educated\",\n                                                        isbn: \"9780525528050\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 392,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"uncanny_valley\",\n                                                        isbn: \"9781432880064\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 393,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"when_breath_becomes_air\",\n                                                        isbn: \"9780812988406\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 394,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"algorithms_of_oppression\",\n                                                        url: \"34762552-algorithms-of-oppression\",\n                                                        isbn: \"9781479837243\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 395,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"shoedog\",\n                                                        isbn: \"9781471146732\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 400,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Book, {\n                                                        title: \"stories_of_your_life_and_others\",\n                                                        url: \"223380.Stories_of_Your_Life_and_Others\",\n                                                        isbn: \"076530418X\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 402,\n                                                        columnNumber: 19\n                                                    }, this)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 359,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 357,\n                                        columnNumber: 15\n                                    }, this),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"subsection\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.Subheading, {\n                                                title: \"creative\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 412,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_6___default()), {\n                                                variant: \"h3\",\n                                                style: {\n                                                    marginBottom: \"10px\"\n                                                },\n                                                children: [\n                                                    'i like making \"stuff\".',\n                                                    \" \"\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 413,\n                                                columnNumber: 17\n                                            }, this),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Grid_ThemeProvider_mui_material__WEBPACK_IMPORTED_MODULE_17___default()), {\n                                                container: true,\n                                                spacing: 1,\n                                                justifyContent: \"center\",\n                                                alignItems: \"center\",\n                                                columns: {\n                                                    xs: 12,\n                                                    sm: 9,\n                                                    md: 9,\n                                                    lg: 9\n                                                },\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"moon drip\",\n                                                        path: \"moon_drip\",\n                                                        type: \"jpeg\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 427,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"glass planet\",\n                                                        path: \"glass_planet\",\n                                                        type: \"png\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 428,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"dance clip\",\n                                                        path: \"forever\",\n                                                        type: \"gif\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 433,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"broadway dance\",\n                                                        path: \"dance_bdc\",\n                                                        type: \"gif\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 434,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"lady strandbeest\",\n                                                        path: \"strandbeest1\",\n                                                        type: \"gif\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 441,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"stool\",\n                                                        path: \"stool\",\n                                                        type: \"jpeg\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 446,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"story of a pencil\",\n                                                        path: \"pencil\",\n                                                        type: \"gif\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 448,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"creative coding\",\n                                                        path: \"creative_coding\",\n                                                        type: \"gif\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 454,\n                                                        columnNumber: 19\n                                                    }, this),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_utils__WEBPACK_IMPORTED_MODULE_5__.MediaItem, {\n                                                        title: \"plate\",\n                                                        path: \"design_plate\",\n                                                        type: \"jpeg\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                        lineNumber: 459,\n                                                        columnNumber: 19\n                                                    }, this)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                                lineNumber: 419,\n                                                columnNumber: 17\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                        lineNumber: 411,\n                                        columnNumber: 15\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                                lineNumber: 169,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                            lineNumber: 168,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                    lineNumber: 96,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                lineNumber: 95,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_vercel_analytics_react__WEBPACK_IMPORTED_MODULE_3__.Analytics, {}, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx\",\n                lineNumber: 473,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvcGFnZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUMrQjtBQUNXO0FBQ047QUFDZ0I7QUFDVjtBQUNRO0FBQ1o7QUFDVTtBQUNKO0FBQ007QUFDbkI7QUFDaUI7QUFDSTtBQUNhO0FBQ3JDO0FBV1g7QUFFakIsTUFBTXlCLGNBQWM7QUFDcEIsTUFBTUMscUJBQXFCO0FBQzNCLHdCQUF3QjtBQUN4QixRQUFRO0FBQ1IsMkRBQTJEO0FBQzNELDBDQUEwQztBQUMxQyxRQUFRO0FBQ1IsMkJBQTJCO0FBQzNCLElBQUk7QUFFVyxTQUFTQztJQUN0Qiw0QkFBNEI7SUFDNUIsTUFBTSxDQUFDQyxZQUFZQyxjQUFjLEdBQUc3QiwyQ0FBYyxDQUFDO0lBQ25ELE1BQU0sQ0FBQytCLFVBQVVDLFlBQVksR0FBR2hDLDJDQUFjLENBQUNtQixnREFBWUEsQ0FBQ2MsT0FBTztJQUVuRSxNQUFNQyxxQkFBcUI7UUFDekJMLGNBQWMsQ0FBQ0Q7SUFDakI7SUFFQSxNQUFNTyx1QkFDSiw4REFBQ0M7UUFDQ0MsT0FBTztZQUNMQyxZQUFZVixhQUFhLFFBQVEsQ0FBQyxZQUFZLEVBQUVGLG1CQUFtQixHQUFHLENBQUM7UUFDekU7a0JBRUEsNEVBQUNVO1lBQ0NDLE9BQU87Z0JBQUVFLFdBQVc7Z0JBQVFELFlBQVk7WUFBTzs7OEJBRS9DLDhEQUFDNUIsbURBQUtBO29CQUFDOEIsS0FBSTtvQkFBeUJDLE9BQU87b0JBQUlDLFFBQVE7b0JBQUlDLEtBQUk7Ozs7Ozs4QkFDL0QsOERBQUNDOzs7Ozs4QkFDRCw4REFBQ25DLGlFQUFVQTtvQkFDVG9DLFNBQVE7b0JBQ1JDLE1BQU07b0JBQ05ULE9BQU87d0JBQUVVLGdCQUFnQjt3QkFBYUMscUJBQXFCO29CQUFNOzhCQUNsRTs7Ozs7OzhCQUtELDhEQUFDMUMsMkRBQUlBOzhCQUNGO3dCQUNDO3dCQUNBO3dCQUNBO3dCQUNBO3dCQUNBO3dCQUNBO3FCQUVELENBQUMyQyxHQUFHLENBQUMsQ0FBQ0MscUJBQ0wsOERBQUNoQywrQ0FBV0E7NEJBQ1ZpQyxTQUFTRDs0QkFFVEUsYUFBYWxCOzJCQURSZ0I7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQVNqQmxELDRDQUFlLENBQUM7UUFDZGdDLFlBQVliLGdEQUFZQSxDQUFDYyxPQUFPO0lBQ2xDLEdBQUcsRUFBRTtJQUVMLHFCQUNFOzswQkFDRSw4REFBQ25CLDhGQUFhQTtnQkFBQ0MsT0FBT0EsOENBQUtBOzBCQUN6Qiw0RUFBQ2IseURBQUdBO29CQUFDb0QsSUFBSTt3QkFBRUMsU0FBUztvQkFBTzs7c0NBQ3pCLDhEQUFDcEQsa0VBQVdBOzs7OztzQ0FDWiw4REFBQ0YsOERBQU1BOzRCQUNMdUQsVUFBUzs0QkFDVEMsV0FBVzs0QkFDWEgsSUFBSTtnQ0FDRmIsT0FBTztvQ0FBRWlCLElBQUlqQztnQ0FBWTtnQ0FDekJrQyxJQUFJO29DQUFFRCxJQUFJLENBQUMsWUFBWSxFQUFFakMsWUFBWSxHQUFHLENBQUM7Z0NBQUM7Z0NBQzFDbUMsaUJBQWlCO2dDQUNqQkMsUUFBUTs0QkFDVjtzQ0FFQSw0RUFBQ3JELCtEQUFPQTswQ0FDTiw0RUFBQ0gsa0VBQVVBO29DQUNUeUQsY0FBVztvQ0FDWEMsTUFBSztvQ0FDTEMsU0FBUzlCO29DQUNUb0IsSUFBSTt3Q0FBRVcsSUFBSTt3Q0FBR1YsU0FBUzs0Q0FBRUcsSUFBSTt3Q0FBTztvQ0FBRTs4Q0FFckMsNEVBQUNuRCxpRUFBUUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUlmLDhEQUFDTCx5REFBR0E7NEJBQ0ZnRSxXQUFVOzRCQUNWWixJQUFJO2dDQUNGYixPQUFPO29DQUFFaUIsSUFBSWhDO2dDQUFtQjtnQ0FDaEN5QyxZQUFZO29DQUFFVCxJQUFJO2dDQUFFOzRCQUN0Qjs0QkFDQUksY0FBVzs7OENBSVgsOERBQUMxRCw4REFBTUE7b0NBQ0wsd0JBQXdCO29DQUN4QnlDLFNBQVE7b0NBQ1J1QixNQUFNeEM7b0NBQ055QyxTQUFTbkM7b0NBQ1RvQyxZQUFZO3dDQUNWQyxhQUFhO29DQUNmO29DQUNBakIsSUFBSTt3Q0FDRkMsU0FBUzs0Q0FBRWlCLElBQUk7NENBQVNkLElBQUk7d0NBQU87d0NBQ25DLHNCQUFzQjs0Q0FDcEJlLFdBQVc7NENBQ1hoQyxPQUFPO3dDQUNUO29DQUNGOzhDQUVDTjs7Ozs7OzhDQUVILDhEQUFDL0IsOERBQU1BO29DQUNMeUMsU0FBUTtvQ0FDUlMsSUFBSTt3Q0FDRkMsU0FBUzs0Q0FBRWlCLElBQUk7NENBQVFkLElBQUk7d0NBQVE7d0NBQ25DLHNCQUFzQjs0Q0FDcEJlLFdBQVc7NENBQ1hoQyxPQUFPO2dEQUNMK0IsSUFBSS9DO2dEQUNKaUMsSUFBSTtnREFDSmdCLElBQUk7Z0RBQ0pDLElBQUk7Z0RBQ0pDLElBQUluRDs0Q0FDTjs0Q0FDQW9ELGFBQWE7d0NBQ2Y7b0NBQ0Y7b0NBQ0FULElBQUk7OENBRUhqQzs7Ozs7Ozs7Ozs7O3NDQUdMLDhEQUFDeEIsaUVBQVNBOzRCQUFDbUUsVUFBUztzQ0FDbEIsNEVBQUM1RSx5REFBR0E7Z0NBQ0ZnRSxXQUFVO2dDQUNWWixJQUFJO29DQUNGeUIsVUFBVTtvQ0FDVkMsR0FBRztnQ0FFTDs7a0RBRUEsOERBQUM1Qzt3Q0FBSTZDLElBQUc7a0RBQ04sNEVBQUN4RSxpRUFBVUE7NENBQUNvQyxTQUFRO3NEQUFLOzs7Ozs7Ozs7OztrREFFM0IsOERBQUNUO3dDQUFJOEMsV0FBVTtrREFDYiw0RUFBQ3JFLGdHQUFJQTs0Q0FDSHNFLFNBQVM7NENBQ1RDLFNBQVM7Z0RBQUVaLElBQUk7Z0RBQUdFLElBQUk7NENBQUU7NENBQ3hCVyxTQUFTO2dEQUFFYixJQUFJO2dEQUFHZCxJQUFJO2dEQUFHZ0IsSUFBSTs0Q0FBRzs0Q0FDaENZLGdCQUFlOzRDQUNmQyxZQUFXOzs4REFFWCw4REFBQzFFLGdHQUFJQTtvREFBQzJFLElBQUk7b0RBQUNoQixJQUFJOzhEQUViLDRFQUFDOUQsbURBQUtBO3dEQUNKOEIsS0FBSyxDQUFDLGtCQUFrQixFQUFFVCxTQUFTLElBQUksQ0FBQzt3REFDeENrRCxJQUFHO3dEQUNIdkMsUUFBUTt3REFDUkQsT0FBTzt3REFDUEUsS0FBSTt3REFDSk4sT0FBTzs0REFDTG9ELGNBQWM7NERBQ2Q1QixRQUFROzREQUNSRCxpQkFBaUI7NERBQ2pCbkIsT0FBTzs0REFDUEMsUUFBUTs0REFDUmdELFFBQVE7NERBQ1JDLFNBQVM7NERBQ1RDLFlBQVk7d0RBQ2Q7Ozs7Ozs7Ozs7OzhEQUdKLDhEQUFDL0UsZ0dBQUlBO29EQUFDMkUsSUFBSTtvREFBQ2hCLElBQUk7O3NFQUNiLDhEQUFDL0QsaUVBQVVBOzREQUFDb0YsU0FBUzs7Z0VBQUM7OEVBRXBCLDhEQUFDekUsbURBQWVBO29FQUNkOEIsTUFBSztvRUFDTDRDLE9BQU8zRSxnREFBWUEsQ0FBQzRFLElBQUk7b0VBQ3hCQyxRQUFRaEU7Ozs7OztnRUFDUjs4RUFNRiw4REFBQ1osbURBQWVBO29FQUNkOEIsTUFBSztvRUFDTDRDLE9BQU8zRSxnREFBWUEsQ0FBQzhFLFFBQVE7b0VBQzVCRCxRQUFRaEU7Ozs7OztnRUFDUjs7Ozs7OztzRUFHSiw4REFBQ3ZCLGlFQUFVQTs0REFBQ29GLFNBQVM7c0VBQUM7Ozs7OztzRUFZdEIsOERBQUNwRixpRUFBVUE7NERBQUNvRixTQUFTO3NFQUFDOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztrREFNNUIsOERBQUN6RDt3Q0FBSThDLFdBQVU7OzBEQUNiLDhEQUFDNUQsOENBQVVBO2dEQUFDNEUsT0FBTTs7Ozs7OzBEQUNsQiw4REFBQ3pGLGlFQUFVQTtnREFBQ29DLFNBQVE7MERBQUs7Ozs7OzswREFDekIsOERBQUNwQyxpRUFBVUE7Z0RBQUNvRixTQUFTOzBEQUFDOzs7Ozs7MERBV3RCLDhEQUFDcEYsaUVBQVVBO2dEQUFDb0MsU0FBUTswREFBSzs7Ozs7OzBEQUV6Qiw4REFBQ3hCLGlEQUFhQTtnREFDWjZCLE1BQUs7Ozs7OzswREFPUCw4REFBQzdCLGlEQUFhQTtnREFDWjZCLE1BQUs7Ozs7Ozs7Ozs7OztrREFhVCw4REFBQ2Q7d0NBQUk4QyxXQUFVOzswREFDYiw4REFBQzVELDhDQUFVQTtnREFBQzRFLE9BQU07Ozs7OzswREFDbEIsOERBQUNyRixnR0FBSUE7Z0RBQUNzRSxTQUFTO2dEQUFDQyxTQUFTOztrRUFDdkIsOERBQUM1RCxrREFBY0E7d0RBQ2IyRSxTQUFRO3dEQUNSQyxhQUFZO3dEQUNaQyxNQUFLOzs7Ozs7a0VBR1AsOERBQUM3RSxrREFBY0E7d0RBQ2IyRSxTQUFRO3dEQUNSQyxhQUFZO3dEQUNaQyxNQUFLOzs7Ozs7a0VBRVAsOERBQUM3RSxrREFBY0E7d0RBQ2IyRSxTQUFRO3dEQUNSQyxhQUFZO3dEQUNaQyxNQUFLOzs7Ozs7a0VBR1AsOERBQUM3RSxrREFBY0E7d0RBQ2IyRSxTQUFRO3dEQUNSQyxhQUFZO3dEQUNaQyxNQUFLOzs7Ozs7Ozs7Ozs7Ozs7Ozs7a0RBS1gsOERBQUNqRTt3Q0FBSThDLFdBQVU7OzBEQUNiLDhEQUFDNUQsOENBQVVBO2dEQUFDNEUsT0FBTTs7Ozs7OzBEQUVsQiw4REFBQ3JGLGdHQUFJQTtnREFDSHNFLFNBQVM7Z0RBQ1RDLFNBQVM7Z0RBQ1RFLGdCQUFlO2dEQUNmRCxTQUFTOztrRUFFVCw4REFBQzlELHNEQUFrQkE7d0RBQ2pCK0UsUUFBTzt3REFDUEYsYUFBWTt3REFDWkYsT0FBTTs7Ozs7O2tFQUdSLDhEQUFDM0Usc0RBQWtCQTt3REFDakIrRSxRQUFPO3dEQUNQRixhQUFZO3dEQUNaRixPQUFNOzs7Ozs7a0VBR1IsOERBQUMzRSxzREFBa0JBO3dEQUNqQitFLFFBQU87d0RBQ1BGLGFBQVk7d0RBQ1pGLE9BQU07Ozs7OztrRUFHUiw4REFBQzNFLHNEQUFrQkE7d0RBQ2pCK0UsUUFBTzt3REFDUEYsYUFBWTt3REFDWkYsT0FBTTs7Ozs7O2tFQUVSLDhEQUFDM0Usc0RBQWtCQTt3REFDakIrRSxRQUFPO3dEQUNQRixhQUFZO3dEQUNaRixPQUFNOzs7Ozs7a0VBRVIsOERBQUMzRSxzREFBa0JBO3dEQUNqQitFLFFBQU87d0RBQ1BGLGFBQVk7d0RBQ1pGLE9BQU07Ozs7Ozs7Ozs7Ozs7Ozs7OztrREFLWiw4REFBQzlEO3dDQUFJOEMsV0FBVTs7MERBQ2IsOERBQUM1RCw4Q0FBVUE7Z0RBQUM0RSxPQUFNOzs7Ozs7MERBQ2xCLDhEQUFDckYsZ0dBQUlBO2dEQUNIc0UsU0FBUztnREFDVEMsU0FBUztnREFDVEUsZ0JBQWU7Z0RBQ2ZDLFlBQVc7Z0RBQ1hGLFNBQVM7O2tFQUVULDhEQUFDckUsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7O2tFQUVQLDhEQUFDeEYsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7O2tFQUVQLDhEQUFDeEYsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7O2tFQUVQLDhEQUFDeEYsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7O2tFQUVQLDhEQUFDeEYsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7O2tFQUdQLDhEQUFDeEYsd0NBQUlBO3dEQUFDa0YsT0FBTTt3REFBV00sTUFBSzs7Ozs7O2tFQUM1Qiw4REFBQ3hGLHdDQUFJQTt3REFBQ2tGLE9BQU07d0RBQWlCTSxNQUFLOzs7Ozs7a0VBQ2xDLDhEQUFDeEYsd0NBQUlBO3dEQUFDa0YsT0FBTTt3REFBMEJNLE1BQUs7Ozs7OztrRUFDM0MsOERBQUN4Rix3Q0FBSUE7d0RBQ0hrRixPQUFNO3dEQUNOSyxLQUFJO3dEQUNKQyxNQUFLOzs7Ozs7a0VBRVAsOERBQUN4Rix3Q0FBSUE7d0RBQUNrRixPQUFNO3dEQUFVTSxNQUFLOzs7Ozs7a0VBRTNCLDhEQUFDeEYsd0NBQUlBO3dEQUNIa0YsT0FBTTt3REFDTkssS0FBSTt3REFDSkMsTUFBSzs7Ozs7Ozs7Ozs7Ozs7Ozs7O2tEQU1YLDhEQUFDcEU7d0NBQUk4QyxXQUFVOzswREFDYiw4REFBQzVELDhDQUFVQTtnREFBQzRFLE9BQU07Ozs7OzswREFDbEIsOERBQUN6RixpRUFBVUE7Z0RBQUNvQyxTQUFRO2dEQUFLUixPQUFPO29EQUFFb0UsY0FBYztnREFBTzs7b0RBQUc7b0RBQ2pDOzs7Ozs7OzBEQUt6Qiw4REFBQzVGLGdHQUFJQTtnREFDSHNFLFNBQVM7Z0RBQ1RDLFNBQVM7Z0RBQ1RFLGdCQUFlO2dEQUNmQyxZQUFXO2dEQUNYRixTQUFTO29EQUFFYixJQUFJO29EQUFJZCxJQUFJO29EQUFHZ0IsSUFBSTtvREFBR0MsSUFBSTtnREFBRTs7a0VBR3ZDLDhEQUFDMUQsNkNBQVNBO3dEQUFDaUYsT0FBTTt3REFBWVEsTUFBSzt3REFBWUMsTUFBSzs7Ozs7O2tFQUNuRCw4REFBQzFGLDZDQUFTQTt3REFDUmlGLE9BQU07d0RBQ05RLE1BQUs7d0RBQ0xDLE1BQUs7Ozs7OztrRUFFUCw4REFBQzFGLDZDQUFTQTt3REFBQ2lGLE9BQU07d0RBQWFRLE1BQUs7d0RBQVVDLE1BQUs7Ozs7OztrRUFDbEQsOERBQUMxRiw2Q0FBU0E7d0RBQ1JpRixPQUFNO3dEQUNOUSxNQUFLO3dEQUNMQyxNQUFLOzs7Ozs7a0VBSVAsOERBQUMxRiw2Q0FBU0E7d0RBQ1JpRixPQUFNO3dEQUNOUSxNQUFLO3dEQUNMQyxNQUFLOzs7Ozs7a0VBRVAsOERBQUMxRiw2Q0FBU0E7d0RBQUNpRixPQUFNO3dEQUFRUSxNQUFLO3dEQUFRQyxNQUFLOzs7Ozs7a0VBRTNDLDhEQUFDMUYsNkNBQVNBO3dEQUNSaUYsT0FBTTt3REFDTlEsTUFBSzt3REFDTEMsTUFBSzs7Ozs7O2tFQUdQLDhEQUFDMUYsNkNBQVNBO3dEQUNSaUYsT0FBTTt3REFDTlEsTUFBSzt3REFDTEMsTUFBSzs7Ozs7O2tFQUVQLDhEQUFDMUYsNkNBQVNBO3dEQUFDaUYsT0FBTTt3REFBUVEsTUFBSzt3REFBZUMsTUFBSzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzswQkFjOUQsOERBQUMvRiw4REFBU0E7Ozs7Ozs7QUFHaEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWJzaXRlLy4vYXBwL3BhZ2UudHN4Pzc2MDMiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XG5pbXBvcnQgKiBhcyBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBBcHBCYXIgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvQXBwQmFyXCI7XG5pbXBvcnQgQm94IGZyb20gXCJAbXVpL21hdGVyaWFsL0JveFwiO1xuaW1wb3J0IENzc0Jhc2VsaW5lIGZyb20gXCJAbXVpL21hdGVyaWFsL0Nzc0Jhc2VsaW5lXCI7XG5pbXBvcnQgRHJhd2VyIGZyb20gXCJAbXVpL21hdGVyaWFsL0RyYXdlclwiO1xuaW1wb3J0IEljb25CdXR0b24gZnJvbSBcIkBtdWkvbWF0ZXJpYWwvSWNvbkJ1dHRvblwiO1xuaW1wb3J0IExpc3QgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvTGlzdFwiO1xuaW1wb3J0IE1lbnVJY29uIGZyb20gXCJAbXVpL2ljb25zLW1hdGVyaWFsL01lbnVcIjtcbmltcG9ydCBUb29sYmFyIGZyb20gXCJAbXVpL21hdGVyaWFsL1Rvb2xiYXJcIjtcbmltcG9ydCBUeXBvZ3JhcGh5IGZyb20gXCJAbXVpL21hdGVyaWFsL1R5cG9ncmFwaHlcIjtcbmltcG9ydCBJbWFnZSBmcm9tIFwibmV4dC9pbWFnZVwiO1xuaW1wb3J0IENvbnRhaW5lciBmcm9tIFwiQG11aS9tYXRlcmlhbC9Db250YWluZXJcIjtcbmltcG9ydCB7IEFuYWx5dGljcyB9IGZyb20gXCJAdmVyY2VsL2FuYWx5dGljcy9yZWFjdFwiO1xuaW1wb3J0IHsgR3JpZCwgVGhlbWVQcm92aWRlciwgY3JlYXRlVGhlbWUgfSBmcm9tIFwiQG11aS9tYXRlcmlhbFwiO1xuaW1wb3J0IHRoZW1lIGZyb20gXCIuL3RoZW1lXCI7XG5pbXBvcnQge1xuICBCb29rLFxuICBNZWRpYUl0ZW0sXG4gIE5hdkxpc3RJdGVtLFxuICBQb3J0cmFpdEVudW0sXG4gIFBvcnRyYWl0VHJpZ2dlcixcbiAgUmVzZWFyY2hQYXBlcixcbiAgU3ViaGVhZGluZyxcbiAgVGVhY2hpbmdFeHBlcmllbmNlLFxuICBXb3JrRXhwZXJpZW5jZSxcbn0gZnJvbSBcIi4vdXRpbHNcIjtcblxuY29uc3QgZHJhd2VyV2lkdGggPSBcIjI1dndcIjtcbmNvbnN0IGRyYXdlckNvbnRlbnRXaWR0aCA9IDk1O1xuLy8gaW50ZXJmYWNlIFBhZ2VQcm9wcyB7XG4vLyAgIC8qKlxuLy8gICAgKiBJbmplY3RlZCBieSB0aGUgZG9jdW1lbnRhdGlvbiB0byB3b3JrIGluIGFuIGlmcmFtZS5cbi8vICAgICogWW91IHdvbid0IG5lZWQgaXQgb24geW91ciBwcm9qZWN0LlxuLy8gICAgKi9cbi8vICAgd2luZG93PzogKCkgPT4gV2luZG93O1xuLy8gfVxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICAvLyBjb25zdCB7IHdpbmRvdyB9ID0gcHJvcHM7XG4gIGNvbnN0IFttb2JpbGVPcGVuLCBzZXRNb2JpbGVPcGVuXSA9IFJlYWN0LnVzZVN0YXRlKGZhbHNlKTtcbiAgY29uc3QgW3BvcnRyYWl0LCBzZXRQb3J0cmFpdF0gPSBSZWFjdC51c2VTdGF0ZShQb3J0cmFpdEVudW0uREVGQVVMVCk7XG5cbiAgY29uc3QgaGFuZGxlRHJhd2VyVG9nZ2xlID0gKCkgPT4ge1xuICAgIHNldE1vYmlsZU9wZW4oIW1vYmlsZU9wZW4pO1xuICB9O1xuXG4gIGNvbnN0IGRyYXdlciA9IChcbiAgICA8ZGl2XG4gICAgICBzdHlsZT17e1xuICAgICAgICBtYXJnaW5MZWZ0OiBtb2JpbGVPcGVuID8gXCIwcHhcIiA6IGBjYWxjKDEwMCUgLSAke2RyYXdlckNvbnRlbnRXaWR0aH1weClgLFxuICAgICAgfX1cbiAgICA+XG4gICAgICA8ZGl2XG4gICAgICAgIHN0eWxlPXt7IG1hcmdpblRvcDogXCI0NXB4XCIsIG1hcmdpbkxlZnQ6IFwiMTVweFwiIH19IC8vIFRPRE86IGhhcmRjb2RlZFxuICAgICAgPlxuICAgICAgICA8SW1hZ2Ugc3JjPVwiL2Fzc2V0cy9ibGFja19sb2dvLnBuZ1wiIHdpZHRoPXs1MH0gaGVpZ2h0PXs1MH0gYWx0PVwibG9nb1wiIC8+XG4gICAgICAgIDxiciAvPlxuICAgICAgICA8VHlwb2dyYXBoeVxuICAgICAgICAgIHZhcmlhbnQ9XCJoM1wiXG4gICAgICAgICAgbm9XcmFwXG4gICAgICAgICAgc3R5bGU9e3sgdGV4dERlY29yYXRpb246IFwidW5kZXJsaW5lXCIsIHRleHRVbmRlcmxpbmVPZmZzZXQ6IFwiNXB4XCIgfX1cbiAgICAgICAgPlxuICAgICAgICAgIHJpdGlrIGJhdHJhXG4gICAgICAgIDwvVHlwb2dyYXBoeT5cblxuICAgICAgICB7LyogVE9ETzogSSBkb24ndCBsaWtlIHRoaXMgdHJhbnNpdGlvbiBsb2wgc2hvdWxkIGJlIG1vcmUgb2YgYSBlbnRyYW5jZSBhbmltYXRpb24gKi99XG4gICAgICAgIDxMaXN0PlxuICAgICAgICAgIHtbXG4gICAgICAgICAgICBcImFib3V0XCIsXG4gICAgICAgICAgICBcInJlc2VhcmNoXCIsXG4gICAgICAgICAgICBcImluZHVzdHJ5XCIsXG4gICAgICAgICAgICBcInRlYWNoaW5nXCIsXG4gICAgICAgICAgICBcImJvb2tzaGVsZlwiLFxuICAgICAgICAgICAgXCJjcmVhdGl2ZVwiLFxuICAgICAgICAgICAgLy8gXCJ0aG91Z2h0c1wiLFxuICAgICAgICAgIF0ubWFwKCh0ZXh0KSA9PiAoXG4gICAgICAgICAgICA8TmF2TGlzdEl0ZW1cbiAgICAgICAgICAgICAgc2VjdGlvbj17dGV4dH1cbiAgICAgICAgICAgICAga2V5PXt0ZXh0fVxuICAgICAgICAgICAgICBoYW5kbGVDbGljaz17aGFuZGxlRHJhd2VyVG9nZ2xlfVxuICAgICAgICAgICAgLz5cbiAgICAgICAgICApKX1cbiAgICAgICAgPC9MaXN0PlxuICAgICAgPC9kaXY+XG4gICAgPC9kaXY+XG4gICk7XG5cbiAgUmVhY3QudXNlRWZmZWN0KCgpID0+IHtcbiAgICBzZXRQb3J0cmFpdChQb3J0cmFpdEVudW0uREVGQVVMVCk7XG4gIH0sIFtdKTtcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8VGhlbWVQcm92aWRlciB0aGVtZT17dGhlbWV9PlxuICAgICAgICA8Qm94IHN4PXt7IGRpc3BsYXk6IFwiZmxleFwiIH19PlxuICAgICAgICAgIDxDc3NCYXNlbGluZSAvPlxuICAgICAgICAgIDxBcHBCYXJcbiAgICAgICAgICAgIHBvc2l0aW9uPVwiZml4ZWRcIlxuICAgICAgICAgICAgZWxldmF0aW9uPXswfVxuICAgICAgICAgICAgc3g9e3tcbiAgICAgICAgICAgICAgd2lkdGg6IHsgc206IGRyYXdlcldpZHRoIH0sXG4gICAgICAgICAgICAgIG1sOiB7IHNtOiBgY2FsYygxMDAlIC0gJHtkcmF3ZXJXaWR0aH1weClgIH0sXG4gICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvcjogXCJpbmhlcml0XCIsXG4gICAgICAgICAgICAgIGJvcmRlcjogXCJub25lXCIsXG4gICAgICAgICAgICB9fVxuICAgICAgICAgID5cbiAgICAgICAgICAgIDxUb29sYmFyPlxuICAgICAgICAgICAgICA8SWNvbkJ1dHRvblxuICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJvcGVuIGRyYXdlclwiXG4gICAgICAgICAgICAgICAgZWRnZT1cInN0YXJ0XCJcbiAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVEcmF3ZXJUb2dnbGV9XG4gICAgICAgICAgICAgICAgc3g9e3sgbXI6IDIsIGRpc3BsYXk6IHsgc206IFwibm9uZVwiIH0gfX1cbiAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgIDxNZW51SWNvbiAvPlxuICAgICAgICAgICAgICA8L0ljb25CdXR0b24+XG4gICAgICAgICAgICA8L1Rvb2xiYXI+XG4gICAgICAgICAgPC9BcHBCYXI+XG4gICAgICAgICAgPEJveFxuICAgICAgICAgICAgY29tcG9uZW50PVwibmF2XCJcbiAgICAgICAgICAgIHN4PXt7XG4gICAgICAgICAgICAgIHdpZHRoOiB7IHNtOiBkcmF3ZXJDb250ZW50V2lkdGggfSxcbiAgICAgICAgICAgICAgZmxleFNocmluazogeyBzbTogMCB9LFxuICAgICAgICAgICAgfX1cbiAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJuYXZpZ2F0aW9uXCJcbiAgICAgICAgICA+XG4gICAgICAgICAgICB7LyogVGhlIGltcGxlbWVudGF0aW9uIGNhbiBiZSBzd2FwcGVkIHdpdGgganMgdG8gYXZvaWQgU0VPIGR1cGxpY2F0aW9uIG9mIGxpbmtzLiAqL31cbiAgICAgICAgICAgIHsvKiBUT0RPOiBBdCBzb21lIHBvaW50IHNob3VsZCBtYWtlIHRoZSB3b3JkcyBib2xkIGFzIHlvdSBzY3JvbGwgdGhyb3VnaCAqL31cbiAgICAgICAgICAgIDxEcmF3ZXJcbiAgICAgICAgICAgICAgLy8gY29udGFpbmVyPXtjb250YWluZXJ9XG4gICAgICAgICAgICAgIHZhcmlhbnQ9XCJ0ZW1wb3JhcnlcIlxuICAgICAgICAgICAgICBvcGVuPXttb2JpbGVPcGVufVxuICAgICAgICAgICAgICBvbkNsb3NlPXtoYW5kbGVEcmF3ZXJUb2dnbGV9XG4gICAgICAgICAgICAgIE1vZGFsUHJvcHM9e3tcbiAgICAgICAgICAgICAgICBrZWVwTW91bnRlZDogdHJ1ZSwgLy8gQmV0dGVyIG9wZW4gcGVyZm9ybWFuY2Ugb24gbW9iaWxlLlxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgICBzeD17e1xuICAgICAgICAgICAgICAgIGRpc3BsYXk6IHsgeHM6IFwiYmxvY2tcIiwgc206IFwibm9uZVwiIH0sXG4gICAgICAgICAgICAgICAgXCImIC5NdWlEcmF3ZXItcGFwZXJcIjoge1xuICAgICAgICAgICAgICAgICAgYm94U2l6aW5nOiBcImJvcmRlci1ib3hcIixcbiAgICAgICAgICAgICAgICAgIHdpZHRoOiBcIjE1MHB4XCIsXG4gICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgID5cbiAgICAgICAgICAgICAge2RyYXdlcn1cbiAgICAgICAgICAgIDwvRHJhd2VyPlxuICAgICAgICAgICAgPERyYXdlclxuICAgICAgICAgICAgICB2YXJpYW50PVwicGVybWFuZW50XCJcbiAgICAgICAgICAgICAgc3g9e3tcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiB7IHhzOiBcIm5vbmVcIiwgc206IFwiYmxvY2tcIiB9LFxuICAgICAgICAgICAgICAgIFwiJiAuTXVpRHJhd2VyLXBhcGVyXCI6IHtcbiAgICAgICAgICAgICAgICAgIGJveFNpemluZzogXCJib3JkZXItYm94XCIsXG4gICAgICAgICAgICAgICAgICB3aWR0aDoge1xuICAgICAgICAgICAgICAgICAgICB4czogZHJhd2VyV2lkdGgsXG4gICAgICAgICAgICAgICAgICAgIHNtOiBcIjE1dndcIixcbiAgICAgICAgICAgICAgICAgICAgbWQ6IFwiMTV2d1wiLFxuICAgICAgICAgICAgICAgICAgICBsZzogXCIyMHZ3XCIsXG4gICAgICAgICAgICAgICAgICAgIHhsOiBkcmF3ZXJXaWR0aCxcbiAgICAgICAgICAgICAgICAgIH0sXG4gICAgICAgICAgICAgICAgICBib3JkZXJSaWdodDogXCJub25lICFpbXBvcnRhbnRcIixcbiAgICAgICAgICAgICAgICB9LFxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgICBvcGVuXG4gICAgICAgICAgICA+XG4gICAgICAgICAgICAgIHtkcmF3ZXJ9XG4gICAgICAgICAgICA8L0RyYXdlcj5cbiAgICAgICAgICA8L0JveD5cbiAgICAgICAgICA8Q29udGFpbmVyIG1heFdpZHRoPVwibWRcIj5cbiAgICAgICAgICAgIDxCb3hcbiAgICAgICAgICAgICAgY29tcG9uZW50PVwibWFpblwiXG4gICAgICAgICAgICAgIHN4PXt7XG4gICAgICAgICAgICAgICAgZmxleEdyb3c6IDEsXG4gICAgICAgICAgICAgICAgcDogNCxcbiAgICAgICAgICAgICAgICAvLyB3aWR0aDogeyBzbTogYGNhbGMoMTAwJSAtICR7ZHJhd2VyV2lkdGh9cHgpYCB9LFxuICAgICAgICAgICAgICB9fVxuICAgICAgICAgICAgPlxuICAgICAgICAgICAgICA8ZGl2IGlkPVwiYWJvdXRcIj5cbiAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeSB2YXJpYW50PVwiaDFcIj5oaSwgaSdtIHJpdGlrITwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vic2VjdGlvblwiPlxuICAgICAgICAgICAgICAgIDxHcmlkXG4gICAgICAgICAgICAgICAgICBjb250YWluZXJcbiAgICAgICAgICAgICAgICAgIHNwYWNpbmc9e3sgeHM6IDIsIG1kOiAzIH19XG4gICAgICAgICAgICAgICAgICBjb2x1bW5zPXt7IHhzOiA0LCBzbTogOCwgbWQ6IDEyIH19XG4gICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudD1cImNlbnRlclwiXG4gICAgICAgICAgICAgICAgICBhbGlnbkl0ZW1zPVwiY2VudGVyXCJcbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtIHhzPXs0fT5cbiAgICAgICAgICAgICAgICAgICAgey8qIFRPRE8gYWRkIG1vcmUgYW5pbWF0aW9ucyAqL31cbiAgICAgICAgICAgICAgICAgICAgPEltYWdlXG4gICAgICAgICAgICAgICAgICAgICAgc3JjPXtgL2Fzc2V0cy9wb3J0cmFpdHMvJHtwb3J0cmFpdH0ucG5nYH1cbiAgICAgICAgICAgICAgICAgICAgICBpZD1cInBvcnRyYWl0XCJcbiAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ9ezEwMDB9XG4gICAgICAgICAgICAgICAgICAgICAgd2lkdGg9ezEwMDB9XG4gICAgICAgICAgICAgICAgICAgICAgYWx0PVwic2VsZiBwb3J0cmFpdCBkcmF3aW5nXCJcbiAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17e1xuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmFkaXVzOiBcIjUwJVwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBcIjBweCBzb2xpZCAjMDAwXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IFwid2hpdGVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiBcIjEwMCVcIixcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogXCJhdXRvXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IFwiYXV0b1wiLFxuICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogXCIxXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBcIm9wYWNpdHkgLjVzIGVhc2UtaW4tb3V0XCIsXG4gICAgICAgICAgICAgICAgICAgICAgfX1cbiAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM9ezh9PlxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeSBwYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgICAgSSBhbSBhIGZpcnN0LXllYXJcbiAgICAgICAgICAgICAgICAgICAgICA8UG9ydHJhaXRUcmlnZ2VyXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PVwiUGhEIHN0dWRlbnRcIlxuICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2U9e1BvcnRyYWl0RW51bS5HUkFEfVxuICAgICAgICAgICAgICAgICAgICAgICAgc2V0dGVyPXtzZXRQb3J0cmFpdH1cbiAgICAgICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgICAgIGluIHRoZSBJbmZvcm1hdGlvbiBTY2llbmNlIGRlcGFydG1lbnQgYXQgQ29ybmVsbFxuICAgICAgICAgICAgICAgICAgICAgIFVuaXZlcnNpdHksIGFkdmlzZWQgYnkgQ2luZHkgSC4gS2FvIGluIHRoZSBIeWJyaWQgRWNvbG9neVxuICAgICAgICAgICAgICAgICAgICAgIExhYi4gSW4gMjAyMiwgSSBncmFkdWF0ZWQgZnJvbSBCZXJrZWxleSB3aXRoIGEgQlMgaW4gRUVDU1xuICAgICAgICAgICAgICAgICAgICAgIGFuZCBtaW5vcnMgaW4gcG9saXRpY2FsIGVjb25vbXkgYW5kIGRhdGEgc2NpZW5jZS4gQmVmb3JlXG4gICAgICAgICAgICAgICAgICAgICAgdGhpcywgSSB3YXMgYVxuICAgICAgICAgICAgICAgICAgICAgIDxQb3J0cmFpdFRyaWdnZXJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQ9XCJzb2Z0d2FyZSBlbmdpbmVlciBhdCBTdHJpcGVcIlxuICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2U9e1BvcnRyYWl0RW51bS5FTkdJTkVFUn1cbiAgICAgICAgICAgICAgICAgICAgICAgIHNldHRlcj17c2V0UG9ydHJhaXR9XG4gICAgICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgICAgICBsaXZpbmcgaW4gdGhlIE5ldyBZb3JrIENpdHkuXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoPlxuICAgICAgICAgICAgICAgICAgICAgIEkgYW0gY29uc3RhbnRseSBzZWVraW5nIG9wcG9ydHVuaXRpZXMgdG8gY29tcGxlbWVudCBteVxuICAgICAgICAgICAgICAgICAgICAgIHRlY2huaWNhbCBiYWNrZ3JvdW5kIHRocm91Z2ggc2VsZi1leHByZXNzaW9uLiBUaHJvdWdoIHRoaXNcbiAgICAgICAgICAgICAgICAgICAgICBqb3VybmV5LCBJIGhhdmUgYmVlbiByZWZsZWN0aW5nIGFib3V0IGhvdyBjcmFmdHNtYW5zaGlwXG4gICAgICAgICAgICAgICAgICAgICAgc2VydmVzIGFzIGFuIGludGVyc2VjdGlvbiBvZiBhcnQgYW5kIHRlY2hub2xvZ3kgdGhhdCBub3RcbiAgICAgICAgICAgICAgICAgICAgICBvbmx5IGVtcG93ZXJzIGluZGl2aWR1YWxzIGJ1dCBhbHNvIHByZXNlcnZlcyBjdWx0dXJhbFxuICAgICAgICAgICAgICAgICAgICAgIHN5bWJvbHMgYW5kIHRyYWRpdGlvbnMgd2l0aCBkZWVwIGhpc3RvcmljYWwgc2lnbmlmaWNhbmNlLlxuICAgICAgICAgICAgICAgICAgICAgIFRocm91Z2ggdGhlIGV4cGxvcmF0aW9uIG9mIHRoZXNlIHdvcmxkcywgSSBob3BlIHRvIGZvcmdlXG4gICAgICAgICAgICAgICAgICAgICAgbmV3IHBhdGh3YXlzIHRvd2FyZHMgcGVyc29uYWwgZmFicmljYXRpb24gdGhhdCBpc1xuICAgICAgICAgICAgICAgICAgICAgIGluY2x1c2l2ZSwgYWNjZXNzaWJsZSwgc3VzdGFpbmFibGUsIGFuZCBzbyBtdWNoIG1vcmUuXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cblxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeSBwYXJhZ3JhcGg+XG4gICAgICAgICAgICAgICAgICAgICAgWW91IGNhbiBjb250YWN0IG1lIGF0IHJpdGlrYmF0cmFbYXRdYmVya2VsZXlbZG90XWVkdVxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgICAgICAgPC9HcmlkPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdWJzZWN0aW9uXCI+XG4gICAgICAgICAgICAgICAgPFN1YmhlYWRpbmcgdGl0bGU9XCJyZXNlYXJjaFwiIC8+XG4gICAgICAgICAgICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cImgzXCI+c3RhdGVtZW50PC9UeXBvZ3JhcGh5PlxuICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5IHBhcmFncmFwaD5cbiAgICAgICAgICAgICAgICAgIFRoZSBjZW50cmFsIHRoZW1lIG9mIG15IHdvcmsgaXMgaW5zcGlyZWQgYnkgYSBjdXJpb3NpdHkgb2YgaG93XG4gICAgICAgICAgICAgICAgICB3ZSBjYW4gcmVseSBvbiB0ZWNobm9sb2d5IHRvIGNyZWF0ZSB0YWlsb3JlZCBleHBlcmllbmNlcyBmb3JcbiAgICAgICAgICAgICAgICAgIHVzIHRvIGV4dGVuZCBvdXIgaWRlbnRpdHkgdG8gb3VyIG9iamVjdHMsIG1hY2hpbmVzLCBhbmRcbiAgICAgICAgICAgICAgICAgIGVudmlyb25tZW50LiBJbiBhIHdvcmxkIHdpdGggcGVyc29uYWxpemVkIGZhYnJpY2F0aW9uLCB1c2Vyc1xuICAgICAgICAgICAgICAgICAgaGF2ZSBtb3JlIGNvbnRyb2wgb3ZlciB0aGVpciBlbnZpcm9ubWVudCBieSBzaGFwaW5nIHRoZWlyXG4gICAgICAgICAgICAgICAgICB0b29scywgY2xvdGhpbmcsIGFuZCBpbnRlcmZhY2VzIHRvIGZpdCB0aGVpciBuZWVkcyByYXRoZXIgdGhhblxuICAgICAgICAgICAgICAgICAgYWRqdXN0aW5nIHRvIHdoYXQgaXMgYXZhaWxhYmxlLiBUaGlzIGluc3BpcmVzIG1vcmUgYWNjZXNzaWJsZVxuICAgICAgICAgICAgICAgICAgZGVzaWduIHRvb2xzIGZvciBmYWJyaWNhdGlvbiBhbmQgc21hbGxlciBleHBlcnRpc2UgZ2FwcyBpblxuICAgICAgICAgICAgICAgICAgbWFudWZhY3R1cmluZy5cbiAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cImgzXCI+cGFwZXJzPC9UeXBvZ3JhcGh5PlxuXG4gICAgICAgICAgICAgICAgPFJlc2VhcmNoUGFwZXJcbiAgICAgICAgICAgICAgICAgIHRleHQ9XCJSaXRpayBCYXRyYSBhbmQgS2FpdGx5biBZaSBSYW4gTGVlLiAyMDIyLlxuICAgICAgICAgICAgICAgICAgUmVkeWNsZXI6IERhaWx5IE91dGZpdCBUZXh0dXJlIEZhYnJpY2F0aW9uIEFwcGxpYW5jZSBVc2luZ1xuICAgICAgICAgICAgICAgICAgUmUtUHJvZ3JhbW1hYmxlIER5ZXMuIEluIFNpeHRlZW50aCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb25cbiAgICAgICAgICAgICAgICAgIFRhbmdpYmxlLCBFbWJlZGRlZCwgYW5kIEVtYm9kaWVkIEludGVyYWN0aW9uIChURUkgJzIyKS5cbiAgICAgICAgICAgICAgICAgIEFzc29jaWF0aW9uIGZvciBDb21wdXRpbmcgTWFjaGluZXJ5LCBOZXcgWW9yaywgTlksIFVTQSxcbiAgICAgICAgICAgICAgICAgIEFydGljbGUgNDEsIDHigJM0LiBodHRwczovL2RvaS5vcmcvMTAuMTE0NS8zNDkwMTQ5LjM1MDI0MjRcIlxuICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgPFJlc2VhcmNoUGFwZXJcbiAgICAgICAgICAgICAgICAgIHRleHQ9XCJBbGljZSBBZ29naW5vLCBIYWUgWW91bmcgSmFuZywgVml2ZWsgUmFvLFxuICAgICAgICAgICAgICAgICAgUml0aWsgQmF0cmEsIEZlbGljaXR5IExpYW8sIFJvaGFuIFNvb2QsXG4gICAgICAgICAgICAgICAgICBJcnZpbmcgRmFuZywgUi4gTGlseSBIdSwgRW1lcnNvbiBTaG9pY2hldC1CYXJ0dXMsIEpvaG5cbiAgICAgICAgICAgICAgICAgIE1hdHJhbmdhLiAyMDIxLiBEeW5hbWljIFBsYWNlbWVudCBvZiBSYXBpZGx5IERlcGxveWFibGUgTW9iaWxlXG4gICAgICAgICAgICAgICAgICBTZW5zb3IgUm9ib3RzIFVzaW5nIE1hY2hpbmUgTGVhcm5pbmcgYW5kIEV4cGVjdGVkIFZhbHVlIG9mXG4gICAgICAgICAgICAgICAgICBJbmZvcm1hdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIEFTTUUgMjAyMSBJbnRlcm5hdGlvbmFsXG4gICAgICAgICAgICAgICAgICBNZWNoYW5pY2FsIEVuZ2luZWVyaW5nIENvbmdyZXNzIGFuZCBFeHBvc2l0aW9uLiBWb2x1bWUgMTM6XG4gICAgICAgICAgICAgICAgICBTYWZldHkgRW5naW5lZXJpbmcsIFJpc2ssIGFuZCBSZWxpYWJpbGl0eSBBbmFseXNpczsgUmVzZWFyY2hcbiAgICAgICAgICAgICAgICAgIFBvc3RlcnMuIFZpcnR1YWwsIE9ubGluZS4gVjAxM1QxNEEwMjcuIEFTTUUuXG4gICAgICAgICAgICAgICAgICBodHRwczovL2RvaS5vcmcvMTAuMTExNS9JTUVDRTIwMjEtNzA3NTlcIlxuICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vic2VjdGlvblwiPlxuICAgICAgICAgICAgICAgIDxTdWJoZWFkaW5nIHRpdGxlPVwiaW5kdXN0cnlcIiAvPlxuICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfT5cbiAgICAgICAgICAgICAgICAgIDxXb3JrRXhwZXJpZW5jZVxuICAgICAgICAgICAgICAgICAgICBjb21wYW55PVwic3RyaXBlXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJsaW5rIGNvbnN1bWVyIGV4cGVyaWVuY2VcIlxuICAgICAgICAgICAgICAgICAgICByb2xlPVwiZnVsbC1zdGFjayBzb2Z0d2FyZSBlbmdpbmVlclwiXG4gICAgICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgICAgICA8V29ya0V4cGVyaWVuY2VcbiAgICAgICAgICAgICAgICAgICAgY29tcGFueT1cImFzYW5hXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJhbmRyb2lkIGZvdW5kYXRpb25zXCJcbiAgICAgICAgICAgICAgICAgICAgcm9sZT1cInByb2R1Y3QgZW5naW5lZXJpbmcgaW50ZXJuXCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICA8V29ya0V4cGVyaWVuY2VcbiAgICAgICAgICAgICAgICAgICAgY29tcGFueT1cImdvbGRtYW5fc2FjaHNcIlxuICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbj1cImNvcnBvcmF0ZSB3b3JrcGxhY2Ugc29sdXRpb25zXCJcbiAgICAgICAgICAgICAgICAgICAgcm9sZT1cInN1bW1lciBlbmdpbmVlcmluZyBhbmFseXN0XCJcbiAgICAgICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgICAgIDxXb3JrRXhwZXJpZW5jZVxuICAgICAgICAgICAgICAgICAgICBjb21wYW55PVwicmFsbHlfaGVhbHRoXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJtb2JpbGUgZW5naW5lZXJpbmdcIlxuICAgICAgICAgICAgICAgICAgICByb2xlPVwiaU9TIHNvZnR3YXJlIGVuZ2luZWVyaW5nIGludGVyblwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdWJzZWN0aW9uXCI+XG4gICAgICAgICAgICAgICAgPFN1YmhlYWRpbmcgdGl0bGU9XCJ0ZWFjaGluZ1wiIC8+XG4gICAgICAgICAgICAgICAgey8qIEljb25zIGhlcmU6IGh0dHBzOi8vd3d3LmZsYXRpY29uLmNvbS9hdXRob3JzL2ZyZWVwaWsgRmxhdCBDaXJjdWxhciBGbGF0ICovfVxuICAgICAgICAgICAgICAgIDxHcmlkXG4gICAgICAgICAgICAgICAgICBjb250YWluZXJcbiAgICAgICAgICAgICAgICAgIHNwYWNpbmc9ezN9XG4gICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudD1cImNlbnRlclwiXG4gICAgICAgICAgICAgICAgICBjb2x1bW5zPXsxMn1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8VGVhY2hpbmdFeHBlcmllbmNlXG4gICAgICAgICAgICAgICAgICAgIGNvdXJzZT1cIm1hY2hpbmVsZWFybmluZ1wiXG4gICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uPVwiYnJlYWsgdGhyb3VnaCB0ZWNoIGFpIHByb2dyYW1cIlxuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cImhlYWQgdGEgQCBjb3JuZWxsIHRlY2ggKHN1MjQpXCJcbiAgICAgICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgICAgIDxUZWFjaGluZ0V4cGVyaWVuY2VcbiAgICAgICAgICAgICAgICAgICAgY291cnNlPVwid2ViZGV2ZWxvcG1lbnRcIlxuICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbj1cImluZm8gMjMwMDogaW50ZXJtZWRpYXRlIGRlc2lnbiBhbmQgcHJvZ3JhbW1pbmcgZm9yIHRoZSB3ZWJcIlxuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cImdyYWR1YXRlIHRhIEAgY29ybmVsbCAoc3AyNClcIlxuICAgICAgICAgICAgICAgICAgLz5cblxuICAgICAgICAgICAgICAgICAgPFRlYWNoaW5nRXhwZXJpZW5jZVxuICAgICAgICAgICAgICAgICAgICBjb3Vyc2U9XCJkZXNpZ250ZWNoXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJpbmZvIDQyNDA6IGRlc2lnbmluZyB0ZWNobm9sb2d5IGZvciBzb2NpYWwgaW1wYWN0XCJcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJncmFkdWF0ZSB0YSBAIGNvcm5lbGwgKGZhMjMpXCJcbiAgICAgICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgICAgIDxUZWFjaGluZ0V4cGVyaWVuY2VcbiAgICAgICAgICAgICAgICAgICAgY291cnNlPVwiZGF0YWJhc2VzXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJjb21wc2NpIDE4NjogaW50cm9kdWN0aW9uIHRvIGRhdGFiYXNlIHN5c3RlbXNcIlxuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cInRlYWNoaW5nIGFzc2lzdGFudCBAIGJlcmtlbGV5IChzcDIyKVwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPFRlYWNoaW5nRXhwZXJpZW5jZVxuICAgICAgICAgICAgICAgICAgICBjb3Vyc2U9XCJpbnRlcmZhY2VzXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJjb21wc2NpIDE2MDogdXNlciBpbnRlcmZhY2UgZGVzaWduIGFuZCBkZXZlbG9wbWVudFwiXG4gICAgICAgICAgICAgICAgICAgIHRpdGxlPVwidGVhY2hpbmcgYXNzaXN0YW50IEAgYmVya2VsZXkgKHN1MjEpXCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICA8VGVhY2hpbmdFeHBlcmllbmNlXG4gICAgICAgICAgICAgICAgICAgIGNvdXJzZT1cImRhdGFzdHJ1Y3R1cmVzXCJcbiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb249XCJjb21wc2NpIDYxYjogZGF0YSBzdHJ1Y3R1cmVzXCJcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJsYWIgYXNzaXN0YW50ICYgY29udGVudCBtZW50b3IgQCBiZXJrZWxleSAoZmEyMClcIlxuICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vic2VjdGlvblwiPlxuICAgICAgICAgICAgICAgIDxTdWJoZWFkaW5nIHRpdGxlPVwiYm9va3NoZWxmXCIgLz5cbiAgICAgICAgICAgICAgICA8R3JpZFxuICAgICAgICAgICAgICAgICAgY29udGFpbmVyXG4gICAgICAgICAgICAgICAgICBzcGFjaW5nPXsxfVxuICAgICAgICAgICAgICAgICAganVzdGlmeUNvbnRlbnQ9XCJsZWZ0XCJcbiAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM9XCJjZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgY29sdW1ucz17MTV9XG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgPEJvb2tcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJiYWRfYmxvb2RcIlxuICAgICAgICAgICAgICAgICAgICB1cmw9XCIzNzk3NjU0MS1iYWQtYmxvb2RcIlxuICAgICAgICAgICAgICAgICAgICBpc2JuPVwiOTc4MTk4NDgzMzYzMVwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPEJvb2tcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJteV9vd25fd29yZHNcIlxuICAgICAgICAgICAgICAgICAgICB1cmw9XCIyOTg2ODYwNC1teS1vd24td29yZHNcIlxuICAgICAgICAgICAgICAgICAgICBpc2JuPVwiOTc4MTY4MzI0NDM1NlwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPEJvb2tcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJ0aGVfbGFzdF9sZWN0dXJlXCJcbiAgICAgICAgICAgICAgICAgICAgdXJsPVwiNDA2MTE1MTAtdGhlLWxhc3QtbGVjdHVyZVwiXG4gICAgICAgICAgICAgICAgICAgIGlzYm49XCI5NzgxNDAxMzIzMjU3XCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICA8Qm9va1xuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cImJlY29taW5nXCJcbiAgICAgICAgICAgICAgICAgICAgdXJsPVwiMzg3NDY0ODUtYmVjb21pbmdcIlxuICAgICAgICAgICAgICAgICAgICBpc2JuPVwiOTc4MDI0MTMzNDE0MFwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPEJvb2tcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJ0aGVfbGl0dGxlX3ByaW5jZVwiXG4gICAgICAgICAgICAgICAgICAgIHVybD1cIjE1Nzk5My5UaGVfTGl0dGxlX1ByaW5jZVwiXG4gICAgICAgICAgICAgICAgICAgIGlzYm49XCI5Nzg5MDAxNzA4NTI4XCJcbiAgICAgICAgICAgICAgICAgIC8+XG5cbiAgICAgICAgICAgICAgICAgIDxCb29rIHRpdGxlPVwiZWR1Y2F0ZWRcIiBpc2JuPVwiOTc4MDUyNTUyODA1MFwiIC8+XG4gICAgICAgICAgICAgICAgICA8Qm9vayB0aXRsZT1cInVuY2FubnlfdmFsbGV5XCIgaXNibj1cIjk3ODE0MzI4ODAwNjRcIiAvPlxuICAgICAgICAgICAgICAgICAgPEJvb2sgdGl0bGU9XCJ3aGVuX2JyZWF0aF9iZWNvbWVzX2FpclwiIGlzYm49XCI5NzgwODEyOTg4NDA2XCIgLz5cbiAgICAgICAgICAgICAgICAgIDxCb29rXG4gICAgICAgICAgICAgICAgICAgIHRpdGxlPVwiYWxnb3JpdGhtc19vZl9vcHByZXNzaW9uXCJcbiAgICAgICAgICAgICAgICAgICAgdXJsPVwiMzQ3NjI1NTItYWxnb3JpdGhtcy1vZi1vcHByZXNzaW9uXCJcbiAgICAgICAgICAgICAgICAgICAgaXNibj1cIjk3ODE0Nzk4MzcyNDNcIlxuICAgICAgICAgICAgICAgICAgLz5cbiAgICAgICAgICAgICAgICAgIDxCb29rIHRpdGxlPVwic2hvZWRvZ1wiIGlzYm49XCI5NzgxNDcxMTQ2NzMyXCIgLz5cblxuICAgICAgICAgICAgICAgICAgPEJvb2tcbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJzdG9yaWVzX29mX3lvdXJfbGlmZV9hbmRfb3RoZXJzXCJcbiAgICAgICAgICAgICAgICAgICAgdXJsPVwiMjIzMzgwLlN0b3JpZXNfb2ZfWW91cl9MaWZlX2FuZF9PdGhlcnNcIlxuICAgICAgICAgICAgICAgICAgICBpc2JuPVwiMDc2NTMwNDE4WFwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgIDwvR3JpZD5cbiAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgey8qIFRPRE86IGV2ZW50dWFsbHkgbWFrZSB0aGUgaG92ZXJhYmxlICovfVxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInN1YnNlY3Rpb25cIj5cbiAgICAgICAgICAgICAgICA8U3ViaGVhZGluZyB0aXRsZT1cImNyZWF0aXZlXCIgLz5cbiAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeSB2YXJpYW50PVwiaDNcIiBzdHlsZT17eyBtYXJnaW5Cb3R0b206IFwiMTBweFwiIH19PlxuICAgICAgICAgICAgICAgICAgaSBsaWtlIG1ha2luZyBcInN0dWZmXCIue1wiIFwifVxuICAgICAgICAgICAgICAgICAgey8qIDxMaW5rIHN0eWxlPXt7dGV4dERlY29yYXRpb246IFwidW5kZXJsaW5lXCJ9fSBocmVmPVwiaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9yaXRpa3Vsb3VzZGVzaWduc1wiPlxuICAgICAgICAgICAgICAgICAgQHJpdGlrdWxvdXNkZXNpZ25zXG4gICAgICAgICAgICAgICAgPC9MaW5rPiAqL31cbiAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XG4gICAgICAgICAgICAgICAgPEdyaWRcbiAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclxuICAgICAgICAgICAgICAgICAgc3BhY2luZz17MX1cbiAgICAgICAgICAgICAgICAgIGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCJcbiAgICAgICAgICAgICAgICAgIGFsaWduSXRlbXM9XCJjZW50ZXJcIlxuICAgICAgICAgICAgICAgICAgY29sdW1ucz17eyB4czogMTIsIHNtOiA5LCBtZDogOSwgbGc6IDkgfX1cbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICB7LyogVE9ETzogaGF2ZSBhIHBsYWNlaG9sZGVyIGluIGNhc2UgZ2lmIGRvZXNuJ3QgbG9hZCAqL31cbiAgICAgICAgICAgICAgICAgIDxNZWRpYUl0ZW0gdGl0bGU9XCJtb29uIGRyaXBcIiBwYXRoPVwibW9vbl9kcmlwXCIgdHlwZT1cImpwZWdcIiAvPlxuICAgICAgICAgICAgICAgICAgPE1lZGlhSXRlbVxuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cImdsYXNzIHBsYW5ldFwiXG4gICAgICAgICAgICAgICAgICAgIHBhdGg9XCJnbGFzc19wbGFuZXRcIlxuICAgICAgICAgICAgICAgICAgICB0eXBlPVwicG5nXCJcbiAgICAgICAgICAgICAgICAgIC8+XG4gICAgICAgICAgICAgICAgICA8TWVkaWFJdGVtIHRpdGxlPVwiZGFuY2UgY2xpcFwiIHBhdGg9XCJmb3JldmVyXCIgdHlwZT1cImdpZlwiIC8+XG4gICAgICAgICAgICAgICAgICA8TWVkaWFJdGVtXG4gICAgICAgICAgICAgICAgICAgIHRpdGxlPVwiYnJvYWR3YXkgZGFuY2VcIlxuICAgICAgICAgICAgICAgICAgICBwYXRoPVwiZGFuY2VfYmRjXCJcbiAgICAgICAgICAgICAgICAgICAgdHlwZT1cImdpZlwiXG4gICAgICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgICAgICB7LyogPE1lZGlhSXRlbSB0aXRsZT1cIm1vdW50YWluc1wiIHBhdGg9XCJtb3VudGFpbnNcIiB0eXBlPVwianBlZ1wiIC8+ICovfVxuICAgICAgICAgICAgICAgICAgPE1lZGlhSXRlbVxuICAgICAgICAgICAgICAgICAgICB0aXRsZT1cImxhZHkgc3RyYW5kYmVlc3RcIlxuICAgICAgICAgICAgICAgICAgICBwYXRoPVwic3RyYW5kYmVlc3QxXCJcbiAgICAgICAgICAgICAgICAgICAgdHlwZT1cImdpZlwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPE1lZGlhSXRlbSB0aXRsZT1cInN0b29sXCIgcGF0aD1cInN0b29sXCIgdHlwZT1cImpwZWdcIiAvPlxuXG4gICAgICAgICAgICAgICAgICA8TWVkaWFJdGVtXG4gICAgICAgICAgICAgICAgICAgIHRpdGxlPVwic3Rvcnkgb2YgYSBwZW5jaWxcIlxuICAgICAgICAgICAgICAgICAgICBwYXRoPVwicGVuY2lsXCJcbiAgICAgICAgICAgICAgICAgICAgdHlwZT1cImdpZlwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgey8qIDxNZWRpYUl0ZW0gdGl0bGU9XCJob3VzZVwiIHBhdGg9XCJob3VzZVwiIHR5cGU9XCJwbmdcIiAvPiAqL31cbiAgICAgICAgICAgICAgICAgIDxNZWRpYUl0ZW1cbiAgICAgICAgICAgICAgICAgICAgdGl0bGU9XCJjcmVhdGl2ZSBjb2RpbmdcIlxuICAgICAgICAgICAgICAgICAgICBwYXRoPVwiY3JlYXRpdmVfY29kaW5nXCJcbiAgICAgICAgICAgICAgICAgICAgdHlwZT1cImdpZlwiXG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICAgICAgPE1lZGlhSXRlbSB0aXRsZT1cInBsYXRlXCIgcGF0aD1cImRlc2lnbl9wbGF0ZVwiIHR5cGU9XCJqcGVnXCIgLz5cbiAgICAgICAgICAgICAgICA8L0dyaWQ+XG4gICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgIHsvKiA8ZGl2IGNsYXNzTmFtZT1cInN1YnNlY3Rpb25cIj5cbiAgICAgICAgICAgICAgPFN1YmhlYWRpbmcgdGl0bGU9XCJ0aG91Z2h0c1wiIC8+XG4gICAgICAgICAgICAgIDxUeXBvZ3JhcGh5IHBhcmFncmFwaD5cbiAgICAgICAgICAgICAgICBDb21pbmcgc29vbiEhXG4gICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgIDwvZGl2PiAqL31cbiAgICAgICAgICAgIDwvQm94PlxuICAgICAgICAgIDwvQ29udGFpbmVyPlxuICAgICAgICA8L0JveD5cbiAgICAgIDwvVGhlbWVQcm92aWRlcj5cbiAgICAgIDxBbmFseXRpY3MgLz5cbiAgICA8Lz5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJSZWFjdCIsIkFwcEJhciIsIkJveCIsIkNzc0Jhc2VsaW5lIiwiRHJhd2VyIiwiSWNvbkJ1dHRvbiIsIkxpc3QiLCJNZW51SWNvbiIsIlRvb2xiYXIiLCJUeXBvZ3JhcGh5IiwiSW1hZ2UiLCJDb250YWluZXIiLCJBbmFseXRpY3MiLCJHcmlkIiwiVGhlbWVQcm92aWRlciIsInRoZW1lIiwiQm9vayIsIk1lZGlhSXRlbSIsIk5hdkxpc3RJdGVtIiwiUG9ydHJhaXRFbnVtIiwiUG9ydHJhaXRUcmlnZ2VyIiwiUmVzZWFyY2hQYXBlciIsIlN1YmhlYWRpbmciLCJUZWFjaGluZ0V4cGVyaWVuY2UiLCJXb3JrRXhwZXJpZW5jZSIsImRyYXdlcldpZHRoIiwiZHJhd2VyQ29udGVudFdpZHRoIiwiSG9tZSIsIm1vYmlsZU9wZW4iLCJzZXRNb2JpbGVPcGVuIiwidXNlU3RhdGUiLCJwb3J0cmFpdCIsInNldFBvcnRyYWl0IiwiREVGQVVMVCIsImhhbmRsZURyYXdlclRvZ2dsZSIsImRyYXdlciIsImRpdiIsInN0eWxlIiwibWFyZ2luTGVmdCIsIm1hcmdpblRvcCIsInNyYyIsIndpZHRoIiwiaGVpZ2h0IiwiYWx0IiwiYnIiLCJ2YXJpYW50Iiwibm9XcmFwIiwidGV4dERlY29yYXRpb24iLCJ0ZXh0VW5kZXJsaW5lT2Zmc2V0IiwibWFwIiwidGV4dCIsInNlY3Rpb24iLCJoYW5kbGVDbGljayIsInVzZUVmZmVjdCIsInN4IiwiZGlzcGxheSIsInBvc2l0aW9uIiwiZWxldmF0aW9uIiwic20iLCJtbCIsImJhY2tncm91bmRDb2xvciIsImJvcmRlciIsImFyaWEtbGFiZWwiLCJlZGdlIiwib25DbGljayIsIm1yIiwiY29tcG9uZW50IiwiZmxleFNocmluayIsIm9wZW4iLCJvbkNsb3NlIiwiTW9kYWxQcm9wcyIsImtlZXBNb3VudGVkIiwieHMiLCJib3hTaXppbmciLCJtZCIsImxnIiwieGwiLCJib3JkZXJSaWdodCIsIm1heFdpZHRoIiwiZmxleEdyb3ciLCJwIiwiaWQiLCJjbGFzc05hbWUiLCJjb250YWluZXIiLCJzcGFjaW5nIiwiY29sdW1ucyIsImp1c3RpZnlDb250ZW50IiwiYWxpZ25JdGVtcyIsIml0ZW0iLCJib3JkZXJSYWRpdXMiLCJtYXJnaW4iLCJvcGFjaXR5IiwidHJhbnNpdGlvbiIsInBhcmFncmFwaCIsImltYWdlIiwiR1JBRCIsInNldHRlciIsIkVOR0lORUVSIiwidGl0bGUiLCJjb21wYW55IiwiZGVzY3JpcHRpb24iLCJyb2xlIiwiY291cnNlIiwidXJsIiwiaXNibiIsIm1hcmdpbkJvdHRvbSIsInBhdGgiLCJ0eXBlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./app/page.tsx\n");
 
 /***/ }),
 
-/***/ 60729:
+/***/ "(ssr)/./app/theme.tsx":
+/*!***********************!*\
+  !*** ./app/theme.tsx ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ RootLayout),
-/* harmony export */   metadata: () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(99298);
-/* harmony import */ var next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(92817);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-const metadata = {
-    title: "ritik batra",
-    description: "personal website with chaotic thoughts and projects"
-};
-function RootLayout({ children }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("html", {
-        lang: "en",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("body", {
-            className: (next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default().className),
-            children: children
-        })
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/styles */ \"(ssr)/./node_modules/@mui/material/node/styles/index.js\");\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mui_material_styles__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var typeface_roboto__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! typeface-roboto */ \"(ssr)/./node_modules/typeface-roboto/index.css\");\n/* harmony import */ var _fontsource_poppins__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fontsource/poppins */ \"(ssr)/./node_modules/@fontsource/poppins/index.css\");\n\n\n // Defaults to weight 400\nconst theme = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_2__.createTheme)({\n    typography: {\n        h1: {\n            fontSize: \"4rem\",\n            fontFamily: \"Poppins\",\n            fontWeight: 600\n        },\n        h2: {\n            fontSize: \"1.5rem\",\n            fontFamily: \"Poppins\",\n            fontWeight: 600\n        },\n        h3: {\n            fontSize: \"1rem\",\n            fontFamily: \"Poppins\",\n            fontWeight: 600\n        },\n        body1: {\n            fontSize: \"1rem\",\n            fontFamily: \"roboto\"\n        }\n    }\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (theme);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvdGhlbWUudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQW1EO0FBQzFCO0FBQ0ksQ0FBQyx5QkFBeUI7QUFHdkQsTUFBTUMsUUFBUUQsaUVBQVdBLENBQUM7SUFDeEJFLFlBQVk7UUFDVkMsSUFBSTtZQUNGQyxVQUFVO1lBQ1ZDLFlBQVk7WUFDWkMsWUFBWTtRQUNkO1FBQ0FDLElBQUk7WUFDRkgsVUFBVTtZQUNWQyxZQUFZO1lBQ1pDLFlBQVk7UUFDZDtRQUNBRSxJQUFJO1lBQ0ZKLFVBQVU7WUFDVkMsWUFBWTtZQUNaQyxZQUFZO1FBQ2Q7UUFDQUcsT0FBTztZQUNMTCxVQUFVO1lBQ1ZDLFlBQVk7UUFDZDtJQUNGO0FBQ0Y7QUFFQSxpRUFBZUosS0FBS0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvLi9hcHAvdGhlbWUudHN4P2ZjNDMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgY3JlYXRlVGhlbWUgfSBmcm9tIFwiQG11aS9tYXRlcmlhbC9zdHlsZXNcIjtcbmltcG9ydCAndHlwZWZhY2Utcm9ib3RvJztcbmltcG9ydCBcIkBmb250c291cmNlL3BvcHBpbnNcIjsgLy8gRGVmYXVsdHMgdG8gd2VpZ2h0IDQwMFxuXG5cbmNvbnN0IHRoZW1lID0gY3JlYXRlVGhlbWUoe1xuICB0eXBvZ3JhcGh5OiB7XG4gICAgaDE6IHtcbiAgICAgIGZvbnRTaXplOiBcIjRyZW1cIixcbiAgICAgIGZvbnRGYW1pbHk6IFwiUG9wcGluc1wiLFxuICAgICAgZm9udFdlaWdodDogNjAwXG4gICAgfSxcbiAgICBoMjoge1xuICAgICAgZm9udFNpemU6IFwiMS41cmVtXCIsXG4gICAgICBmb250RmFtaWx5OiBcIlBvcHBpbnNcIixcbiAgICAgIGZvbnRXZWlnaHQ6IDYwMFxuICAgIH0sXG4gICAgaDM6IHtcbiAgICAgIGZvbnRTaXplOiBcIjFyZW1cIixcbiAgICAgIGZvbnRGYW1pbHk6IFwiUG9wcGluc1wiLFxuICAgICAgZm9udFdlaWdodDogNjAwXG4gICAgfSxcbiAgICBib2R5MToge1xuICAgICAgZm9udFNpemU6IFwiMXJlbVwiLFxuICAgICAgZm9udEZhbWlseTogXCJyb2JvdG9cIlxuICAgIH0sXG4gIH0sXG59KTtcblxuZXhwb3J0IGRlZmF1bHQgdGhlbWU7XG4iXSwibmFtZXMiOlsiY3JlYXRlVGhlbWUiLCJ0aGVtZSIsInR5cG9ncmFwaHkiLCJoMSIsImZvbnRTaXplIiwiZm9udEZhbWlseSIsImZvbnRXZWlnaHQiLCJoMiIsImgzIiwiYm9keTEiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./app/theme.tsx\n");
 
 /***/ }),
 
-/***/ 73428:
+/***/ "(ssr)/./app/utils.tsx":
+/*!***********************!*\
+  !*** ./app/utils.tsx ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Book: () => (/* binding */ Book),\n/* harmony export */   MediaItem: () => (/* binding */ MediaItem),\n/* harmony export */   NavListItem: () => (/* binding */ NavListItem),\n/* harmony export */   PortraitEnum: () => (/* binding */ PortraitEnum),\n/* harmony export */   PortraitTrigger: () => (/* binding */ PortraitTrigger),\n/* harmony export */   ResearchPaper: () => (/* binding */ ResearchPaper),\n/* harmony export */   Subheading: () => (/* binding */ Subheading),\n/* harmony export */   TeachingExperience: () => (/* binding */ TeachingExperience),\n/* harmony export */   WorkExperience: () => (/* binding */ WorkExperience)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! __barrel_optimize__?names=Divider,Grid,ListItem,Typography!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/node/Grid/index.js\");\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! __barrel_optimize__?names=Divider,Grid,ListItem,Typography!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/node/Typography/index.js\");\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! __barrel_optimize__?names=Divider,Grid,ListItem,Typography!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/node/Divider/index.js\");\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! __barrel_optimize__?names=Divider,Grid,ListItem,Typography!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/node/ListItem/index.js\");\n/* harmony import */ var _barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/system */ \"(ssr)/./node_modules/@mui/system/index.js\");\n/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_system__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ \"(ssr)/./node_modules/next/link.js\");\n/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\n\nconst Subheading = (props)=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        id: props.title,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n            container: true,\n            justifyContent: \"center\",\n            alignItems: \"center\",\n            spacing: 0,\n            style: {\n                marginBottom: \"25px\"\n            },\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                    item: true,\n                    lg: 2,\n                    md: 2,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default()), {\n                        variant: \"h2\",\n                        children: props.title\n                    }, void 0, false, {\n                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                        lineNumber: 25,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 24,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                    item: true,\n                    lg: 10,\n                    md: 10,\n                    sm: 12,\n                    xs: 12,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_6___default()), {\n                        sx: {\n                            borderBottomWidth: 3,\n                            borderColor: \"black\"\n                        }\n                    }, void 0, false, {\n                        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                        lineNumber: 28,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 27,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n            lineNumber: 17,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 16,\n        columnNumber: 5\n    }, undefined);\n};\nconst ResearchPaper = (props)=>{\n    const nameIndex = props.text.indexOf(\"Ritik\");\n    const nameLength = \"Ritik Batra\".length;\n    const urlIndex = props.text.indexOf(\"https://\");\n    const before = props.text.substring(0, nameIndex);\n    const after = props.text.substring(nameIndex + nameLength, urlIndex);\n    const url = props.text.substring(urlIndex);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_system__WEBPACK_IMPORTED_MODULE_7__.Box, {\n        sx: {\n            fontStyle: \"italic\"\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default()), {\n            paragraph: true,\n            children: [\n                before,\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                    children: \"Ritik Batra\"\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 53,\n                    columnNumber: 9\n                }, undefined),\n                after,\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: url,\n                    style: {\n                        textDecoration: \"underline\",\n                        textUnderlineOffset: \"3px\"\n                    },\n                    children: url\n                }, void 0, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 55,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n            lineNumber: 51,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 50,\n        columnNumber: 5\n    }, undefined);\n};\nconst WorkExperience = (props)=>{\n    const imageUri = `/assets/experience/${props.company}.png`;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n        item: true,\n        container: true,\n        justifyContent: \"center\",\n        sm: 3,\n        md: 3,\n        spacing: 1,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                item: true,\n                justifyContent: \"center\",\n                alignItems: \"center\",\n                container: true,\n                xs: 12,\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                    src: imageUri,\n                    loading: \"lazy\",\n                    height: 75,\n                    width: 75,\n                    alt: props.company,\n                    style: {\n                        borderRadius: \"5%\"\n                    }\n                }, props.company, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 77,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 76,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                item: true,\n                justifyContent: \"center\",\n                alignItems: \"center\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default()), {\n                    align: \"center\",\n                    paragraph: true,\n                    children: [\n                        props.role,\n                        \" • \",\n                        props.description\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 90,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 89,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 75,\n        columnNumber: 5\n    }, undefined);\n};\nconst TeachingExperience = (props)=>{\n    const imageUri = `/assets/instruction/${props.course}.png`;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n        item: true,\n        container: true,\n        justifyContent: \"center\",\n        sm: 3,\n        md: 4,\n        spacing: 2,\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                item: true,\n                justifyContent: \"center\",\n                container: true,\n                alignItems: \"center\",\n                height: \"10vh\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                    src: imageUri,\n                    loading: \"lazy\",\n                    height: 100,\n                    width: 100,\n                    alt: props.course,\n                    style: {\n                        height: \"100%\",\n                        width: \"auto\"\n                    }\n                }, props.course, false, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 117,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 110,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n                item: true,\n                justifyContent: \"center\",\n                alignItems: \"center\",\n                xs: 12,\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default()), {\n                    align: \"center\",\n                    paragraph: true,\n                    children: [\n                        props.description,\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                            lineNumber: 133,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                            children: props.title\n                        }, void 0, false, {\n                            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                            lineNumber: 134,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                    lineNumber: 131,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 130,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 109,\n        columnNumber: 5\n    }, undefined);\n};\nconst LAST_BOOK = \"stories_of_your_life_and_others\";\nconst Book = ({ title, url, isbn })=>{\n    // const goodreadsUrl = `https://www.goodreads.com/book/show/${url}`;\n    const bookcoverUrl = `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg?default=false`;\n    const [width, setWidth] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(1);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n        item: true,\n        sm: width,\n        style: {\n            transition: \"all 1s ease-in-out\"\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            style: {\n                width: \"125px\",\n                height: \"175px\",\n                position: \"relative\"\n            },\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                src: bookcoverUrl,\n                loading: \"lazy\",\n                sizes: \"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw\",\n                onMouseEnter: ()=>title == LAST_BOOK ? setWidth(1) : setWidth(3),\n                onMouseLeave: ()=>setWidth(1),\n                fill: true,\n                className: \"w-full h-auto\",\n                alt: title,\n                style: {\n                    margin: \"auto\"\n                }\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 159,\n                columnNumber: 11\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n            lineNumber: 157,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 156,\n        columnNumber: 5\n    }, undefined);\n};\nconst handleScroll = (e)=>{\n    // first prevent the default behavior\n    e.preventDefault();\n    // get the href and remove everything before the hash (#)\n    const href = e.currentTarget.href;\n    const targetId = href.replace(/.*\\#/, \"\");\n    // get the element by id and use scrollIntoView\n    const elem = document.getElementById(targetId);\n    elem?.scrollIntoView({\n        behavior: \"smooth\"\n    });\n};\nconst NavListItem = (props)=>{\n    const href = `#${props.section}`;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_8___default()), {\n        style: {\n            paddingLeft: \"0\",\n            paddingBottom: \"0\"\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_link__WEBPACK_IMPORTED_MODULE_3___default()), {\n            href: href,\n            onClick: async (e)=>{\n                handleScroll(e);\n            // // TODO: I hate this lol have to fix this at some point\n            // setTimeout(function () {\n            //   props.handleClick();\n            // }, 0);\n            },\n            className: \"navListItem\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5___default()), {\n                paragraph: true,\n                className: \"navListItemText\",\n                children: props.section\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 214,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n            lineNumber: 203,\n            columnNumber: 7\n        }, undefined)\n    }, props.section, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 199,\n        columnNumber: 5\n    }, undefined);\n};\nconst MediaItem = (props)=>{\n    const imageUri = `/assets/art/${props.path}.${props.type}`;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_barrel_optimize_names_Divider_Grid_ListItem_Typography_mui_material__WEBPACK_IMPORTED_MODULE_4___default()), {\n        item: true,\n        xs: 6,\n        sm: 3,\n        md: 3,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n            src: imageUri,\n            loading: \"lazy\",\n            height: 1000,\n            width: 1000,\n            alt: props.title,\n            placeholder: \"blur\",\n            blurDataURL: \"/assets/loading.png\",\n            style: {\n                borderRadius: \"10%\"\n            }\n        }, void 0, false, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n            lineNumber: 234,\n            columnNumber: 7\n        }, undefined)\n    }, props.path, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n        lineNumber: 233,\n        columnNumber: 5\n    }, undefined);\n};\nvar PortraitEnum;\n(function(PortraitEnum) {\n    PortraitEnum[\"DEFAULT\"] = \"default\";\n    PortraitEnum[\"GRAD\"] = \"grad\";\n    PortraitEnum[\"ENGINEER\"] = \"engineer\";\n})(PortraitEnum || (PortraitEnum = {}));\nconst PortraitTrigger = (props)=>{\n    if (true) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n            children: [\n                \" \",\n                props.text,\n                \" \"\n            ]\n        }, void 0, true);\n    }\n    const image = document.getElementById(\"portrait\");\n    if (!image) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n            children: [\n                \" \",\n                props.text,\n                \" \"\n            ]\n        }, void 0, true);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            \" \",\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                onMouseEnter: ()=>{\n                    image.style.opacity = \"0\";\n                    setTimeout(()=>{\n                        props.setter(props.image);\n                        image.style.opacity = \"1\";\n                    }, 500);\n                },\n                onMouseLeave: ()=>{\n                    image.style.opacity = \"0\";\n                    setTimeout(()=>{\n                        props.setter(\"default\");\n                        image.style.opacity = \"1\";\n                    }, 500);\n                },\n                style: {\n                    display: \"inline-block\"\n                },\n                className: \"portraitTrigger\",\n                children: props.text\n            }, void 0, false, {\n                fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/utils.tsx\",\n                lineNumber: 278,\n                columnNumber: 7\n            }, undefined),\n            \" \"\n        ]\n    }, void 0, true);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFDa0YsT0FBTyxHQUFHO29CQUN4QixHQUFHO2dCQUNMO2dCQUNBbEYsT0FBTztvQkFBRXFGLFNBQVM7Z0JBQWU7Z0JBQ2pDN0IsV0FBVzswQkFFVmhFLE1BQU1xQixJQUFJOzs7Ozs7WUFDUjs7O0FBR1gsRUFBRSIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvLi9hcHAvdXRpbHMudHN4P2IwYjgiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRGl2aWRlciwgR3JpZCwgTGlzdEl0ZW0sIFR5cG9ncmFwaHkgfSBmcm9tIFwiQG11aS9tYXRlcmlhbFwiO1xuaW1wb3J0IHsgQm94IH0gZnJvbSBcIkBtdWkvc3lzdGVtXCI7XG5pbXBvcnQge3VzZVN0YXRlfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcbmltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcblxuaW50ZXJmYWNlIFN1YmhlYWRpbmdQcm9wcyB7XG4gIHRpdGxlOiBzdHJpbmc7XG59XG5cbmV4cG9ydCBjb25zdCBTdWJoZWFkaW5nOiBSZWFjdC5GQzxTdWJoZWFkaW5nUHJvcHM+ID0gKFxuICBwcm9wczogU3ViaGVhZGluZ1Byb3BzXG4pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGlkPXtwcm9wcy50aXRsZX0+XG4gICAgICA8R3JpZFxuICAgICAgICBjb250YWluZXJcbiAgICAgICAganVzdGlmeUNvbnRlbnQ9XCJjZW50ZXJcIlxuICAgICAgICBhbGlnbkl0ZW1zPVwiY2VudGVyXCJcbiAgICAgICAgc3BhY2luZz17MH1cbiAgICAgICAgc3R5bGU9e3sgbWFyZ2luQm90dG9tOiBcIjI1cHhcIiB9fVxuICAgICAgPlxuICAgICAgICA8R3JpZCBpdGVtIGxnPXsyfSBtZD17Mn0+XG4gICAgICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cImgyXCI+e3Byb3BzLnRpdGxlfTwvVHlwb2dyYXBoeT5cbiAgICAgICAgPC9HcmlkPlxuICAgICAgICA8R3JpZCBpdGVtIGxnPXsxMH0gbWQ9ezEwfSBzbT17MTJ9IHhzPXsxMn0+XG4gICAgICAgICAgPERpdmlkZXIgc3g9e3sgYm9yZGVyQm90dG9tV2lkdGg6IDMsIGJvcmRlckNvbG9yOiBcImJsYWNrXCIgfX0gLz5cbiAgICAgICAgPC9HcmlkPlxuICAgICAgPC9HcmlkPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuaW50ZXJmYWNlIFBhcGVyUHJvcHMge1xuICB0ZXh0OiBzdHJpbmc7XG59XG5cbmV4cG9ydCBjb25zdCBSZXNlYXJjaFBhcGVyOiBSZWFjdC5GQzxQYXBlclByb3BzPiA9IChwcm9wczogUGFwZXJQcm9wcykgPT4ge1xuICBjb25zdCBuYW1lSW5kZXggPSBwcm9wcy50ZXh0LmluZGV4T2YoXCJSaXRpa1wiKTtcbiAgY29uc3QgbmFtZUxlbmd0aCA9IFwiUml0aWsgQmF0cmFcIi5sZW5ndGg7XG5cbiAgY29uc3QgdXJsSW5kZXggPSBwcm9wcy50ZXh0LmluZGV4T2YoXCJodHRwczovL1wiKTtcblxuICBjb25zdCBiZWZvcmUgPSBwcm9wcy50ZXh0LnN1YnN0cmluZygwLCBuYW1lSW5kZXgpO1xuICBjb25zdCBhZnRlciA9IHByb3BzLnRleHQuc3Vic3RyaW5nKG5hbWVJbmRleCArIG5hbWVMZW5ndGgsIHVybEluZGV4KTtcbiAgY29uc3QgdXJsID0gcHJvcHMudGV4dC5zdWJzdHJpbmcodXJsSW5kZXgpO1xuXG4gIHJldHVybiAoXG4gICAgPEJveCBzeD17eyBmb250U3R5bGU6IFwiaXRhbGljXCIgfX0+XG4gICAgICA8VHlwb2dyYXBoeSBwYXJhZ3JhcGg+XG4gICAgICAgIHtiZWZvcmV9XG4gICAgICAgIDxzdHJvbmc+Uml0aWsgQmF0cmE8L3N0cm9uZz5cbiAgICAgICAge2FmdGVyfVxuICAgICAgICA8YVxuICAgICAgICAgIGhyZWY9e3VybH1cbiAgICAgICAgICBzdHlsZT17eyB0ZXh0RGVjb3JhdGlvbjogXCJ1bmRlcmxpbmVcIiwgdGV4dFVuZGVybGluZU9mZnNldDogXCIzcHhcIiB9fVxuICAgICAgICA+XG4gICAgICAgICAge3VybH1cbiAgICAgICAgPC9hPlxuICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgIDwvQm94PlxuICApO1xufTtcblxuaW50ZXJmYWNlIFdvcmtQcm9wcyB7XG4gIGNvbXBhbnk6IHN0cmluZztcbiAgZGVzY3JpcHRpb246IHN0cmluZztcbiAgcm9sZTogc3RyaW5nO1xufVxuXG5leHBvcnQgY29uc3QgV29ya0V4cGVyaWVuY2U6IFJlYWN0LkZDPFdvcmtQcm9wcz4gPSAocHJvcHM6IFdvcmtQcm9wcykgPT4ge1xuICBjb25zdCBpbWFnZVVyaSA9IGAvYXNzZXRzL2V4cGVyaWVuY2UvJHtwcm9wcy5jb21wYW55fS5wbmdgO1xuICByZXR1cm4gKFxuICAgIDxHcmlkIGl0ZW0gY29udGFpbmVyIGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCIgc209ezN9IG1kPXszfSBzcGFjaW5nPXsxfT5cbiAgICAgIDxHcmlkIGl0ZW0ganVzdGlmeUNvbnRlbnQ9XCJjZW50ZXJcIiBhbGlnbkl0ZW1zPVwiY2VudGVyXCIgY29udGFpbmVyIHhzPXsxMn0+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz17aW1hZ2VVcml9XG4gICAgICAgICAgbG9hZGluZz1cImxhenlcIlxuICAgICAgICAgIGtleT17cHJvcHMuY29tcGFueX1cbiAgICAgICAgICBoZWlnaHQ9ezc1fVxuICAgICAgICAgIHdpZHRoPXs3NX1cbiAgICAgICAgICBhbHQ9e3Byb3BzLmNvbXBhbnl9XG4gICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgIGJvcmRlclJhZGl1czogXCI1JVwiLFxuICAgICAgICAgIH19XG4gICAgICAgIC8+XG4gICAgICA8L0dyaWQ+XG4gICAgICA8R3JpZCBpdGVtIGp1c3RpZnlDb250ZW50PVwiY2VudGVyXCIgYWxpZ25JdGVtcz1cImNlbnRlclwiPlxuICAgICAgICA8VHlwb2dyYXBoeSBhbGlnbj1cImNlbnRlclwiIHBhcmFncmFwaD5cbiAgICAgICAgICB7cHJvcHMucm9sZX0g4oCiIHtwcm9wcy5kZXNjcmlwdGlvbn1cbiAgICAgICAgPC9UeXBvZ3JhcGh5PlxuICAgICAgPC9HcmlkPlxuICAgIDwvR3JpZD5cbiAgKTtcbn07XG5cbmludGVyZmFjZSBUZWFjaGluZ1Byb3BzIHtcbiAgY291cnNlOiBzdHJpbmc7XG4gIGRlc2NyaXB0aW9uOiBzdHJpbmc7XG4gIHRpdGxlOiBzdHJpbmc7XG59XG5cbmV4cG9ydCBjb25zdCBUZWFjaGluZ0V4cGVyaWVuY2U6IFJlYWN0LkZDPFRlYWNoaW5nUHJvcHM+ID0gKFxuICBwcm9wczogVGVhY2hpbmdQcm9wc1xuKSA9PiB7XG4gIGNvbnN0IGltYWdlVXJpID0gYC9hc3NldHMvaW5zdHJ1Y3Rpb24vJHtwcm9wcy5jb3Vyc2V9LnBuZ2A7XG4gIHJldHVybiAoXG4gICAgPEdyaWQgaXRlbSBjb250YWluZXIganVzdGlmeUNvbnRlbnQ9XCJjZW50ZXJcIiBzbT17M30gbWQ9ezR9IHNwYWNpbmc9ezJ9PlxuICAgICAgPEdyaWRcbiAgICAgICAgaXRlbVxuICAgICAgICBqdXN0aWZ5Q29udGVudD1cImNlbnRlclwiXG4gICAgICAgIGNvbnRhaW5lclxuICAgICAgICBhbGlnbkl0ZW1zPVwiY2VudGVyXCJcbiAgICAgICAgaGVpZ2h0PVwiMTB2aFwiXG4gICAgICA+XG4gICAgICAgIDxJbWFnZVxuICAgICAgICAgIHNyYz17aW1hZ2VVcml9XG4gICAgICAgICAgbG9hZGluZz1cImxhenlcIlxuICAgICAgICAgIGtleT17cHJvcHMuY291cnNlfVxuICAgICAgICAgIGhlaWdodD17MTAwfVxuICAgICAgICAgIHdpZHRoPXsxMDB9XG4gICAgICAgICAgYWx0PXtwcm9wcy5jb3Vyc2V9XG4gICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgIGhlaWdodDogXCIxMDAlXCIsXG4gICAgICAgICAgICB3aWR0aDogXCJhdXRvXCIsXG4gICAgICAgICAgfX1cbiAgICAgICAgLz5cbiAgICAgIDwvR3JpZD5cbiAgICAgIDxHcmlkIGl0ZW0ganVzdGlmeUNvbnRlbnQ9XCJjZW50ZXJcIiBhbGlnbkl0ZW1zPVwiY2VudGVyXCIgeHM9ezEyfT5cbiAgICAgICAgPFR5cG9ncmFwaHkgYWxpZ249XCJjZW50ZXJcIiBwYXJhZ3JhcGg+XG4gICAgICAgICAge3Byb3BzLmRlc2NyaXB0aW9ufVxuICAgICAgICAgIDxiciAvPlxuICAgICAgICAgIDxpPntwcm9wcy50aXRsZX08L2k+XG4gICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgIDwvR3JpZD5cbiAgICAgIHsvKiBUT0RPOiBhZGQgc29tZSBnYXAgaGVyZSB0byBtYWtlIGl0IGV2ZW4gKi99XG4gICAgPC9HcmlkPlxuICApO1xufTtcblxuaW50ZXJmYWNlIEJvb2tQcm9wcyB7XG4gIHRpdGxlOiBzdHJpbmc7XG4gIGlzYm46IHN0cmluZztcbiAgdXJsPzogc3RyaW5nO1xufVxuXG5jb25zdCBMQVNUX0JPT0sgPSBcInN0b3JpZXNfb2ZfeW91cl9saWZlX2FuZF9vdGhlcnNcIlxuXG5leHBvcnQgY29uc3QgQm9vazogUmVhY3QuRkM8Qm9va1Byb3BzPiA9ICh7dGl0bGUsIHVybCwgaXNibn06IEJvb2tQcm9wcykgPT4ge1xuICAvLyBjb25zdCBnb29kcmVhZHNVcmwgPSBgaHR0cHM6Ly93d3cuZ29vZHJlYWRzLmNvbS9ib29rL3Nob3cvJHt1cmx9YDtcbiAgY29uc3QgYm9va2NvdmVyVXJsID0gYGh0dHBzOi8vY292ZXJzLm9wZW5saWJyYXJ5Lm9yZy9iL2lzYm4vJHtpc2JufS1NLmpwZz9kZWZhdWx0PWZhbHNlYDtcbiAgY29uc3QgW3dpZHRoLCBzZXRXaWR0aF0gPSB1c2VTdGF0ZSgxKTtcblxuICByZXR1cm4gKFxuICAgIDxHcmlkIGl0ZW0gc209e3dpZHRofSBzdHlsZT17e3RyYW5zaXRpb246IFwiYWxsIDFzIGVhc2UtaW4tb3V0XCJ9fT5cbiAgICAgIDxkaXYgc3R5bGU9e3sgd2lkdGg6IFwiMTI1cHhcIiwgaGVpZ2h0OiBcIjE3NXB4XCIsIHBvc2l0aW9uOiBcInJlbGF0aXZlXCIgfX0+XG4gICAgICAgIHsvKiA8TGluayBocmVmPXtnb29kcmVhZHNVcmx9IHRhcmdldD1cIl9ibGFua1wiPiAqL31cbiAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgIHNyYz17Ym9va2NvdmVyVXJsfVxuICAgICAgICAgICAgbG9hZGluZz1cImxhenlcIlxuICAgICAgICAgICAgc2l6ZXM9XCIobWF4LXdpZHRoOiA3NjhweCkgMTAwdncsIChtYXgtd2lkdGg6IDEyMDBweCkgNTB2dywgMzN2d1wiXG4gICAgICAgICAgICBvbk1vdXNlRW50ZXI9eygpID0+IHRpdGxlID09IExBU1RfQk9PSyA/IHNldFdpZHRoKDEpIDogc2V0V2lkdGgoMyl9XG4gICAgICAgICAgICBvbk1vdXNlTGVhdmU9eygpID0+IHNldFdpZHRoKDEpfVxuICAgICAgICAgICAgZmlsbFxuICAgICAgICAgICAgY2xhc3NOYW1lPVwidy1mdWxsIGgtYXV0b1wiXG4gICAgICAgICAgICBhbHQ9e3RpdGxlfVxuICAgICAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICAgICAgbWFyZ2luOiBcImF1dG9cIixcbiAgICAgICAgICAgIH19XG4gICAgICAgICAgLz5cbiAgICAgICAgey8qIDwvTGluaz4gKi99XG4gICAgICA8L2Rpdj5cbiAgICA8L0dyaWQ+XG4gICk7XG59O1xuXG5pbnRlcmZhY2UgTmF2UHJvcHMge1xuICBzZWN0aW9uOiBzdHJpbmc7XG4gIGhhbmRsZUNsaWNrOiBGdW5jdGlvbjtcbn1cblxuY29uc3QgaGFuZGxlU2Nyb2xsID0gKGU6IFJlYWN0Lk1vdXNlRXZlbnQ8SFRNTEFuY2hvckVsZW1lbnQsIE1vdXNlRXZlbnQ+KSA9PiB7XG4gIC8vIGZpcnN0IHByZXZlbnQgdGhlIGRlZmF1bHQgYmVoYXZpb3JcbiAgZS5wcmV2ZW50RGVmYXVsdCgpO1xuICAvLyBnZXQgdGhlIGhyZWYgYW5kIHJlbW92ZSBldmVyeXRoaW5nIGJlZm9yZSB0aGUgaGFzaCAoIylcbiAgY29uc3QgaHJlZiA9IGUuY3VycmVudFRhcmdldC5ocmVmO1xuICBjb25zdCB0YXJnZXRJZCA9IGhyZWYucmVwbGFjZSgvLipcXCMvLCBcIlwiKTtcbiAgLy8gZ2V0IHRoZSBlbGVtZW50IGJ5IGlkIGFuZCB1c2Ugc2Nyb2xsSW50b1ZpZXdcbiAgY29uc3QgZWxlbSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKHRhcmdldElkKTtcbiAgZWxlbT8uc2Nyb2xsSW50b1ZpZXcoe1xuICAgIGJlaGF2aW9yOiBcInNtb290aFwiLFxuICB9KTtcbn07XG5cbmV4cG9ydCBjb25zdCBOYXZMaXN0SXRlbTogUmVhY3QuRkM8TmF2UHJvcHM+ID0gKHByb3BzOiBOYXZQcm9wcykgPT4ge1xuICBjb25zdCBocmVmID0gYCMke3Byb3BzLnNlY3Rpb259YDtcbiAgcmV0dXJuIChcbiAgICA8TGlzdEl0ZW1cbiAgICAgIGtleT17cHJvcHMuc2VjdGlvbn1cbiAgICAgIHN0eWxlPXt7IHBhZGRpbmdMZWZ0OiBcIjBcIiwgcGFkZGluZ0JvdHRvbTogXCIwXCIgfX1cbiAgICA+XG4gICAgICA8TGlua1xuICAgICAgICBocmVmPXtocmVmfVxuICAgICAgICBvbkNsaWNrPXthc3luYyAoZSkgPT4ge1xuICAgICAgICAgIGhhbmRsZVNjcm9sbChlKTtcbiAgICAgICAgICAvLyAvLyBUT0RPOiBJIGhhdGUgdGhpcyBsb2wgaGF2ZSB0byBmaXggdGhpcyBhdCBzb21lIHBvaW50XG4gICAgICAgICAgLy8gc2V0VGltZW91dChmdW5jdGlvbiAoKSB7XG4gICAgICAgICAgLy8gICBwcm9wcy5oYW5kbGVDbGljaygpO1xuICAgICAgICAgIC8vIH0sIDApO1xuICAgICAgICB9fVxuICAgICAgICBjbGFzc05hbWU9e1wibmF2TGlzdEl0ZW1cIn1cbiAgICAgID5cbiAgICAgICAgPFR5cG9ncmFwaHkgcGFyYWdyYXBoIGNsYXNzTmFtZT17XCJuYXZMaXN0SXRlbVRleHRcIn0+XG4gICAgICAgICAge3Byb3BzLnNlY3Rpb259XG4gICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgIDwvTGluaz5cbiAgICA8L0xpc3RJdGVtPlxuICApO1xufTtcblxuaW50ZXJmYWNlIE1lZGlhUHJvcHMge1xuICB0aXRsZTogc3RyaW5nO1xuICBwYXRoOiBzdHJpbmc7XG4gIHR5cGU6IHN0cmluZztcbiAgdXJsPzogc3RyaW5nO1xufVxuXG5leHBvcnQgY29uc3QgTWVkaWFJdGVtOiBSZWFjdC5GQzxNZWRpYVByb3BzPiA9IChwcm9wczogTWVkaWFQcm9wcykgPT4ge1xuICBjb25zdCBpbWFnZVVyaSA9IGAvYXNzZXRzL2FydC8ke3Byb3BzLnBhdGh9LiR7cHJvcHMudHlwZX1gO1xuXG4gIHJldHVybiAoXG4gICAgPEdyaWQgaXRlbSBrZXk9e3Byb3BzLnBhdGh9IHhzPXs2fSBzbT17M30gbWQ9ezN9PlxuICAgICAgPEltYWdlXG4gICAgICAgIHNyYz17aW1hZ2VVcml9XG4gICAgICAgIGxvYWRpbmc9XCJsYXp5XCJcbiAgICAgICAgaGVpZ2h0PXsxMDAwfVxuICAgICAgICB3aWR0aD17MTAwMH1cbiAgICAgICAgYWx0PXtwcm9wcy50aXRsZX1cbiAgICAgICAgcGxhY2Vob2xkZXI9XCJibHVyXCJcbiAgICAgICAgYmx1ckRhdGFVUkw9XCIvYXNzZXRzL2xvYWRpbmcucG5nXCJcbiAgICAgICAgc3R5bGU9e3tcbiAgICAgICAgICBib3JkZXJSYWRpdXM6IFwiMTAlXCIsXG4gICAgICAgICAgLy8gICB3aWR0aDogXCIxMDAlXCIsXG4gICAgICAgICAgLy8gICBoZWlnaHQ6IFwiMTAwJVwiLFxuICAgICAgICAgIC8vICAgbWFyZ2luOiBcImF1dG9cIixcbiAgICAgICAgfX1cbiAgICAgIC8+XG4gICAgPC9HcmlkPlxuICApO1xufTtcblxuZXhwb3J0IGVudW0gUG9ydHJhaXRFbnVtIHtcbiAgREVGQVVMVCA9IFwiZGVmYXVsdFwiLFxuICBHUkFEID0gXCJncmFkXCIsXG4gIEVOR0lORUVSID0gXCJlbmdpbmVlclwiLFxufVxuXG5pbnRlcmZhY2UgUG9ydHJhaXRUcmlnZ2VyUHJvcHMge1xuICB0ZXh0OiBzdHJpbmc7XG4gIGltYWdlOiBQb3J0cmFpdEVudW07XG4gIHNldHRlcjogRnVuY3Rpb247XG59XG5cbmV4cG9ydCBjb25zdCBQb3J0cmFpdFRyaWdnZXI6IFJlYWN0LkZDPFBvcnRyYWl0VHJpZ2dlclByb3BzPiA9IChcbiAgcHJvcHM6IFBvcnRyYWl0VHJpZ2dlclByb3BzXG4pID0+IHtcbiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09IFwidW5kZWZpbmVkXCIpIHtcbiAgICByZXR1cm4gPD4ge3Byb3BzLnRleHR9IDwvPjtcbiAgfVxuICBjb25zdCBpbWFnZSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwicG9ydHJhaXRcIik7XG4gIGlmICghaW1hZ2UpIHtcbiAgICByZXR1cm4gPD4ge3Byb3BzLnRleHR9IDwvPjtcbiAgfVxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICB7XCIgXCJ9XG4gICAgICA8YVxuICAgICAgICBvbk1vdXNlRW50ZXI9eygpID0+IHtcbiAgICAgICAgICBpbWFnZS5zdHlsZS5vcGFjaXR5ID0gXCIwXCI7XG4gICAgICAgICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICAgICAgICBwcm9wcy5zZXR0ZXIocHJvcHMuaW1hZ2UpO1xuICAgICAgICAgICAgaW1hZ2Uuc3R5bGUub3BhY2l0eSA9IFwiMVwiO1xuICAgICAgICAgIH0sIDUwMCk7XG4gICAgICAgIH19XG4gICAgICAgIG9uTW91c2VMZWF2ZT17KCkgPT4ge1xuICAgICAgICAgIGltYWdlLnN0eWxlLm9wYWNpdHkgPSBcIjBcIjtcbiAgICAgICAgICBzZXRUaW1lb3V0KCgpID0+IHtcbiAgICAgICAgICAgIHByb3BzLnNldHRlcihQb3J0cmFpdEVudW0uREVGQVVMVCk7XG4gICAgICAgICAgICBpbWFnZS5zdHlsZS5vcGFjaXR5ID0gXCIxXCI7XG4gICAgICAgICAgfSwgNTAwKTtcbiAgICAgICAgfX1cbiAgICAgICAgc3R5bGU9e3sgZGlzcGxheTogXCJpbmxpbmUtYmxvY2tcIiB9fVxuICAgICAgICBjbGFzc05hbWU9e1wicG9ydHJhaXRUcmlnZ2VyXCJ9XG4gICAgICA+XG4gICAgICAgIHtwcm9wcy50ZXh0fVxuICAgICAgPC9hPntcIiBcIn1cbiAgICA8Lz5cbiAgKTtcbn07XG4iXSwibmFtZXMiOlsiRGl2aWRlciIsIkdyaWQiLCJMaXN0SXRlbSIsIlR5cG9ncmFwaHkiLCJCb3giLCJ1c2VTdGF0ZSIsIkltYWdlIiwiTGluayIsIlJlYWN0IiwiU3ViaGVhZGluZyIsInByb3BzIiwiZGl2IiwiaWQiLCJ0aXRsZSIsImNvbnRhaW5lciIsImp1c3RpZnlDb250ZW50IiwiYWxpZ25JdGVtcyIsInNwYWNpbmciLCJzdHlsZSIsIm1hcmdpbkJvdHRvbSIsIml0ZW0iLCJsZyIsIm1kIiwidmFyaWFudCIsInNtIiwieHMiLCJzeCIsImJvcmRlckJvdHRvbVdpZHRoIiwiYm9yZGVyQ29sb3IiLCJSZXNlYXJjaFBhcGVyIiwibmFtZUluZGV4IiwidGV4dCIsImluZGV4T2YiLCJuYW1lTGVuZ3RoIiwibGVuZ3RoIiwidXJsSW5kZXgiLCJiZWZvcmUiLCJzdWJzdHJpbmciLCJhZnRlciIsInVybCIsImZvbnRTdHlsZSIsInBhcmFncmFwaCIsInN0cm9uZyIsImEiLCJocmVmIiwidGV4dERlY29yYXRpb24iLCJ0ZXh0VW5kZXJsaW5lT2Zmc2V0IiwiV29ya0V4cGVyaWVuY2UiLCJpbWFnZVVyaSIsImNvbXBhbnkiLCJzcmMiLCJsb2FkaW5nIiwiaGVpZ2h0Iiwid2lkdGgiLCJhbHQiLCJib3JkZXJSYWRpdXMiLCJhbGlnbiIsInJvbGUiLCJkZXNjcmlwdGlvbiIsIlRlYWNoaW5nRXhwZXJpZW5jZSIsImNvdXJzZSIsImJyIiwiaSIsIkxBU1RfQk9PSyIsIkJvb2siLCJpc2JuIiwiYm9va2NvdmVyVXJsIiwic2V0V2lkdGgiLCJ0cmFuc2l0aW9uIiwicG9zaXRpb24iLCJzaXplcyIsIm9uTW91c2VFbnRlciIsIm9uTW91c2VMZWF2ZSIsImZpbGwiLCJjbGFzc05hbWUiLCJtYXJnaW4iLCJoYW5kbGVTY3JvbGwiLCJlIiwicHJldmVudERlZmF1bHQiLCJjdXJyZW50VGFyZ2V0IiwidGFyZ2V0SWQiLCJyZXBsYWNlIiwiZWxlbSIsImRvY3VtZW50IiwiZ2V0RWxlbWVudEJ5SWQiLCJzY3JvbGxJbnRvVmlldyIsImJlaGF2aW9yIiwiTmF2TGlzdEl0ZW0iLCJzZWN0aW9uIiwicGFkZGluZ0xlZnQiLCJwYWRkaW5nQm90dG9tIiwib25DbGljayIsIk1lZGlhSXRlbSIsInBhdGgiLCJ0eXBlIiwicGxhY2Vob2xkZXIiLCJibHVyRGF0YVVSTCIsIlBvcnRyYWl0RW51bSIsIlBvcnRyYWl0VHJpZ2dlciIsImltYWdlIiwib3BhY2l0eSIsInNldFRpbWVvdXQiLCJzZXR0ZXIiLCJkaXNwbGF5Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./app/utils.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/globals.css":
+/*!*************************!*\
+  !*** ./app/globals.css ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"28b921e89c1c\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWJzaXRlLy4vYXBwL2dsb2JhbHMuY3NzPzBlYzgiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCIyOGI5MjFlODljMWNcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/layout.tsx":
+/*!************************!*\
+  !*** ./app/layout.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"app/layout.tsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./app/globals.css\");\n\n\n\nconst metadata = {\n    title: \"ritik batra\",\n    description: \"personal website with chaotic thoughts and projects\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (next_font_google_target_css_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default().className),\n            children: children\n        }, void 0, false, {\n            fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/layout.tsx\",\n            lineNumber: 18,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/ritikbatra/Desktop/rbatra2000.github.io/app/layout.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvbGF5b3V0LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUdNQTtBQUhnQjtBQUtmLE1BQU1DLFdBQVc7SUFDdEJDLE9BQU87SUFDUEMsYUFBYTtBQUNmLEVBQUM7QUFFYyxTQUFTQyxXQUFXLEVBQ2pDQyxRQUFRLEVBR1Q7SUFDQyxxQkFDRSw4REFBQ0M7UUFBS0MsTUFBSztrQkFDVCw0RUFBQ0M7WUFBS0MsV0FBV1QsMkpBQWU7c0JBQUdLOzs7Ozs7Ozs7OztBQUd6QyIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvLi9hcHAvbGF5b3V0LnRzeD85OTg4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi9nbG9iYWxzLmNzcydcbmltcG9ydCB7IEludGVyIH0gZnJvbSAnbmV4dC9mb250L2dvb2dsZSdcblxuY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFsnbGF0aW4nXSB9KVxuXG5leHBvcnQgY29uc3QgbWV0YWRhdGEgPSB7XG4gIHRpdGxlOiAncml0aWsgYmF0cmEnLFxuICBkZXNjcmlwdGlvbjogJ3BlcnNvbmFsIHdlYnNpdGUgd2l0aCBjaGFvdGljIHRob3VnaHRzIGFuZCBwcm9qZWN0cycsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoe1xuICBjaGlsZHJlbixcbn06IHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZVxufSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHkgY2xhc3NOYW1lPXtpbnRlci5jbGFzc05hbWV9PntjaGlsZHJlbn08L2JvZHk+XG4gICAgPC9odG1sPlxuICApXG59XG4iXSwibmFtZXMiOlsiaW50ZXIiLCJtZXRhZGF0YSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsImJvZHkiLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/layout.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./app/page.tsx":
+/*!**********************!*\
+  !*** ./app/page.tsx ***!
+  \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1360,7 +220,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21313);
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/ritikbatra/Desktop/rbatra2000.github.io/app/page.tsx`)
 
@@ -1376,34 +236,14 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 83174:
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__ ***!
+  \**********************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(93180);
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
-  
-
-  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
-    const imageData = {"type":"image/x-icon","sizes":"any"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
-
-    return [{
-      ...imageData,
-      url: imageUrl + "",
-    }]
-  });
-
-/***/ }),
-
-/***/ 92817:
-/***/ (() => {
-
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/lib/metadata/get-metadata-route */ \"(rsc)/./node_modules/next/dist/lib/metadata/get-metadata-route.js\");\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);\n  \n\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {\n    const imageData = {\"type\":\"image/x-icon\",\"sizes\":\"32x32\"}\n    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(\".\", props.params, \"favicon.ico\")\n\n    return [{\n      ...imageData,\n      url: imageUrl + \"\",\n    }]\n  });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlci5qcz90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhLi9hcHAvZmF2aWNvbi5pY28/X19uZXh0X21ldGFkYXRhX18iLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUEsRUFBaUY7O0FBRWpGLEVBQUUsaUVBQWU7QUFDakIsdUJBQXVCO0FBQ3ZCLHFCQUFxQiw4RkFBbUI7O0FBRXhDO0FBQ0E7QUFDQTtBQUNBLEtBQUs7QUFDTCIsInNvdXJjZXMiOlsid2VicGFjazovL3dlYnNpdGUvLi9hcHAvZmF2aWNvbi5pY28/MTgxNyJdLCJzb3VyY2VzQ29udGVudCI6WyIgIGltcG9ydCB7IGZpbGxNZXRhZGF0YVNlZ21lbnQgfSBmcm9tICduZXh0L2Rpc3QvbGliL21ldGFkYXRhL2dldC1tZXRhZGF0YS1yb3V0ZSdcblxuICBleHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgICBjb25zdCBpbWFnZURhdGEgPSB7XCJ0eXBlXCI6XCJpbWFnZS94LWljb25cIixcInNpemVzXCI6XCIzMngzMlwifVxuICAgIGNvbnN0IGltYWdlVXJsID0gZmlsbE1ldGFkYXRhU2VnbWVudChcIi5cIiwgcHJvcHMucGFyYW1zLCBcImZhdmljb24uaWNvXCIpXG5cbiAgICByZXR1cm4gW3tcbiAgICAgIC4uLmltYWdlRGF0YSxcbiAgICAgIHVybDogaW1hZ2VVcmwgKyBcIlwiLFxuICAgIH1dXG4gIH0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./app/favicon.ico?__next_metadata__\n");
 
 /***/ })
 
@@ -1414,7 +254,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,522], () => (__webpack_exec__(53134)));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@mui","vendor-chunks/@emotion","vendor-chunks/react-transition-group","vendor-chunks/stylis","vendor-chunks/@babel","vendor-chunks/prop-types","vendor-chunks/dom-helpers","vendor-chunks/react-is","vendor-chunks/@vercel","vendor-chunks/object-assign","vendor-chunks/typeface-roboto","vendor-chunks/@fontsource","vendor-chunks/hoist-non-react-statics","vendor-chunks/clsx","vendor-chunks/@popperjs"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritikbatra%2FDesktop%2Frbatra2000.github.io&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

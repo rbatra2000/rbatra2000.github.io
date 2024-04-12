@@ -1,13 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/api/:path*',
-  //       destination: 'https://api.bookcover.longitood.com/:path*',
-  //     },
-  //   ]
-  // },
+  images: {
+    domains: ["covers.openlibrary.org"],
+  },
   async headers() {
     return [
       {
