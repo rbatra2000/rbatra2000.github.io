@@ -217,10 +217,25 @@ export default function Home() {
                         opacity={setPortraitOpacity}
                       />
                       in the Information Science department at Cornell
-                      University, advised by Cindy H. Kao in the Hybrid Ecology
-                      Lab. In 2022, I graduated from Berkeley with a BS in EECS
-                      and minors in political economy and data science. Before
-                      this, I was a
+                      University, advised by{" "}
+                      <a
+                        style={{ textDecoration: "underline" }}
+                        href="http://www.thijsroumen.eu/"
+                        target="_blank"
+                      >
+                        Thijs Roumen
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        style={{ textDecoration: "underline" }}
+                        target="_blank"
+                        href="https://sjackson.infosci.cornell.edu/"
+                      >
+                        Steve Jackson
+                      </a>
+                      . In 2022, I graduated from Berkeley with a BS in EECS and
+                      minors in political economy and data science. Before this,
+                      I was a
                       <PortraitTrigger
                         text="software engineer at Stripe"
                         image={PortraitEnum.ENGINEER}
@@ -231,14 +246,14 @@ export default function Home() {
                     </Typography>
                     <Typography paragraph>
                       I am constantly seeking opportunities to complement my
-                      technical background through self-expression. Through this
-                      journey, I have been reflecting about how craftsmanship
-                      serves as an intersection of art and technology that not
-                      only empowers individuals but also preserves cultural
-                      symbols and traditions with deep historical significance.
-                      Through the exploration of these worlds, I hope to forge
-                      new pathways towards personal fabrication that is
-                      inclusive, accessible, sustainable, and so much more.
+                      technical background with critical analysis. Through my
+                      journey, I have been reflecting on how craftsmanship
+                      serves as an intersection of art and technology to make
+                      artifacts that are sustainable and uniquely personal.
+                      Through the exploration of this world, I hope to make
+                      incremental research contributions in digital fabrication
+                      to promote making practices that are accessible,
+                      collaborative, and sustainable.
                     </Typography>
 
                     <Typography paragraph>
@@ -249,7 +264,7 @@ export default function Home() {
               </div>
               <div className="subsection">
                 <Subheading title="research" />
-                <Typography variant="h3">statement</Typography>
+                {/* <Typography variant="h3">statement</Typography>
                 <Typography paragraph>
                   The central theme of my work is inspired by a curiosity of how
                   we can rely on technology to create tailored experiences for
@@ -260,7 +275,7 @@ export default function Home() {
                   adjusting to what is available. This inspires more accessible
                   design tools for fabrication and smaller expertise gaps in
                   manufacturing.
-                </Typography>
+                </Typography> */}
                 <Typography variant="h3">papers</Typography>
 
                 <ResearchPaper
@@ -367,6 +382,8 @@ export default function Home() {
                   alignItems="center"
                   columns={15}
                 >
+                  <Book title="the_namesake" isbn="9780395927212" />
+                  <Book title="material_world" isbn="9780593534342" />
                   <Book
                     title="bad_blood"
                     url="37976541-bad-blood"

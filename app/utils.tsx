@@ -147,7 +147,7 @@ interface BookProps {
 
 const LAST_BOOK = "stories_of_your_life_and_others"
 
-export const Book: React.FC<BookProps> = ({title, url, isbn}: BookProps) => {
+export const Book: React.FC<BookProps> = ({title, isbn}: BookProps) => {
   // const goodreadsUrl = `https://www.goodreads.com/book/show/${url}`;
   const bookcoverUrl = `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg?default=false`;
   const [width, setWidth] = useState(1);
